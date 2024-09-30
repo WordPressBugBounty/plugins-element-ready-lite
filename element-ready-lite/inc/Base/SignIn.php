@@ -97,7 +97,7 @@ class SignIn extends BaseController
             $request = sanitize_url($_REQUEST['er_redirect']);
         }
         session_write_close();
-        wp_redirect(esc_url_raw($request));
+        wp_safe_redirect(esc_url_raw($request));
         exit;
     }
 }

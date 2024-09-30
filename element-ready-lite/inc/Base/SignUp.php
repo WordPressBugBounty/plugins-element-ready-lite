@@ -87,7 +87,7 @@ class SignUp extends BaseController
             $request = sanitize_url($_REQUEST['er_redirect']);
         }
         session_write_close();
-        wp_redirect($request);
+        wp_safe_redirect($request);
         exit;
     }
 
