@@ -460,7 +460,7 @@ class Element_Ready_Progress_Roadmap_Widget extends Widget_Base
 
 		echo '
 		<div class="progress__content">
-			' . $title . $description . '
+			' . wp_kses_post($title . $description) . '
 		</div>
 		<div class="progressbar__wrap">
 			<div class="element__ready__prgressbar" data-percent="' . esc_attr($settings['progressbar_percent']['size']) . '%">

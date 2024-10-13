@@ -787,7 +787,7 @@ class Element_Ready_Counter_Widget extends Widget_Base
 
 ?>
 		<div class="single__counter">
-			<?php echo $counter_icon; ?>
+			<?php echo wp_kses_post($counter_icon); ?>
 			<h3 class="counter__number__wrapper">
 				<span class="counter__number__prefix"><?php echo esc_html($settings['prefix']); ?></span>
 				<span <?php echo wp_kses_post($this->get_render_attribute_string('counter')); ?>><?php echo wp_kses_post($settings['starting_number']); ?></span>

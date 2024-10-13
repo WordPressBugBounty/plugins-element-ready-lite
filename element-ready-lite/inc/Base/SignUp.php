@@ -11,7 +11,6 @@ class SignUp extends BaseController
 {
     public function register()
     {
-
         add_action('init', [$this, 'form_submit']);
         add_action('init', [$this, '_startSession'], 1);
     }
@@ -69,7 +68,7 @@ class SignUp extends BaseController
     public function form_submit()
     {
 
-        $retrieved_nonce = sanitize_text_field(isset($_REQUEST['_wpnonce']) ? $_REQUEST['_wpnonce'] : '');
+        $retrieved_nonce = sanitize_text_field(isset($_REQUEST['_wpnonce']) ? wp_unslash($_REQUEST['_wpnonce']) : '');
 
         if (!wp_verify_nonce($retrieved_nonce, 'element_ready_quomodo_registration_action')) {
             return;
@@ -82,9 +81,9 @@ class SignUp extends BaseController
         if ($error == false) {
             $this->user_registration_form_completion($values);
         }
-        $request = sanitize_url($_SERVER["HTTP_REFERER"]);
+        $request = sanitize_url(wp_unslash($_SERVER["HTTP_REFERER"] ?? ''));
         if (isset($_REQUEST['er_redirect'])) {
-            $request = sanitize_url($_REQUEST['er_redirect']);
+            $request = sanitize_url(wp_unslash($_REQUEST['er_redirect']));
         }
         session_write_close();
         wp_safe_redirect($request);

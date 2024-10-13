@@ -69,7 +69,9 @@ class Element_Ready_Portfolio extends Widget_Base
         wp_register_style('eready-gallaery', ELEMENT_READY_ROOT_CSS . 'widgets/gallaery.css');
 
         return [
-            'slick', 'eready-portfolio', 'eready-gallaery'
+            'slick',
+            'eready-portfolio',
+            'eready-gallaery'
         ];
     }
 
@@ -2490,7 +2492,8 @@ class Element_Ready_Portfolio extends Widget_Base
                 ],
                 'condition' => [
                     'hover_content_layout_tab_style' => [
-                        'flex', 'inline-flex'
+                        'flex',
+                        'inline-flex'
                     ]
                 ]
             ]
@@ -2523,7 +2526,8 @@ class Element_Ready_Portfolio extends Widget_Base
                 ],
                 'condition' => [
                     'hover_content_layout_tab_style' => [
-                        'flex', 'inline-flex'
+                        'flex',
+                        'inline-flex'
                     ]
                 ]
             ]
@@ -2552,7 +2556,8 @@ class Element_Ready_Portfolio extends Widget_Base
                 ],
                 'condition' => [
                     'hover_content_layout_tab_style' => [
-                        'flex', 'inline-flex'
+                        'flex',
+                        'inline-flex'
                     ]
                 ]
             ]
@@ -4690,10 +4695,10 @@ class Element_Ready_Portfolio extends Widget_Base
                 <?php $this->element_ready_post_thumbnail(); ?>
                 <div class="er-gallery-abs-meta">
                     <div class="er-gallery-nested-container">
-                        <h3><?php echo get_the_title(); ?></h3>
-                        <p><?php echo  wp_trim_words(get_the_content(), $settings['content_length'], ''); ?></p>
-                        <a href="<?php echo get_the_permalink(); ?>" class="er-port-image-abs-icon">
-                            <?php \Elementor\Icons_Manager::render_icon($settings['readmore_icon'], ['aria-hidden' => 'true']); ?>
+                        <h3><?php echo esc_html(get_the_title()); ?></h3>
+                        <p><?php echo  esc_html(wp_trim_words(get_the_content(), $settings['content_length'], '')); ?></p>
+                        <a href="<?php echo esc_url(get_the_permalink()); ?>" class="er-port-image-abs-icon">
+                            <?php wp_kses_post(\Elementor\Icons_Manager::render_icon($settings['readmore_icon'], ['aria-hidden' => 'true'])); ?>
                         </a>
                     </div>
                 </div>

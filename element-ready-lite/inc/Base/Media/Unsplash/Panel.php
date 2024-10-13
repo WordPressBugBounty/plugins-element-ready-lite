@@ -44,9 +44,9 @@ class Panel
     public function unsplash_save_handler()
     {
 
-        $post_id = sanitize_text_field(isset($_POST['post_id']) ? $_POST['post_id'] : 0);
-        $image   = sanitize_text_field($_POST['image']);
-        $src     = sanitize_url($_POST['src']);
+        $post_id = sanitize_text_field(isset($_POST['post_id']) ? wp_unslash($_POST['post_id']) : 0);
+        $image   = sanitize_text_field(wp_unslash($_POST['image'] ?? ''));
+        $src     = sanitize_url(wp_unslash($_POST['src'] ?? ''));
         if ($image) {
 
             try {
@@ -120,10 +120,10 @@ class Panel
     function unsplash_handler()
     {
 
-        $q = sanitize_text_field($_POST['q']);
+        $q = sanitize_text_field(wp_unslash($_POST['q'] ?? ''));
 
         $image = new Er_Unsplash();
-        $page_r = (int) sanitize_text_field(isset($_POST['page']) ? $_POST['page'] : 1);
+        $page_r = (int) sanitize_text_field(isset($_POST['page']) ? wp_unslash($_POST['page']) : 1);
         if (isset($_POST['type']) && $_POST['type'] == 'list') {
             wp_send_json_success($image->list_photos($page_r, 30));
         } elseif (isset($_POST['q']) && isset($_POST['type']) && $_POST['type'] == 'search') {

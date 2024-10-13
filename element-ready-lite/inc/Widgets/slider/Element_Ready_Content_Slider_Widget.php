@@ -1779,7 +1779,7 @@ class Element_Ready_Content_Slider_Widget extends Widget_Base
 
                 <?php foreach ($settings['template_list'] as $item) : ?>
                     <div>
-                        <?php echo \Elementor\Plugin::instance()->frontend->get_builder_content_for_display($item['template_id'], true); ?>
+                        <?php echo wp_kses_post(\Elementor\Plugin::instance()->frontend->get_builder_content_for_display($item['template_id'], true)); ?>
                     </div>
                 <?php endforeach; ?>
 

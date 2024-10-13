@@ -1084,7 +1084,7 @@ class Element_Ready_Widget_Video extends Widget_Base
 		<div <?php echo wp_kses($this->get_render_attribute_string('video-wrapper'), array()); ?>>
 			<?php
 			if (!$settings['lightbox']) {
-				echo Embed::get_embed_html($video_url, $embed_params, $embed_options);
+				echo wp_kses_post(Embed::get_embed_html($video_url, $embed_params, $embed_options));
 			}
 
 			if ($this->has_image_overlay()) {
@@ -1129,11 +1129,11 @@ class Element_Ready_Widget_Video extends Widget_Base
 			?>
 				<div <?php echo wp_kses($this->get_render_attribute_string('image-overlay'), array()); ?>>
 					<?php if ($settings['lightbox']) : ?>
-						<?php echo Group_Control_Image_Size::get_attachment_image_html($settings, 'image_overlay'); ?>
+						<?php echo wp_kses_post(Group_Control_Image_Size::get_attachment_image_html($settings, 'image_overlay')); ?>
 						<?php if (isset($settings['show_image_hover_overlay']) && $settings['show_image_hover_overlay'] == 'yes') : ?>
 							<?php
 							if (isset($settings['image_hover_overlay']['url']) && $settings['image_hover_overlay']['url'] != '') {
-								echo Group_Control_Image_Size::get_attachment_image_html($settings, 'image_hover_overlay');
+								echo wp_kses_post(Group_Control_Image_Size::get_attachment_image_html($settings, 'image_hover_overlay'));
 							}
 							?>
 						<?php endif; ?>
@@ -1373,7 +1373,7 @@ class Element_Ready_Widget_Video extends Widget_Base
 		}
 		$video_params = $this->get_hosted_params();
 	?>
-		<video class="elementor-video" src="<?php echo esc_url($video_url); ?>" <?php echo Utils::render_html_attributes($video_params); ?>></video>
+		<video class="elementor-video" src="<?php echo esc_url($video_url); ?>" <?php echo wp_kses_post(Utils::render_html_attributes($video_params)); ?>></video>
 <?php
 	}
 }

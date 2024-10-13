@@ -23,16 +23,12 @@ class Elementor_Helper
     /**
      * No initialization allowed
      */
-    private function __construct()
-    {
-    }
+    private function __construct() {}
 
     /**
      * No cloning allowed
      */
-    private function __clone()
-    {
-    }
+    private function __clone() {}
 
     static public function getInstance()
     {
@@ -129,6 +125,7 @@ class Elementor_Helper
 
     static function display_elementor_content($id = null)
     {
-        echo \Elementor\Plugin::instance()->frontend->get_builder_content_for_display(esc_attr($id), true);
+
+        echo wp_kses_post(\Elementor\Plugin::instance()->frontend->get_builder_content_for_display(esc_attr($id), true));
     }
 }

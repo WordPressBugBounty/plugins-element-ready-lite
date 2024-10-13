@@ -154,7 +154,7 @@ if (class_exists('WooCommerce')) {
 	if (!function_exists('element_ready_save_metabox_of_general_tab')) {
 		function element_ready_save_metabox_of_general_tab($post_id)
 		{
-			$saleflash_text = wp_kses_post(stripslashes(sanitize_text_field($_POST['_saleflash_text'])));
+			$saleflash_text = sanitize_text_field(wp_unslash($_POST['_saleflash_text'] ?? ''));
 			update_post_meta($post_id, '_saleflash_text', $saleflash_text);
 		}
 		add_action('woocommerce_process_product_meta', 'element_ready_save_metabox_of_general_tab');
@@ -304,7 +304,7 @@ if (class_exists('WooCommerce')) {
 		<div class="quomodo-row woocommerce">
 			<div class="quomodo-col-xs-12">
 				<nav class="woocommerce-pagination">
-					<?php echo paginate_links(
+					<?php echo wp_kses_post(paginate_links(
 						apply_filters(
 							'woocommerce_pagination_args',
 							array(
@@ -319,7 +319,7 @@ if (class_exists('WooCommerce')) {
 								'mid_size' => 3,
 							)
 						)
-					);
+					));
 
 					?>
 				</nav>
@@ -364,6 +364,7 @@ if (class_exists('WooCommerce')) {
 		$rating_count = $product->get_rating_count();
 		$review_count = $product->get_review_count();
 		$average = $product->get_average_rating();
+		// Translators: %s is Rated
 		$avarage_rating = sprintf(__('Rated %s out of 5', 'element-ready-lite'), $average);
 		$rating_html = wc_get_rating_html($average, $rating_count);
 
@@ -502,20 +503,27 @@ function element_ready_woocommerce_compare_button($buttonstyle = 1)
 --------------------------------------------------
 	EDD DOWNLOAD DROPDOWN CATEGORY
 --------------------------------------------------*/
-function element_ready_get_terms_dropdown($taxonomies, $args)
+function element_ready_get_terms_dropdown($taxonomies, $args = array())
 {
+	// Fetch the terms using the correct syntax
+	$myterms = get_terms(array_merge(['taxonomy' => $taxonomies], $args));
 
-	$myterms = get_terms($taxonomies, $args);
-	$output = "<div class='download__search__cats '><select name='download_cats'>";
+	// Start the dropdown output
+	$output = "<div class='download__search__cats'><select name='download_cats'>";
 	$output .= "<option value='all'>" . esc_html__('All Categories', 'element-ready-lite') . '</option>';
+
+	// Loop through terms and add to the dropdown
 	foreach ($myterms as $term) {
 		$term_name = $term->name;
 		$slug = $term->slug;
-		$output .= "<option value='" . $slug . "'>" . $term_name . '</option>';
+		$output .= "<option value='" . esc_attr($slug) . "'>" . esc_html($term_name) . '</option>';
 	}
+
 	$output .= '</select></div>';
+
 	return $output;
 }
+
 /*
 ----------------------------
 	CONTACT FORM 7 RETURN ARRAY

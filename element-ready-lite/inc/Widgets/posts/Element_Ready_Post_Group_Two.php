@@ -63,7 +63,8 @@ class Element_Ready_Post_Group_Two extends Widget_Base
 
         wp_register_style('eready-post-blog', ELEMENT_READY_ROOT_CSS . 'widgets/blog.css');
         return [
-            'eready-post-blog', 'element-ready-grid'
+            'eready-post-blog',
+            'element-ready-grid'
         ];
     }
 
@@ -1459,7 +1460,7 @@ class Element_Ready_Post_Group_Two extends Widget_Base
             <ul class="post__meta">
 
                 <?php if ($settings['show_author'] == 'yes') : ?>
-                    <li><i class="fa fa-user-circle"></i><a href="<?php echo get_author_posts_url(get_the_author_meta('ID'), get_the_author_meta('user_nicename')); ?>"><?php the_author(); ?></a></li>
+                    <li><i class="fa fa-user-circle"></i><a href="<?php echo esc_url(get_author_posts_url(get_the_author_meta('ID'), get_the_author_meta('user_nicename'))); ?>"><?php the_author(); ?></a></li>
                 <?php endif; ?>
 
                 <?php if ($settings['show_date'] == 'yes') : ?>

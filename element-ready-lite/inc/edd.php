@@ -125,7 +125,7 @@ if (class_exists('Easy_Digital_Downloads')) :
         $ratingclass    = (int) edd_reviews()->average_rating(false);
         ob_start(); ?>
         <div itemprop="reviewRating" itemscope itemtype="http://schema.org/Rating" class="star-rating">
-            <div class="edd_reviews_rating_box <?php if ($rating == 4.5) {  ?>four-half-rating<?php } ?> <?php echo esc_attr__('stars', 'element-readey') . $ratingclass; ?>" role="img">
+            <div class="edd_reviews_rating_box <?php if ($rating == 4.5) {  ?>four-half-rating<?php } ?> <?php echo esc_attr__('stars', 'element-readey') . esc_attr($ratingclass); ?>" role="img">
                 <div class="edd_star_rating" aria-label="<?php echo esc_attr($rating)  . ' ' . esc_attr__('stars', 'element-readey'); ?>">
                     <span class="rating-stars"></span>
                     <span class="rating-stars"></span>
@@ -190,7 +190,7 @@ function element_ready_remove_archive_prefix($title)
     } elseif (is_author()) {
         $title = '<span class="vcard">' . get_the_author() . '</span>';
     } elseif (is_tax()) {
-        $title = sprintf(__('%1$s', 'element-readey'), single_term_title('', false));
+        $title = single_term_title('', false);
     } elseif (is_post_type_archive()) {
         $title = post_type_archive_title('', false);
     }
@@ -320,11 +320,11 @@ function element_ready_edd_purchase_variable_pricing($download_id)
     if ($prices) {
         echo '<select>';
         foreach ($prices as $key => $price) {
-            $price_option = sanitize_text_field($_GET['price_option'] ?? '');
+            $price_option = sanitize_text_field(wp_unslash($_GET['price_option'] ?? ''));
             echo sprintf(
                 '<option id="%3$s" class="%4$s" value="%5$s" %7$s> %6$s</option>',
                 checked(0, $key, false),
-                $type,
+                esc_attr($type),
                 esc_attr('edd_price_option_' . $download_id . '_' . $key),
                 esc_attr('edd_price_option_' . $download_id),
                 esc_attr($key),
@@ -366,7 +366,7 @@ function element_ready_category_search_query($query)
     if ($query->query['post_type'] != 'download') {
         return;
     }
-    $query_var = (isset($_GET['download_cats'])) ? $_GET['download_cats'] : null;
+    $query_var = (isset($_GET['download_cats'])) ? sanitize_text_field(wp_unslash($_GET['download_cats'])) : null;
 
     if ($query_var == 'all') {
         return;

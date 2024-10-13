@@ -704,7 +704,8 @@ class Element_Ready_Vertical_Menu extends Widget_Base
                         <?php }
                         ?>
                     </span>
-                    <span class="vertical-category-menu-title"><?php echo esc_html($settings['woo_ready_category_vertical_heading_menu_title']) ?></span>
+                    <span
+                        class="vertical-category-menu-title"><?php echo esc_html($settings['woo_ready_category_vertical_heading_menu_title']) ?></span>
                 </h3>
                 <div class="wooready-vertical-menu">
                     <ul class="wooready-menu-vertical-menu">
@@ -745,7 +746,7 @@ class Element_Ready_Vertical_Menu extends Widget_Base
                                             <?php echo do_shortcode($menu['woo_ready_category_vertical_menu_content']); ?>
                                         <?php elseif ('template' === $menu['woo_ready_category_vertical_menu_content_type']) : ?>
                                             <?php if (!empty($menu['woo_ready_category_vertical_menu_template'])) {
-                                                echo Plugin::$instance->frontend->get_builder_content($menu['woo_ready_category_vertical_menu_template'], true);
+                                                echo wp_kses_post(Plugin::$instance->frontend->get_builder_content($menu['woo_ready_category_vertical_menu_template'], true));
                                             } ?>
                                         <?php endif; ?>
                                     </div>

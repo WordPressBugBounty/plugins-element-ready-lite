@@ -1624,7 +1624,7 @@ class Element_Ready_WP_Form_Widget extends Widget_Base
             if (!empty($settings['element_ready_contact_form_id'])) {
                 echo do_shortcode('[wpforms title="false" description="false" id="' . esc_attr($settings['element_ready_contact_form_id']) . '"]');
             } else {
-                echo sprintf('<div class="form_no_select">%s</div>', __('Please Select contact form.', 'element-ready-lite'));
+                echo sprintf('<div class="form_no_select">%s</div>', esc_html__('Please Select contact form.', 'element-ready-lite'));
             }
             ?>
         </div>

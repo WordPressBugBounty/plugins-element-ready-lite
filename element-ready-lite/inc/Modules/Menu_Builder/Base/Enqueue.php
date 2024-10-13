@@ -1,7 +1,9 @@
 <?php
+
 /**
  * @package  Mega menu
  */
+
 namespace Element_Ready\Modules\Menu_Builder\Base;
 
 use Element_Ready\Base\BaseController;
@@ -15,7 +17,6 @@ class Enqueue extends BaseController
         add_action('elementor/frontend/after_register_styles', array($this, 'frontend'));
         add_action('elementor/frontend/after_register_scripts', array($this, 'elementor_frontend'));
         add_action('wp_head', array($this, 'critical_menu_css'));
-
     }
 
 
@@ -426,7 +427,7 @@ class Enqueue extends BaseController
                 display: none
             }
         </style>
-    <?php }
+<?php }
 
     public function frontend()
     {
@@ -440,7 +441,6 @@ class Enqueue extends BaseController
         wp_register_style('er-standard-offcanvas', ELEMENT_READY_MEGA_MENU_MODULE_URL . 'assets/css/er-standard-offcanvas.css', false, ELEMENT_READY_VERSION);
         wp_register_style('er-mobile-menu', ELEMENT_READY_MEGA_MENU_MODULE_URL . 'assets/css/er-mobile-menu.css', false, ELEMENT_READY_VERSION);
         wp_register_style('er-menu-off-canvas', ELEMENT_READY_MEGA_MENU_MODULE_URL . 'assets/css/er-menu-off-canvas.css', false, ELEMENT_READY_VERSION);
-
     }
 
     public function elementor_frontend()
@@ -453,7 +453,6 @@ class Enqueue extends BaseController
         wp_register_style('element-ready-mega-menu-frontend', ELEMENT_READY_MEGA_MENU_MODULE_URL . 'assets/css/frontend' . ELEMENT_READY_SCRIPT_VAR . 'css');
         wp_register_style('element-ready-mega-menu-style', ELEMENT_READY_MEGA_MENU_MODULE_URL . 'assets/css/style' . ELEMENT_READY_SCRIPT_VAR . 'css');
         wp_register_script('stellarnav', ELEMENT_READY_MEGA_MENU_MODULE_URL . 'assets/js/stellarnav.min.js', array('jquery'));
-
     }
 
     function backend($handle)
@@ -474,14 +473,10 @@ class Enqueue extends BaseController
         $mege_menu_obj = array(
             'ajax_url' => esc_url_raw(admin_url('admin-ajax.php')),
             'nonce' => wp_create_nonce('element_ready_mega_menu_metabox_nonce'),
-            'menu_id' => sanitize_text_field(isset($_REQUEST['menu']) ? $_REQUEST['menu'] : null),
+            'menu_id' => sanitize_text_field(isset($_REQUEST['menu']) ? wp_unslash($_REQUEST['menu']) : null),
             'mega_menu_title' => esc_html__('Mega Menu', 'element-ready-lite')
         );
 
         wp_localize_script('element-ready-mega-menu-backend-script', 'mege_menu_obj', $mege_menu_obj);
     }
-
-
-
-
 }

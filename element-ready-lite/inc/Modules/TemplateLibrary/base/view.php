@@ -40,7 +40,7 @@
 									<?php echo esc_html__('All', 'element-ready-lite'); ?>
 								</option>
 								<?php foreach ($cats as $cat): ?>
-									<option value=".<?php echo strtolower(str_replace(' ', '-', $cat)); ?>"
+									<option value=".<?php echo esc_attr(strtolower(str_replace(' ', '-', $cat))); ?>"
 										class="er-templates-cat-option">
 										<?php echo esc_html($cat); ?>
 									</option>
@@ -91,7 +91,7 @@
 						usort($er_templates, 'eelement_ready_s_date_compare');
 						?>
 						<?php foreach ($er_templates as $item): ?>
-							<div class="<?php echo esc_attr($item['type']); ?> grid-item element-ready-template-single-item <?php echo strtolower(str_replace(' ', '-', $item['subtype'])); ?>"
+							<div class="<?php echo esc_attr($item['type']); ?> grid-item element-ready-template-single-item <?php echo esc_attr(strtolower(str_replace(' ', '-', $item['subtype']))); ?>"
 								data-category="<?php echo esc_attr(strtolower(str_replace(' ', '-', $item['subtype']))); ?> <?php echo esc_html($item['title']); ?>">
 								<div class="element-ready-grid-item-inner-content">
 									<div class="img-wrapper">

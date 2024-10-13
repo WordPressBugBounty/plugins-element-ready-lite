@@ -166,7 +166,7 @@ class Element_Ready_Section
       echo "
             <script>
              
-                window.element_ready_section_data.section" . $data['id'] . " = JSON.parse('" . wp_json_encode($settings) . "');
+                window.element_ready_section_data.section" . esc_js($data['id']) . " = JSON.parse('" . wp_json_encode($settings) . "');
             </script>
             ";
     }

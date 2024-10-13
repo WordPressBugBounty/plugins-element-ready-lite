@@ -1,5 +1,5 @@
 <?php
-$notice = $_COOKIE['quomodo-notice-element-ready'] ?? false;
+$notice = sanitize_text_field(wp_unslash($_COOKIE['quomodo-notice-element-ready'] ?? ''));
 if ('is_dismissed' === $notice) {
     return '';
 }

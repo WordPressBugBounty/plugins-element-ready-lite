@@ -78,7 +78,7 @@ class SignIn extends BaseController
     {
 
 
-        $retrieved_nonce = isset($_REQUEST['_wpnonce']) ? $_REQUEST['_wpnonce'] : '';
+        $retrieved_nonce = isset($_REQUEST['_wpnonce']) ?   sanitize_text_field(wp_unslash($_REQUEST['_wpnonce'])) : '';
 
         if (!wp_verify_nonce($retrieved_nonce, 'element_ready_quomodo_login_action')) {
             return;
@@ -92,9 +92,9 @@ class SignIn extends BaseController
         if ($error == false) {
             $this->login($values);
         }
-        $request = sanitize_url($_SERVER["HTTP_REFERER"]);
+        $request = sanitize_url(wp_unslash($_SERVER["HTTP_REFERER"] ?? ''));
         if (isset($_REQUEST['er_redirect'])) {
-            $request = sanitize_url($_REQUEST['er_redirect']);
+            $request = sanitize_url(wp_unslash($_REQUEST['er_redirect']));
         }
         session_write_close();
         wp_safe_redirect(esc_url_raw($request));

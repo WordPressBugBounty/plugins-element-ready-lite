@@ -1878,16 +1878,14 @@ class Element_Ready_Box_Widget extends Widget_Base
 				');
 			}
 		} else {
-			echo '
-				<div ' . $this->get_render_attribute_string('box_style_attr') . '>
+			echo wp_kses_post('<div ' . $this->get_render_attribute_string('box_style_attr') . '>
 					' . (isset($box_iocn_or_text) ? $box_iocn_or_text : '') . '
 					' . (isset($icon) ? $icon : '') . '
 					' . (isset($title_subtitle) ? $title_subtitle : '') . '
 					' . (isset($description) ? $description : '') . '
 					' . (isset($button) ? $button : '') . '
 					' . (!empty($hoverCirclesEfeect) ? $hoverCirclesEfeect : '') . '
-				</div>
-			';
+				</div>');
 		}
 	}
 	//protected function content_template(){}

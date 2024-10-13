@@ -1,11 +1,13 @@
 <!-- Header Start -->
 <header class="header-01 main-section">
     <?php if ($settings['main_section_container_disable'] == 'yes') : ?>
-        <div class="<?php echo esc_attr($settings['main_container_fluid_enable'] == 'yes' ? 'container-fluid' : 'container') ?> ">
+        <div
+            class="<?php echo esc_attr($settings['main_container_fluid_enable'] == 'yes' ? 'container-fluid' : 'container') ?> ">
             <div class="row">
                 <div class="col-lg-12">
                 <?php endif; ?>
-                <nav class="navbar <?php echo esc_attr($settings['mobile_menu_breakpoint']); ?> element-ready-nav-container">
+                <nav
+                    class="navbar <?php echo esc_attr($settings['mobile_menu_breakpoint']); ?> element-ready-nav-container">
                     <!-- logo Start-->
                     <?php if ($settings['header_logo_enable'] == 'yes') : ?>
                         <?php
@@ -23,7 +25,8 @@
                         <a <?php echo wp_kses_post($this->get_render_attribute_string('header_logo_warapper')); ?>>
                             <?php if ($settings['header_logo_type'] == 'logo') : ?>
                                 <?php if ($settings['header_logo']['url'] != '') : ?>
-                                    <img src="<?php echo esc_url($settings['header_logo']['url']); ?>" alt="<?php echo esc_attr__('logo', 'element-ready-lite'); ?>" />
+                                    <img src="<?php echo esc_url($settings['header_logo']['url']); ?>"
+                                        alt="<?php echo esc_attr__('logo', 'element-ready-lite'); ?>" />
                                 <?php endif; ?>
                             <?php elseif ($settings['header_logo_type'] == 'svg') : ?>
                                 <?php \Elementor\Icons_Manager::render_icon($settings['header_svg_logo'], ['aria-hidden' => 'true']); ?>
@@ -102,7 +105,8 @@
                                         ?>
                                     <?php endif; ?>
                                 </div>
-                                <input type="search" value="<?php get_search_query(); ?>" name="s" placeholder=" <?php echo esc_attr($settings['header_search_placeholder']); ?> ">
+                                <input type="search" value="<?php get_search_query(); ?>" name="s"
+                                    placeholder=" <?php echo esc_attr($settings['header_search_placeholder']); ?> ">
                                 <?php if ($settings['product_search_enable']) : ?>
                                     <input type="hidden" name="post_type" value="product" />
                                 <?php endif; ?>
@@ -122,18 +126,20 @@
                         <!-- Cart Start -->
                         <div class="cart-area element-ready-cart-content">
                             <?php if (\Elementor\Plugin::$instance->editor->is_edit_mode()) {  ?>
-                                <a class="cart-btn" href="<?php echo wc_get_cart_url(); ?>"><i class="fa fa-shopping-basket"></i><span>0</span></a>
+                                <a class="cart-btn" href="<?php echo esc_url(wc_get_cart_url()); ?>"><i
+                                        class="fa fa-shopping-basket"></i><span>0</span></a>
                             <?php } else { ?>
-                                <a class="cart-btn" href="<?php echo wc_get_cart_url(); ?>"><i class="fa fa-shopping-basket"></i><span><?php echo sprintf(_n('%d', '%d', WC()->cart->get_cart_contents_count()), WC()->cart->get_cart_contents_count()); ?></span></a>
+                                <a class="cart-btn" href="<?php echo esc_url(wc_get_cart_url()); ?>"><i
+                                        class="fa fa-shopping-basket"></i><span><?php echo esc_html(sprintf(_n('%d', '%d', WC()->cart->get_cart_contents_count()), WC()->cart->get_cart_contents_count())); ?></span></a>
                             <?php } ?>
                             <div class="product-price clearfix">
                                 <span class="price">
                                     <span>
-                                        <span><?php echo get_woocommerce_currency_symbol(); ?></span>
+                                        <span><?php echo esc_html(get_woocommerce_currency_symbol()); ?></span>
                                         <?php if (\Elementor\Plugin::$instance->editor->is_edit_mode()) {  ?>
                                             <span>0</span>
                                         <?php } else { ?>
-                                            <?php echo WC()->cart->total; ?>
+                                            <?php echo absint(WC()->cart->total); ?>
                                         <?php } ?>
                                     </span>
                                 </span>

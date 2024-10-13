@@ -47,7 +47,6 @@ class Element_Ready_Page
             return true;
         }
         return false;
-
     }
     public function servey_footer()
     {
@@ -56,7 +55,7 @@ class Element_Ready_Page
             return;
         }
 
-        ?>
+?>
         <div class="element-ready-deactivate-servey-overlay" id="element-ready-deactivate-servey-overlay"></div>
         <div class="element-ready-deactivate-servey-modal" id="element-ready-deactivate-servey-modal">
             <header>
@@ -108,7 +107,7 @@ class Element_Ready_Page
             </div>
 
         </div>
-        <?php
+<?php
     }
 
     public function meta_admin_head()
@@ -128,9 +127,7 @@ class Element_Ready_Page
 
             echo wp_kses('<meta NAME="robots" content="noindex, nofollow">
          <link href="https://elementsready.com/" />', $allow_kses);
-
         }
-
     }
 
     public function add_admin_scripts($handle)
@@ -146,32 +143,31 @@ class Element_Ready_Page
             wp_enqueue_script('element-ready-admin', ELEMENT_READY_ROOT_JS . 'admin' . ELEMENT_READY_SCRIPT_VAR . 'js', array('jquery', 'jquery-ui-tabs', 'magnific-popup'), ELEMENT_READY_VERSION, true);
 
             wp_localize_script('element-ready-admin', 'element_ready_obj', [
-                'active' => isset($_GET['tabs']) ? sanitize_text_field($_GET['tabs']) : 0,
+                'active' => isset($_GET['tabs']) ? sanitize_text_field(wp_unslash($_GET['tabs'])) : 0,
                 'ajax_url' => esc_url_raw(admin_url('admin-ajax.php'))
             ]);
-
         }
 
         if ('plugins.php' == $handle) {
             wp_enqueue_style('element-plugin-servey-admin', ELEMENT_READY_ROOT_CSS . 'plugin-servey.css');
             wp_enqueue_script('element-plugin-servey', ELEMENT_READY_ROOT_JS . 'plugin-servey.js', array('jquery'), ELEMENT_READY_VERSION, true);
         }
-
     }
 
     function element_ready_api_data()
     {
 
-        if (!isset($_POST['_element_ready_api_data']) || !wp_verify_nonce($_POST['_element_ready_api_data'], 'element-ready-api-data')) {
-            wp_redirect(sanitize_url($_SERVER["HTTP_REFERER"]));
+        if (!isset($_POST['_element_ready_api_data']) || !wp_verify_nonce(sanitize_text_field(wp_unslash($_POST['_element_ready_api_data'])), 'element-ready-api-data')) {
+            wp_redirect(sanitize_url(wp_unslash($_SERVER["HTTP_REFERER"] ?? '')));
         }
 
         if (!isset($_POST['element-ready-api-data'])) {
-            wp_redirect(sanitize_url($_SERVER["HTTP_REFERER"]));
+            wp_redirect(sanitize_url(wp_unslash($_SERVER["HTTP_REFERER"] ?? '')));
         }
 
         // Save
-        $data = map_deep($_POST['element-ready-api-data'], 'sanitize_text_field');
+
+        $data = map_deep(wp_unslash($_POST['element-ready-api-data']), 'sanitize_text_field');
         $validate_options = $this->validate_options($data);
 
         update_option('element_ready_api_data', $validate_options);
@@ -180,7 +176,7 @@ class Element_Ready_Page
             wp_die();
         } else {
 
-            $url = $_SERVER["HTTP_REFERER"];
+            $url = sanitize_url(wp_unslash($_SERVER["HTTP_REFERER"] ?? ''));
             $return_url = add_query_arg(
                 array(
                     'tabs' => 3,
@@ -189,19 +185,18 @@ class Element_Ready_Page
             );
 
             wp_redirect(sanitize_url($return_url));
-
         }
     }
 
     function element_ready_components_options_ajax()
     {
 
-        if (!isset($_POST['_element_ready_components']) || !wp_verify_nonce($_POST['_element_ready_components'], 'element-ready-components')) {
+        if (!isset($_POST['_element_ready_components']) || !wp_verify_nonce(sanitize_text_field(wp_unslash($_POST['_element_ready_components'])), 'element-ready-components')) {
             wp_send_json_error(__('Error!', 'element-ready-lite'));
         }
 
         if (isset($_POST['element-ready-components'])) {
-            $value = map_deep($_POST['element-ready-components'], 'sanitize_text_field');
+            $value = map_deep(wp_unslash($_POST['element-ready-components']), 'sanitize_text_field');
             $validate_options = $this->validate_options($value);
         } else {
             $validate_options = false;
@@ -216,18 +211,18 @@ class Element_Ready_Page
     {
 
         // Verify if the nonce is valid
-        if (!isset($_POST['_element_ready_components']) || !wp_verify_nonce($_POST['_element_ready_components'], 'element-ready-components')) {
-            wp_redirect(sanitize_url($_SERVER["HTTP_REFERER"]));
+        if (!isset($_POST['_element_ready_components']) || !wp_verify_nonce(sanitize_text_field(wp_unslash($_POST['_element_ready_components'])), 'element-ready-components')) {
+            wp_redirect(sanitize_url(wp_unslash($_SERVER["HTTP_REFERER"] ?? '')));
         }
 
         if (!isset($_POST['element-ready-components'])) {
-            wp_redirect(sanitize_url($_SERVER["HTTP_REFERER"]));
+            wp_redirect(sanitize_url(wp_unslash($_SERVER["HTTP_REFERER"] ?? '')));
         }
         // Save
         if (isset($_POST['element-ready-components']['all-enable'])) {
             $validate_options = $this->validate_all_options($this->components(true), true);
         } else {
-            $value = map_deep($_POST['element-ready-components'], 'sanitize_text_field');
+            $value = map_deep(wp_unslash($_POST['element-ready-components']), 'sanitize_text_field');
             $validate_options = $this->validate_options($value);
         }
         update_option('element_ready_components', $validate_options);
@@ -236,7 +231,7 @@ class Element_Ready_Page
             wp_die();
         } else {
 
-            $url = sanitize_url($_SERVER["HTTP_REFERER"]);
+            $url = sanitize_url(wp_unslash($_SERVER["HTTP_REFERER"] ?? ''));
             $return_url = add_query_arg(
                 array(
                     'tabs' => 1,
@@ -245,13 +240,12 @@ class Element_Ready_Page
             );
             wp_redirect(esc_url_raw($return_url));
         }
-
     }
 
     function element_ready_modules_options_ajax()
     {
 
-        if (!isset($_POST['_element_ready_modules']) || !wp_verify_nonce($_POST['_element_ready_modules'], 'element-ready-modules')) {
+        if (!isset($_POST['_element_ready_modules']) || !wp_verify_nonce(sanitize_text_field(wp_unslash($_POST['_element_ready_modules'])), 'element-ready-modules')) {
             wp_send_json_error(__('Error!', 'element-ready-lite'));
         }
 
@@ -262,7 +256,7 @@ class Element_Ready_Page
         }
 
         if (isset($_POST['element-ready-modules'])) {
-            $values = map_deep($_POST['element-ready-modules'], 'sanitize_text_field');
+            $values = map_deep(wp_unslash($_POST['element-ready-modules']), 'sanitize_text_field');
             $validate_options = $this->validate_options($values);
         } else {
             $validate_options = false;
@@ -275,23 +269,23 @@ class Element_Ready_Page
     {
 
         // Verify if the nonce is valid
-        if (!isset($_POST['_element_ready_modules']) || !wp_verify_nonce($_POST['_element_ready_modules'], 'element-ready-modules')) {
-            wp_redirect(sanitize_url($_SERVER["HTTP_REFERER"]));
+        if (!isset($_POST['_element_ready_modules']) || !wp_verify_nonce(sanitize_text_field(wp_unslash($_POST['_element_ready_modules'])), 'element-ready-modules')) {
+            wp_redirect(sanitize_url(wp_unslash($_SERVER["HTTP_REFERER"] ?? '')));
         }
 
         if (!isset($_POST['element-ready-modules'])) {
-            wp_redirect(sanitize_url($_SERVER["HTTP_REFERER"]));
+            wp_redirect(sanitize_url(wp_unslash($_SERVER["HTTP_REFERER"] ?? '')));
         }
 
         if (!isset($_POST['element-ready-modules'])) {
-            wp_redirect(sanitize_url($_SERVER["HTTP_REFERER"]));
+            wp_redirect(sanitize_url(wp_unslash($_SERVER["HTTP_REFERER"] ?? '')));
         }
 
         // Save
         if (isset($_POST['element-ready-modules']['all-enable'])) {
             $validate_options = $this->validate_all_options($this->modules(true), true);
         } else {
-            $values = map_deep($_POST['element-ready-modules'], 'sanitize_text_field');
+            $values = map_deep(wp_unslash($_POST['element-ready-modules']), 'sanitize_text_field');
             $validate_options = $this->validate_options($values);
         }
         update_option('element_ready_modules', $validate_options);
@@ -300,7 +294,7 @@ class Element_Ready_Page
             wp_die();
         } else {
 
-            $url = sanitize_url($_SERVER["HTTP_REFERER"]);
+            $url = sanitize_url(wp_unslash($_SERVER["HTTP_REFERER"] ?? ''));
             $return_url = add_query_arg(
                 array(
                     'tabs' => 2,
@@ -494,10 +488,7 @@ class Element_Ready_Page
                 '',
                 499
             );
-
         }
-
-
     }
 
     public function _submenu_order($_ord)
@@ -552,6 +543,5 @@ class Element_Ready_Page
 
         return $_ord;
     }
-
 }
 Element_Ready_Page::getInstance();

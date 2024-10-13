@@ -11,7 +11,7 @@
                             <a href="javascript:void(0)"><i class="fa fa-times"></i></a>
                         </div>
                         <div class="offcanva-element-ready-ele-content">
-                            <?php echo \Elementor\Plugin::instance()->frontend->get_builder_content_for_display($settings['offcanvas_template_id']); ?>
+                            <?php echo wp_kses_post(\Elementor\Plugin::instance()->frontend->get_builder_content_for_display($settings['offcanvas_template_id'])); ?>
                         </div>
                     </div>
                 </div>
@@ -49,7 +49,8 @@
                                 <a <?php echo wp_kses_post($this->get_render_attribute_string('header_logo_warapper')); ?>>
                                     <?php if ($settings['header_logo_type'] == 'logo') : ?>
                                         <?php if ($settings['header_logo']['url'] != '') : ?>
-                                            <img src="<?php echo esc_url($settings['header_logo']['url']); ?>" alt="<?php echo esc_attr__('logo', 'element-ready-lite'); ?>" />
+                                            <img src="<?php echo esc_url($settings['header_logo']['url']); ?>"
+                                                alt="<?php echo esc_attr__('logo', 'element-ready-lite'); ?>" />
                                         <?php endif; ?>
                                     <?php elseif ($settings['header_logo_type'] == 'svg') : ?>
                                         <?php \Elementor\Icons_Manager::render_icon($settings['header_svg_logo'], ['aria-hidden' => 'true']); ?>
@@ -73,7 +74,8 @@
                                     $canvas_url = ELEMENT_READY_ROOT_IMG . '/hamburger.svg';
                                     if (isset($offcanvas_menu_icon['library']) && $offcanvas_menu_icon['library'] == '') {
                                     ?>
-                                        <img class="canvas_open" src="<?php echo esc_url($canvas_url); ?>" alt=" <?php echo esc_attr__('offcanvas icon'); ?>">
+                                        <img class="canvas_open" src="<?php echo esc_url($canvas_url); ?>"
+                                            alt=" <?php echo esc_attr__('offcanvas icon'); ?>">
                                     <?php
                                     } else {
                                         \Elementor\Icons_Manager::render_icon($settings['offcanvas_menu_icon'], ['aria-hidden' => 'true', 'class' => 'canvas_open']);

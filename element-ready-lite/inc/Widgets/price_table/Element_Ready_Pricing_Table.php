@@ -4558,16 +4558,16 @@ class Element_Ready_Pricing_Table extends Widget_Base
             if ($settings['element_ready_offer_price'] == 'yes' && !empty($settings['element_ready_original_price'])) {
 
                 if ('left' == $settings['element_ready_currency_position']) {
-                    echo wp_kses_post('<h3><span class="old__price">' . $currencysymbol . '<del>' . esc_attr__($settings['element_ready_original_price'], 'element-ready-lite') . '</del></span><span class="new__price">' . $currencysymbol . esc_attr__($settings['element_ready_price'], 'element-ready-lite') . '</span> <span class="period__price">' . esc_attr__($settings['element_ready_period'], 'element-ready-lite') . '</span></h3>');
+                    echo wp_kses_post('<h3><span class="old__price">' . $currencysymbol . '<del>' . esc_attr($settings['element_ready_original_price'] ?? '') . '</del></span><span class="new__price">' . $currencysymbol . esc_attr($settings['element_ready_price'] ?? '') . '</span> <span class="period__price">' . esc_attr($settings['element_ready_period'] ?? '') . '</span></h3>');
                 } elseif ('right' == $settings['element_ready_currency_position']) {
-                    echo wp_kses_post('<h3><span class="old__price">' . '<del>' . esc_attr__($settings['element_ready_original_price'], 'element-ready-lite') . $currencysymbol . '</del></span><span class="new__price">' . esc_attr__($settings['element_ready_price'], 'element-ready-lite') . $currencysymbol . '</span> <span class="period__price">' . esc_attr__($settings['element_ready_period'], 'element-ready-lite') . '</span></h3>');
+                    echo wp_kses_post('<h3><span class="old__price">' . '<del>' . esc_attr($settings['element_ready_original_price'] ?? '') . $currencysymbol . '</del></span><span class="new__price">' . esc_attr($settings['element_ready_price'] ?? '') . $currencysymbol . '</span> <span class="period__price">' . esc_attr($settings['element_ready_period'] ?? '') . '</span></h3>');
                 }
             } else {
                 if (!empty($settings['element_ready_price'])) {
                     if ('left' == $settings['element_ready_currency_position']) {
-                        echo wp_kses_post('<h3><span class="new__price">' . $currencysymbol . esc_attr__($settings['element_ready_price'], 'element-ready-lite') . '</span> <span class="period__price">' . esc_attr__($settings['element_ready_period'], 'element-ready-lite') . '</span></h3>');
+                        echo wp_kses_post('<h3><span class="new__price">' . $currencysymbol . esc_attr($settings['element_ready_price'] ?? '') . '</span> <span class="period__price">' . esc_attr($settings['element_ready_period'] ?? '') . '</span></h3>');
                     } elseif ('right' == $settings['element_ready_currency_position']) {
-                        echo wp_kses_post('<h3><span class="new__price">' . esc_attr__($settings['element_ready_price'], 'element-ready-lite') . $currencysymbol . '</span> <span class="period__price">' . esc_attr__($settings['element_ready_period'], 'element-ready-lite') . '</span></h3>');
+                        echo wp_kses_post('<h3><span class="new__price">' . esc_attr($settings['element_ready_price'] ?? '') . $currencysymbol . '</span> <span class="period__price">' . esc_attr($settings['element_ready_period'] ?? '') . '</span></h3>');
                     }
                 }
             }

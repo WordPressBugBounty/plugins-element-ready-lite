@@ -2997,7 +2997,7 @@ class Element_Ready_Area_Title_Widget extends Widget_Base
 		echo '<div class="area__content">'; ?>
 		<?php if ('yes' == $settings['show_bg_icon']) :  ?>
 			<?php if ('font_icon' == $settings['bg_icon_type'] && !empty($settings['bg_font_or_svg'])) : ?>
-				<div class="title__bg__icon"><?php echo element_ready_render_icons($settings['bg_font_or_svg']); ?></div>
+				<div class="title__bg__icon"><?php echo wp_kses_post(element_ready_render_icons($settings['bg_font_or_svg'])); ?></div>
 			<?php elseif ('image_icon' == $settings['bg_icon_type'] && !empty($settings['bg_image_icon'])) : ?>
 				<?php
 				$icon_array = $settings['bg_image_icon'];
@@ -3013,7 +3013,5 @@ class Element_Ready_Area_Title_Widget extends Widget_Base
 				' . (isset($button) ? $button : '') . '');
 		echo '</div>';
 	}
-	protected function content_template()
-	{
-	}
+	protected function content_template() {}
 }

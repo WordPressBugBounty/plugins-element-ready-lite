@@ -56,7 +56,7 @@ $this->add_render_attribute('element__ready__adv__accordion', 'id', 'element__re
                 elseif ('template' == $tab['element_ready_accordion_text_type']) :
                     if (!empty($tab['element_ready_primary_templates'])) {
                         $element_ready_template_id = $tab['element_ready_primary_templates'];
-                        echo \Elementor\Plugin::instance()->frontend->get_builder_content_for_display($element_ready_template_id, true);
+                        echo wp_kses_post(\Elementor\Plugin::instance()->frontend->get_builder_content_for_display($element_ready_template_id, true));
                     }
                 endif; ?>
             </div>

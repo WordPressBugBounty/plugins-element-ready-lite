@@ -793,7 +793,7 @@ class Element_Ready_Data_Table_Widget extends Widget_Base
                         <tr>
                             <?php
                             foreach ($settings['header_column_list'] as $headeritem) {
-                                echo wp_kses_post(sprintf('<th>%s</th>', esc_html($headeritem['column_name'])));
+                                echo wp_kses_post(sprintf('<th>%s</th>', esc_html($headeritem['column_name'] ?? '')));
                             }
                             ?>
                         </tr>
@@ -806,8 +806,8 @@ class Element_Ready_Data_Table_Widget extends Widget_Base
                             for ($j = 0; $j < count($table_td); $j++) :
                                 if ($table_tr[$i]['id'] == $table_td[$j]['row_id']) :
                             ?>
-                                    <td<?php echo esc_attr($table_td[$j]['colspan']) > 1 ? ' colspan="' . $table_td[$j]['colspan'] . '"' : ''; ?>>
-                                        <?php echo wp_kses_post($table_td[$j]['title']); ?>
+                                    <td<?php echo isset($table_td[$j]['colspan']) > 1 ? ' colspan="' . esc_attr($table_td[$j]['colspan']) . '"' : ''; ?>>
+                                        <?php echo wp_kses_post($table_td[$j]['title'] ?? ''); ?>
                                         </td>
                                 <?php
                                 endif;

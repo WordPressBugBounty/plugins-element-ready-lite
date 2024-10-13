@@ -162,7 +162,7 @@ class Templates_Lib
 		$result = call_user_func([__CLASS__, $ajax_request], $data);
 
 		if (is_wp_error($result)) {
-			throw new \Exception($result->get_error_message());
+			throw new \Exception(wp_kses_post($result->get_error_message()));
 		}
 
 		return $result;
@@ -206,7 +206,7 @@ class Templates_Lib
 	{
 
 
-		$library_data = self::get_library_data(!empty(sanitize_text_field($_GET['sync'])));
+		$library_data = self::get_library_data(!empty(sanitize_text_field(wp_unslash($_GET['sync'] ?? ''))));
 
 		// Ensure all document are registered.
 		Plugin::$instance->documents->get_document_types();
@@ -387,7 +387,7 @@ class Templates_Lib
 	{
 
 		$source = self::get_source();
-		$data = self::get_template_content(sanitize_text_field($_REQUEST['tpl_id']));
+		$data = self::get_template_content(sanitize_text_field(wp_unslash($_REQUEST['tpl_id'] ?? '')));
 
 		if (is_wp_error($data)) {
 			return $data;
@@ -396,7 +396,7 @@ class Templates_Lib
 		$data = (array) $data;
 
 		wp_send_json_success([
-			'cus' => $source->get_custom_data($data, sanitize_text_field($_REQUEST['editor_post_id']))
+			'cus' => $source->get_custom_data($data, sanitize_text_field(wp_unslash($_REQUEST['editor_post_id'] ?? '')))
 		]);
 	}
 

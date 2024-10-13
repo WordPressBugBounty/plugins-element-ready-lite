@@ -121,9 +121,7 @@ final class Element_Ready_Elementor_Extension
 	 * 	ADD ASSETS
 	 *******************************/
 
-	public function element_ready_editor_styles()
-	{
-	}
+	public function element_ready_editor_styles() {}
 	public function element_ready_editor_js()
 	{
 		wp_enqueue_script('elemment-ready-er-editor', ELEMENT_READY_ROOT_JS . 'editor.js', ['jquery'], '', true);
@@ -236,7 +234,6 @@ final class Element_Ready_Elementor_Extension
 	public function element_ready_register_frontend_scripts()
 	{
 
-
 		wp_register_script('owl-carousel', ELEMENT_READY_ROOT_JS . 'owl.carousel.min.js', array('jquery'), ELEMENT_READY_VERSION, true);
 		wp_register_script('goodshare', ELEMENT_READY_ROOT_JS . 'goodshare.min.js', array('jquery'), ELEMENT_READY_VERSION, true);
 		wp_register_script('slick', ELEMENT_READY_ROOT_JS . 'slick.min.js', array('jquery'), ELEMENT_READY_VERSION, true);
@@ -254,7 +251,6 @@ final class Element_Ready_Elementor_Extension
 		wp_register_script('prism', ELEMENT_READY_ROOT_JS . 'prism.js', null, ELEMENT_READY_VERSION, true);
 		wp_register_script('flip', ELEMENT_READY_ROOT_JS . 'jquery.flip.min.js', array('jquery'), ELEMENT_READY_VERSION, true);
 		wp_register_script('waypoints', ELEMENT_READY_ROOT_JS . 'waypoints.min.js', array('jquery'), ELEMENT_READY_VERSION, true);
-
 
 		wp_register_script('easyBar', ELEMENT_READY_ROOT_JS . 'easyBar.js', array('jquery', 'waypoints'), ELEMENT_READY_VERSION, true);
 		wp_register_script('nifty', ELEMENT_READY_ROOT_JS . 'nifty.js', array('jquery'), ELEMENT_READY_VERSION, true);
@@ -369,7 +365,7 @@ final class Element_Ready_Elementor_Extension
 		);
 
 
-		wp_kses(printf('<div class="notice notice-warning is-dismissible"><p>%1$s</p></div>', $message), array());
+		wp_kses(printf('<div class="notice notice-warning is-dismissible"><p>%1$s</p></div>', esc_html($message)), array());
 	}
 
 

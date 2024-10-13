@@ -8,243 +8,241 @@ add_filter('wpcf7_autop_or_not', '__return_false');
 /*---------------------------------
     Asset Optimize
 ----------------------------------*/
-add_action( 'wp_enqueue_scripts', 'element_ready_lite_optimize_widgets_scripts', 301);
-add_action( 'wp_enqueue_scripts', 'element_ready_lite_optimize_gl_style', 301);
-add_action( 'wp_enqueue_scripts', 'element_ready_lite_optimize_scripts', 300);
-add_action( 'elementor/frontend/after_enqueue_styles', 'element_ready_lite_after_enqueue_styles', 100);
+add_action('wp_enqueue_scripts', 'element_ready_lite_optimize_widgets_scripts', 301);
+add_action('wp_enqueue_scripts', 'element_ready_lite_optimize_gl_style', 301);
+add_action('wp_enqueue_scripts', 'element_ready_lite_optimize_scripts', 300);
+add_action('elementor/frontend/after_enqueue_styles', 'element_ready_lite_after_enqueue_styles', 100);
+add_filter('wp_kses_allowed_html', 'element_ready_lite_wp_kses_allowed_html', 10, 2);
 
 /************ ****************
  * Widget js optimize
  *****************/
-function element_ready_lite_optimize_widgets_scripts(){
+function element_ready_lite_optimize_widgets_scripts()
+{
 
-    include( dirname(__FILE__) . '/dashboard/controls/Components.php' );
-    $global_widget_min = ELEMENT_READY_DIR_PATH.'assets/js/active.min.js';
-    $global_widget_old = ELEMENT_READY_DIR_PATH.'assets/js/active.old.js';
-    $js_results        = [];
+  include(dirname(__FILE__) . '/dashboard/controls/Components.php');
+  $global_widget_min = ELEMENT_READY_DIR_PATH . 'assets/js/active.min.js';
+  $global_widget_old = ELEMENT_READY_DIR_PATH . 'assets/js/active.old.js';
+  $js_results        = [];
 
-    foreach( $return_arr as $key => $item ){
-        if( element_ready_get_components_option($key) ){
-            if(isset($item['js'])){
-                $js_assets = $item['js'];
-                foreach($js_assets as $file){
-                    $js_results[] = $file;
-                }
-            }
+  foreach ($return_arr as $key => $item) {
+    if (element_ready_get_components_option($key)) {
+      if (isset($item['js'])) {
+        $js_assets = $item['js'];
+        foreach ($js_assets as $file) {
+          $js_results[] = $file;
         }
+      }
     }
+  }
 
-    $js_results = array_unique($js_results);
-    /*********** File Update ************/ 
-  element_ready_lite_optimize_widgets_update_scripts($js_results,$global_widget_min);
-  
+  $js_results = array_unique($js_results);
+  /*********** File Update ************/
+  element_ready_lite_optimize_widgets_update_scripts($js_results, $global_widget_min);
 }
 
-function element_ready_lite_optimize_widgets_update_scripts($js_results , $global_widget_min){
+function element_ready_lite_optimize_widgets_update_scripts($js_results, $global_widget_min)
+{
 
-    global $wp_filesystem; 
-    if (empty($wp_filesystem)) {
-        require_once (ABSPATH . '/wp-admin/includes/file.php');
-        WP_Filesystem();
-    }
-  
-    $js_content = '';
-    foreach( $js_results as $file_path ){
-       $js_content .=  $wp_filesystem->get_contents($file_path);
-    }
-    $js_content = str_replace([';;'],[';'],$js_content);
-    if(!$wp_filesystem->put_contents( $global_widget_min , $js_content , 0644) ) {
-        return __('Failed to create js file','element-ready-lite');
-    }
+  global $wp_filesystem;
+  if (empty($wp_filesystem)) {
+    require_once(ABSPATH . '/wp-admin/includes/file.php');
+    WP_Filesystem();
+  }
+
+  $js_content = '';
+  foreach ($js_results as $file_path) {
+    $js_content .=  $wp_filesystem->get_contents($file_path);
+  }
+  $js_content = str_replace([';;'], [';'], $js_content);
+  if (!$wp_filesystem->put_contents($global_widget_min, $js_content, 0644)) {
+    return __('Failed to create js file', 'element-ready-lite');
+  }
 }
 
 /************ ****************
  * Widget Style optimize
  *****************/
-function element_ready_lite_optimize_gl_style(){
- 
-    $optmize_css = [
-      'section_perticle_did' => 'element-ready-particle',
-    ];
-    $optmize_css_file = [
-     'section_perticle_did' => ELEMENT_READY_DIR_PATH.'assets/js/classic-particles.min.js',
-    ];
+function element_ready_lite_optimize_gl_style()
+{
 
+  $optmize_css = [
+    'section_perticle_did' => 'element-ready-particle',
+  ];
+  $optmize_css_file = [
+    'section_perticle_did' => ELEMENT_READY_DIR_PATH . 'assets/js/classic-particles.min.js',
+  ];
 }
 
-function element_ready_lite_optimize_scripts(){
+function element_ready_lite_optimize_scripts()
+{
 
-    global $wp_filesystem; 
-    $global_widget_min = ELEMENT_READY_DIR_PATH.'assets/js/globalwidget.min.js';
-  
-    if (empty($wp_filesystem)) {
-        require_once (ABSPATH . '/wp-admin/includes/file.php');
-        WP_Filesystem();
-    }
-      
-    $optmize_js = [
+  global $wp_filesystem;
+  $global_widget_min = ELEMENT_READY_DIR_PATH . 'assets/js/globalwidget.min.js';
 
-        'section_perticles'       => 'element-ready-particle',
-        'sticky_section'          => 'element-ready-sticky-section',
-        'color_section'           => 'element-ready-animated-color-section',
-        'section_dismiss'         => 'element-ready-dismissable-section',
-        'widget_tooltip'          => 'element-ready-tool-tip',
-        'pro_conditional_content' => 'element-ready-er-gl-conditional',
-        'cookie'                  => 'element-ready-er-cookie',
-        'column_wrapper_link'     => 'element-ready-column-wrapper'
-       
-    ];
+  if (empty($wp_filesystem)) {
+    require_once(ABSPATH . '/wp-admin/includes/file.php');
+    WP_Filesystem();
+  }
 
-    $optmize_js_file = [
+  $optmize_js = [
 
-        'section_perticles'       => ELEMENT_READY_DIR_PATH.'assets/js/classic-particles.min.js',
-        'sticky_section'          => ELEMENT_READY_DIR_PATH.'assets/js/sticky_section.min.js',
-        'color_section'           => ELEMENT_READY_DIR_PATH.'assets/js/animated-color-section.min.js',
-        'section_dismiss'         => ELEMENT_READY_DIR_PATH.'assets/js/dismissable-section.min.js',
-        'widget_tooltip'          => ELEMENT_READY_DIR_PATH.'assets/js/tooltip-gl.min.js',
-        'pro_conditional_content' => ELEMENT_READY_DIR_PATH.'assets/js/er-gl-conditional.min.js',
-        'cookie'                  => ELEMENT_READY_DIR_PATH.'assets/js/er-cookie.min.js',
-        'column_wrapper_link'     => ELEMENT_READY_DIR_PATH.'assets/js/er-gl-col-wrapper.min.js',
-       
-    ];
- 
-    global $enqueued_scripts;
+    'section_perticles'       => 'element-ready-particle',
+    'sticky_section'          => 'element-ready-sticky-section',
+    'color_section'           => 'element-ready-animated-color-section',
+    'section_dismiss'         => 'element-ready-dismissable-section',
+    'widget_tooltip'          => 'element-ready-tool-tip',
+    'pro_conditional_content' => 'element-ready-er-gl-conditional',
+    'cookie'                  => 'element-ready-er-cookie',
+    'column_wrapper_link'     => 'element-ready-column-wrapper'
 
-    $flip_js = array_flip($optmize_js);
-    
-    $js_results = [];
-   
-    global $wp_scripts;
-   
-    foreach( $wp_scripts->registered as $key => $script ) :
-        if( in_array( $key , $optmize_js ) ){
-            if(isset($flip_js[$key])){
-                $current_key = $flip_js[$key];
-                if(element_ready_get_modules_option($current_key)){
-                    $js_results[$flip_js[$key]] = $optmize_js_file[$current_key];
-                    wp_deregister_script( $key );
-                }
-                
-            }
-           
+  ];
+
+  $optmize_js_file = [
+
+    'section_perticles'       => ELEMENT_READY_DIR_PATH . 'assets/js/classic-particles.min.js',
+    'sticky_section'          => ELEMENT_READY_DIR_PATH . 'assets/js/sticky_section.min.js',
+    'color_section'           => ELEMENT_READY_DIR_PATH . 'assets/js/animated-color-section.min.js',
+    'section_dismiss'         => ELEMENT_READY_DIR_PATH . 'assets/js/dismissable-section.min.js',
+    'widget_tooltip'          => ELEMENT_READY_DIR_PATH . 'assets/js/tooltip-gl.min.js',
+    'pro_conditional_content' => ELEMENT_READY_DIR_PATH . 'assets/js/er-gl-conditional.min.js',
+    'cookie'                  => ELEMENT_READY_DIR_PATH . 'assets/js/er-cookie.min.js',
+    'column_wrapper_link'     => ELEMENT_READY_DIR_PATH . 'assets/js/er-gl-col-wrapper.min.js',
+
+  ];
+
+  global $enqueued_scripts;
+
+  $flip_js = array_flip($optmize_js);
+
+  $js_results = [];
+
+  global $wp_scripts;
+
+  foreach ($wp_scripts->registered as $key => $script) :
+    if (in_array($key, $optmize_js)) {
+      if (isset($flip_js[$key])) {
+        $current_key = $flip_js[$key];
+        if (element_ready_get_modules_option($current_key)) {
+          $js_results[$flip_js[$key]] = $optmize_js_file[$current_key];
+          wp_deregister_script($key);
         }
-      
-    endforeach;
-    /********** File Update **********/
-  
-    $js_results = apply_filters('er_element_ready/global/script',$js_results);
-    element_ready_lite_optimize_global_scripts($js_results,$global_widget_min);
-
-}
-
-function element_ready_lite_optimize_global_scripts($js_results , $global_widget_min){
-
-    global $wp_filesystem; 
-  
-    if (empty($wp_filesystem)) {
-        require_once (ABSPATH . '/wp-admin/includes/file.php');
-        WP_Filesystem();
-    }
- 
-
-    $js_content = '';
-
-    foreach( $js_results as $file_path ){
-       $js_content .=  $wp_filesystem->get_contents($file_path);
+      }
     }
 
-    $js_content = str_replace([';;'],[';'],$js_content);
-               
-    if(!$wp_filesystem->put_contents( $global_widget_min , $js_content , 0644) ) {
-        return __('Failed to create js file','element-ready-lite');
-    }
+  endforeach;
+  /********** File Update **********/
+
+  $js_results = apply_filters('er_element_ready/global/script', $js_results);
+  element_ready_lite_optimize_global_scripts($js_results, $global_widget_min);
 }
 
-function element_ready_lite_after_enqueue_styles(){
-    global $wp_styles;
-    
+function element_ready_lite_optimize_global_scripts($js_results, $global_widget_min)
+{
+
+  global $wp_filesystem;
+
+  if (empty($wp_filesystem)) {
+    require_once(ABSPATH . '/wp-admin/includes/file.php');
+    WP_Filesystem();
+  }
+
+
+  $js_content = '';
+
+  foreach ($js_results as $file_path) {
+    $js_content .=  $wp_filesystem->get_contents($file_path);
+  }
+
+  $js_content = str_replace([';;'], [';'], $js_content);
+
+  if (!$wp_filesystem->put_contents($global_widget_min, $js_content, 0644)) {
+    return __('Failed to create js file', 'element-ready-lite');
+  }
 }
-function element_ready_lite_remove_wp_block_library_css(){
-   
-    wp_dequeue_style( 'wp-block-library' );
-    wp_dequeue_style( 'wp-block-library-theme' );
-    wp_dequeue_style( 'wc-block-style' ); //wc
+
+function element_ready_lite_after_enqueue_styles()
+{
+  global $wp_styles;
+}
+function element_ready_lite_remove_wp_block_library_css()
+{
+
+  wp_dequeue_style('wp-block-library');
+  wp_dequeue_style('wp-block-library-theme');
+  wp_dequeue_style('wc-block-style'); //wc
 
 }
 
 use Element_Ready\Base\Elementor_Helper;
 
-add_action('element_ready_footer_before',function(){
-  
-    if(is_page()){
+add_action('element_ready_footer_before', function () {
 
-        $fix_footer_div = Elementor_Helper::page_settings('er_footer_div_missing');
-        if($fix_footer_div == 'yes'){
-            echo '</div>';
-        }
+  if (is_page()) {
 
-    }elseif(element_ready_lite_is_global_blog()){
-        
-        $fix_footer_div = Elementor_Helper::get_global_setting('er_blog_footer_missing_div');
-        if($fix_footer_div == 'yes'){
-            echo '</div>';
-        }
-
+    $fix_footer_div = Elementor_Helper::page_settings('er_footer_div_missing');
+    if ($fix_footer_div == 'yes') {
+      echo '</div>';
     }
- 
+  } elseif (element_ready_lite_is_global_blog()) {
+
+    $fix_footer_div = Elementor_Helper::get_global_setting('er_blog_footer_missing_div');
+    if ($fix_footer_div == 'yes') {
+      echo '</div>';
+    }
+  }
 });
 
-function er_body_line_animation_enable(){
-    $animation_enable = Elementor_Helper::get_global_setting('er_body_line_animation_enable');
-    $conditional_display = Elementor_Helper::get_global_setting('er_body_line_animation_conditional_display');
-    $pages_ids = Elementor_Helper::get_global_setting('er_body_line_animation_page_option');
-    
-    if($animation_enable !='yes'){
-        return false;
-    } 
+function er_body_line_animation_enable()
+{
+  $animation_enable = Elementor_Helper::get_global_setting('er_body_line_animation_enable');
+  $conditional_display = Elementor_Helper::get_global_setting('er_body_line_animation_conditional_display');
+  $pages_ids = Elementor_Helper::get_global_setting('er_body_line_animation_page_option');
 
-    if($conditional_display === 'global'){
+  if ($animation_enable != 'yes') {
+    return false;
+  }
 
-        return true;
-
-    }elseif($conditional_display  === 'page_specific'){
-       $array_ids = explode(',' ,$pages_ids );
-
-       if(in_array(get_queried_object_id(),$array_ids)){
-         return true;
-       }else{
-         return false;
-       }
-    }
+  if ($conditional_display === 'global') {
 
     return true;
+  } elseif ($conditional_display  === 'page_specific') {
+    $array_ids = explode(',', $pages_ids);
 
+    if (in_array(get_queried_object_id(), $array_ids)) {
+      return true;
+    } else {
+      return false;
+    }
+  }
+
+  return true;
 }
 
-add_action( 'wp_body_open' , function(){
- 
-    if(!er_body_line_animation_enable()){
-        return;
-    }
-    ?>
-   
-        <div class="er-full-page-lines">
-        <div class="er-full-page-line"></div>
-        <div class="er-full-page-line"></div>
-        <div class="er-full-page-line"></div>
-       </div>
-    <?php
+add_action('wp_body_open', function () {
+
+  if (!er_body_line_animation_enable()) {
+    return;
+  }
+?>
+
+  <div class="er-full-page-lines">
+    <div class="er-full-page-line"></div>
+    <div class="er-full-page-line"></div>
+    <div class="er-full-page-line"></div>
+  </div>
+<?php
 });
 
 //
-add_action('wp_enqueue_scripts', function(){
+add_action('wp_enqueue_scripts', function () {
 
-    if(!er_body_line_animation_enable()){
-        return;
-    }
+  if (!er_body_line_animation_enable()) {
+    return;
+  }
 
-    $direction_type = Elementor_Helper::get_global_setting('er_body_line_animation_direction');
-    $custom_css = 
+  $direction_type = Elementor_Helper::get_global_setting('er_body_line_animation_direction');
+  $custom_css =
     ' .er-full-page-lines {
       position: absolute;
       top: 0;
@@ -297,8 +295,8 @@ add_action('wp_enqueue_scripts', function(){
     }
     
    ';
-   
-   if($direction_type == 'down'){
+
+  if ($direction_type == 'down') {
     $custom_css .= ' @-webkit-keyframes er-full-page-drop {
         0% {
           top: -50%;
@@ -316,7 +314,7 @@ add_action('wp_enqueue_scripts', function(){
           top: 110%;
         }
       }';
-   }elseif($direction_type == 'up'){
+  } elseif ($direction_type == 'up') {
     $custom_css .= ' @-webkit-keyframes er-full-page-drop {
         0% {
           top: 110%;
@@ -334,98 +332,227 @@ add_action('wp_enqueue_scripts', function(){
           top: -50%;
         }
       }';
-   }
-  wp_add_inline_style( 'element-ready-widgets', $custom_css );
+  }
+  wp_add_inline_style('element-ready-widgets', $custom_css);
 });
 
-add_filter( 'template_include', 'er__elementor_editor_section___page_template', 99 );
-function er__elementor_editor_section___page_template( $template ) {
-          
-           if(
-              isset( $_GET['post_type'] ) && 
-              $_GET['post_type'] =='elementor_library' && 
-              isset( $_GET['p'] )
-              ){
-                
-                $template_type = get_post_meta(sanitize_text_field($_GET['p']), '_elementor_template_type', true);
-                if($template_type == 'section' || $template_type == 'container' || $template_type == 'page'){
-                  $new_template = element_ready_fix_path(dirname( __FILE__ ) . '/er-full-width.php');
-                 
-                  if ( '' != $new_template && file_exists($new_template) ) {
-                   
-                      return $new_template;
-                  }
-                }
-  
-            }
+add_filter('template_include', 'er__elementor_editor_section___page_template', 99);
+function er__elementor_editor_section___page_template($template)
+{
 
-           if(
-              isset( $_GET['elementor-preview'] ) &&
-              isset( $_GET['elementor_library'] )
-              ){
-                
-                $template_type = get_post_meta(sanitize_text_field($_GET['elementor-preview']), '_elementor_template_type', true);
-                if($template_type == 'section' || $template_type == 'container' || $template_type == 'page'){
-                  $new_template = element_ready_fix_path(dirname( __FILE__ ) . '/er-full-width.php');
-                 
-                  if ( '' != $new_template && file_exists($new_template) ) {
-                      return $new_template;
-                  }
-                }
-  
-            }
+  if (
+    isset($_GET['post_type']) &&
+    $_GET['post_type'] == 'elementor_library' &&
+    isset($_GET['p'])
+  ) {
 
-            if(
-                isset( $_GET['elementor_library'] ) && (isset($_GET['preview_id']) && $_GET['preview_nonce'])
-            ){
-                  
-                  $template_type = get_post_meta(sanitize_text_field($_GET['preview_id']), '_elementor_template_type', true);
-                  if($template_type == 'section' || $template_type == 'container' || $template_type == 'page'){
-                    $new_template = element_ready_fix_path(dirname( __FILE__ ) . '/er-full-width.php');
-                   
-                    if ( '' != $new_template && file_exists($new_template) ) {
-                        return $new_template;
-                    }
-                  }
-    
-            }
-     
-      return $template;
+    $template_type = get_post_meta(sanitize_text_field(wp_unslash($_GET['p'])), '_elementor_template_type', true);
+    if ($template_type == 'section' || $template_type == 'container' || $template_type == 'page') {
+      $new_template = element_ready_fix_path(dirname(__FILE__) . '/er-full-width.php');
+
+      if ('' != $new_template && file_exists($new_template)) {
+
+        return $new_template;
+      }
+    }
   }
 
+  if (
+    isset($_GET['elementor-preview']) &&
+    isset($_GET['elementor_library'])
+  ) {
 
-  function elementsready_2022_rec_insert_fb_in_head() {
+    $template_type = get_post_meta(sanitize_text_field(wp_unslash($_GET['elementor-preview'])), '_elementor_template_type', true);
+    if ($template_type == 'section' || $template_type == 'container' || $template_type == 'page') {
+      $new_template = element_ready_fix_path(dirname(__FILE__) . '/er-full-width.php');
 
-    global $post;
-  
-    if ( !is_singular('post') ){
-      return;
-    } 
-   
-    if(!has_post_thumbnail( $post->ID )) { //the post does not have featured image, use a default image
-    
+      if ('' != $new_template && file_exists($new_template)) {
+        return $new_template;
+      }
     }
-    else{
-      $allowed_html = array(
-
-          'meta' => array(
-            'property' => [],
-            'content' => [],
-            'name' => [],
-          ),
-          'link' => array(
-            'rel' => [],
-            'href' => [],
-            'name' => [],
-          )
-      );
-
-      $desc = wp_trim_words( esc_html( get_the_excerpt($post->ID) ) ,18,'' );
-      $thumbnail_src = wp_get_attachment_image_src( get_post_thumbnail_id( $post->ID ), 'full' );
-      echo wp_kses( sprintf('<meta property="og:image" content="%s"/>', esc_attr( $thumbnail_src[0] ) ), $allowed_html );
-      echo wp_kses( sprintf( '<meta name="description" content="%s">' , esc_html($desc)), $allowed_html);
-      echo wp_kses( sprintf( '<link rel="apple-touch-icon" href="%s">', esc_url( $thumbnail_src[0] )), $allowed_html );
-    }
-  
   }
-  add_action( 'wp_head', 'elementsready_2022_rec_insert_fb_in_head', 5 );
+
+  if (
+    isset($_GET['elementor_library']) && (isset($_GET['preview_id']) && isset($_GET['preview_nonce']))
+  ) {
+
+    $template_type = get_post_meta(sanitize_text_field(wp_unslash($_GET['preview_id'])), '_elementor_template_type', true);
+    if ($template_type == 'section' || $template_type == 'container' || $template_type == 'page') {
+      $new_template = element_ready_fix_path(dirname(__FILE__) . '/er-full-width.php');
+
+      if ('' != $new_template && file_exists($new_template)) {
+        return $new_template;
+      }
+    }
+  }
+
+  return $template;
+}
+
+
+function elementsready_2022_rec_insert_fb_in_head()
+{
+
+  global $post;
+
+  if (!is_singular('post')) {
+    return;
+  }
+
+  if (!has_post_thumbnail($post->ID)) { //the post does not have featured image, use a default image
+
+  } else {
+    $allowed_html = array(
+
+      'meta' => array(
+        'property' => [],
+        'content' => [],
+        'name' => [],
+      ),
+      'link' => array(
+        'rel' => [],
+        'href' => [],
+        'name' => [],
+      )
+    );
+
+    $desc = wp_trim_words(esc_html(get_the_excerpt($post->ID)), 18, '');
+    $thumbnail_src = wp_get_attachment_image_src(get_post_thumbnail_id($post->ID), 'full');
+    echo wp_kses(sprintf('<meta property="og:image" content="%s"/>', esc_attr($thumbnail_src[0])), $allowed_html);
+    echo wp_kses(sprintf('<meta name="description" content="%s">', esc_html($desc)), $allowed_html);
+    echo wp_kses(sprintf('<link rel="apple-touch-icon" href="%s">', esc_url($thumbnail_src[0])), $allowed_html);
+  }
+}
+add_action('wp_head', 'elementsready_2022_rec_insert_fb_in_head', 5);
+
+
+if (!function_exists('element_ready_lite_wp_kses_allowed_html')) {
+
+  function element_ready_lite_wp_kses_allowed_html($allowedposttags, $context)
+  {
+    if ($context !== 'post') {
+      return $allowedposttags;
+    }
+
+    // Define allowed attributes for multiple tags
+    $allowed_atts = [
+      'align'      => [],
+      'class'      => [],
+      'type'       => [],
+      'id'         => [],
+      'dir'        => [],
+      'lang'       => [],
+      'style'      => [],
+      'xml:lang'   => [],
+      'src'        => [],
+      'alt'        => [],
+      'href'       => [],
+      'rel'        => [],
+      'rev'        => [],
+      'target'     => [],
+      'novalidate' => [],
+      'value'      => [],
+      'name'       => [],
+      'tabindex'   => [],
+      'action'     => [],
+      'method'     => [],
+      'for'        => [],
+      'width'      => [],
+      'height'     => [],
+      'data'       => [],
+      'title'      => [],
+      'controls'   => [], // Audio & Video
+      'autoplay'   => [], // Audio & Video
+      'loop'       => [], // Audio & Video
+      'muted'      => [], // Audio & Video
+      'preload'    => [], // Audio & Video
+      'poster'     => [], // Video
+    ];
+
+    // Define allowed attributes for SVG tags
+    $allowed_svg_atts = [
+      'xmlns'       => [],
+      'viewBox'     => [],
+      'version'     => [],
+      'width'       => [],
+      'height'      => [],
+      'fill'        => [],
+      'stroke'      => [],
+      'stroke-width' => [],
+      'd'           => [], // for path elements
+    ];
+
+    // Define allowed attributes for iframe tag
+    $allowed_iframe_atts = [
+      'src'             => [],
+      'width'           => [],
+      'height'          => [],
+      'frameborder'     => [],
+      'allowfullscreen' => [],
+      'loading'         => [], // For lazy loading
+      'referrerpolicy'  => [], // Security attribute
+      'sandbox'         => [], // Security attribute
+      'allow'           => [], // Define allowed actions
+      'name'            => [],
+      'id'              => [],
+      'style'           => [],
+    ];
+
+    // Define allowed attributes for <source> tag used in <video> and <audio>
+    $allowed_source_atts = [
+      'src'        => [],
+      'type'       => [],
+      'media'      => [], // Specifies the media for which the source is designed
+    ];
+
+    // Add allowed tags with the defined attributes (excluding potentially harmful tags)
+    $allowedposttags['form']     = $allowed_atts;
+    $allowedposttags['label']    = $allowed_atts;
+    $allowedposttags['input']    = $allowed_atts;
+    $allowedposttags['textarea'] = $allowed_atts;
+    $allowedposttags['strong']   = $allowed_atts;
+    $allowedposttags['small']    = $allowed_atts;
+    $allowedposttags['table']    = $allowed_atts;
+    $allowedposttags['span']     = $allowed_atts;
+    $allowedposttags['abbr']     = $allowed_atts;
+    $allowedposttags['code']     = $allowed_atts;
+    $allowedposttags['pre']      = $allowed_atts;
+    $allowedposttags['div']      = $allowed_atts;
+    $allowedposttags['img']      = $allowed_atts;
+    $allowedposttags['h1']       = $allowed_atts;
+    $allowedposttags['h2']       = $allowed_atts;
+    $allowedposttags['h3']       = $allowed_atts;
+    $allowedposttags['h4']       = $allowed_atts;
+    $allowedposttags['h5']       = $allowed_atts;
+    $allowedposttags['h6']       = $allowed_atts;
+    $allowedposttags['ol']       = $allowed_atts;
+    $allowedposttags['ul']       = $allowed_atts;
+    $allowedposttags['li']       = $allowed_atts;
+    $allowedposttags['em']       = $allowed_atts;
+    $allowedposttags['hr']       = $allowed_atts;
+    $allowedposttags['br']       = $allowed_atts;
+    $allowedposttags['tr']       = $allowed_atts;
+    $allowedposttags['td']       = $allowed_atts;
+    $allowedposttags['p']        = $allowed_atts;
+    $allowedposttags['a']        = $allowed_atts;
+    $allowedposttags['b']        = $allowed_atts;
+    $allowedposttags['i']        = $allowed_atts;
+
+    // Add SVG and related elements with allowed attributes
+    $allowedposttags['svg']  = $allowed_svg_atts;
+    $allowedposttags['path'] = $allowed_svg_atts;
+
+    // Add iframe with allowed attributes
+    $allowedposttags['iframe'] = $allowed_iframe_atts;
+
+    // Add video and audio tags with allowed attributes
+    $allowedposttags['video'] = $allowed_atts;
+    $allowedposttags['audio'] = $allowed_atts;
+
+    // Add <source> tag (for video/audio) with allowed attributes
+    $allowedposttags['source'] = $allowed_source_atts;
+
+    // Return the filtered tags and attributes
+    return $allowedposttags;
+  }
+}

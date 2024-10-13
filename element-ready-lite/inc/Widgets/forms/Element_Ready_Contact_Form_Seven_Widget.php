@@ -1604,9 +1604,9 @@ class Element_Ready_Contact_Form_Seven_Widget extends Widget_Base
         <div <?php echo wp_kses_post($this->get_render_attribute_string('element__ready__form__area__attr')); ?>>
             <?php
             if (!empty($settings['element_ready_contact_form_id'])) {
-                echo do_shortcode('[contact-form-7  id="' . $settings['element_ready_contact_form_id'] . '"]');
+                echo do_shortcode('[contact-form-7  id="' . esc_attr($settings['element_ready_contact_form_id']) . '"]');
             } else {
-                echo sprintf('<div class="form_no_select">%s</div>', __('Please Select contact form.', 'element-ready-lite'));
+                echo wp_kses_post(sprintf('<div class="form_no_select">%s</div>', __('Please Select contact form.', 'element-ready-lite')));
             }
             ?>
         </div>
