@@ -471,16 +471,47 @@ if (!function_exists('element_ready_lite_wp_kses_allowed_html')) {
 
     // Define allowed attributes for SVG tags
     $allowed_svg_atts = [
-      'xmlns'       => [],
-      'viewBox'     => [],
-      'version'     => [],
-      'width'       => [],
-      'height'      => [],
-      'fill'        => [],
-      'stroke'      => [],
+      'xmlns'        => [],
+		'id'        => [],
+		'url'        => [],
+		'gradientUnits'        => [],
+      'viewBox'      => [],
+      'version'      => [],
+      'width'        => [],
+      'height'       => [],
+      'fill'         => [],
+      'stroke'       => [],
       'stroke-width' => [],
-      'd'           => [], // for path elements
+      'd'            => [],  // Path elements
+      'x'            => [],
+	'x1'            => [],
+		'x2'            => [],	
+      'y'            => [],
+		'y1'            => [],
+		'y2'            => [],
+      'cx'           => [],
+      'cy'           => [],
+      'r'            => [],
+      'rx'           => [],
+      'ry'           => [],
+      'xlink:href'   => [],  // Linking other SVGs
+      'points'       => [],  // Polygon/Polyline
+      'transform'    => [],  // Transformations like rotate, scale, etc.
+      'offset'       => [],  // Gradients stop positions
+      'stop-color'   => [],  // Gradients stop color
+      'stop-opacity' => [],  // Gradients stop opacity
     ];
+
+    // Add commonly used SVG tags
+    $svg_tags = [
+            'svg', 'g', 'path', 'circle', 'rect', 'ellipse', 'line', 
+            'polyline', 'polygon', 'text', 'tspan', 'use', 'defs',
+            'linearGradient', 'radialGradient', 'stop', 'clipPath'
+        ];
+
+    foreach ($svg_tags as $tag) {
+      $allowedposttags[$tag] = $allowed_svg_atts;
+    }
 
     // Define allowed attributes for iframe tag
     $allowed_iframe_atts = [
@@ -538,10 +569,6 @@ if (!function_exists('element_ready_lite_wp_kses_allowed_html')) {
     $allowedposttags['b']        = $allowed_atts;
     $allowedposttags['i']        = $allowed_atts;
 
-    // Add SVG and related elements with allowed attributes
-    $allowedposttags['svg']  = $allowed_svg_atts;
-    $allowedposttags['path'] = $allowed_svg_atts;
-
     // Add iframe with allowed attributes
     $allowedposttags['iframe'] = $allowed_iframe_atts;
 
@@ -555,4 +582,8 @@ if (!function_exists('element_ready_lite_wp_kses_allowed_html')) {
     // Return the filtered tags and attributes
     return $allowedposttags;
   }
+
+  add_filter('wp_kses_allowed_html', 'element_ready_lite_wp_kses_allowed_html', 10, 2);
 }
+
+

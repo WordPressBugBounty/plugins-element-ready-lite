@@ -2575,13 +2575,13 @@ class Element_Ready_Subscriber_Widget extends Widget_Base
 		$this->add_render_attribute('subscriber-form-attr', 'class', 'mailchimp_from__box');
 		$this->add_render_attribute('subscriber-form-attr', 'data-value', wp_json_encode($parse_data));
 
-		echo wp_kses_post('
+		echo ('
 			
 			<div ' . $this->get_render_attribute_string('subscriber-form-attr') . '>				
 				' . (isset($icon) ? $icon : '') . '
-				' . (isset($title_subtitle) ? $title_subtitle : '') . '
-				' . (isset($description) ? $description : '') . '
-				' . (isset($form) ? $form : '') . '
+				' . (isset($title_subtitle) ? wp_kses_post($title_subtitle) : '') . '
+				' . (isset($description) ? wp_kses_post($description) : '') . '
+				' . (isset($form) ? wp_kses_post($form) : '') . '
 			</div>
 		');
 	}

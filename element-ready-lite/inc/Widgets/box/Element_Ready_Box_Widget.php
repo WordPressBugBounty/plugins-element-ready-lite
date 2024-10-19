@@ -1849,16 +1849,16 @@ class Element_Ready_Box_Widget extends Widget_Base
 		if ('yes' == $settings['show_box_image']) {
 			if ('before' == $settings['box_image_postion']) {
 
-				echo wp_kses_post('
+				echo ('
 					<div ' . $this->get_render_attribute_string('box_wrap_style_attr') . '>
 						' . (isset($box_image) ? $box_image : '') . '
 						<div ' . $this->get_render_attribute_string('box_style_attr') . '>
-							' . (isset($box_iocn_or_text) ? $box_iocn_or_text : '') . '
+							' . (isset($box_iocn_or_text) ? wp_kses_post($box_iocn_or_text) : '') . '
 							' . (isset($icon) ? $icon : '') . '
-							' . (isset($title_subtitle) ? $title_subtitle : '') . '
-							' . (isset($description) ? $description : '') . '
-							' . (isset($button) ? $button : '') . '
-							' . (!empty($hoverCirclesEfeect) ? $hoverCirclesEfeect : '') . '
+							' . (isset($title_subtitle) ? wp_kses_post($title_subtitle) : '') . '
+							' . (isset($description) ? wp_kses_post($description) : '') . '
+							' . (isset($button) ? wp_kses_post($button) : '') . '
+							' . (!empty($hoverCirclesEfeect) ? wp_kses_post($hoverCirclesEfeect) : '') . '
 						</div>
 					</div>
 				');
@@ -1866,25 +1866,25 @@ class Element_Ready_Box_Widget extends Widget_Base
 				echo wp_kses_post('
 					<div ' . $this->get_render_attribute_string('box_wrap_style_attr') . '>
 						<div ' . $this->get_render_attribute_string('box_style_attr') . '>
-							' . (isset($box_iocn_or_text) ? $box_iocn_or_text : '') . '
+							' . (isset($box_iocn_or_text) ? wp_kses_post($box_iocn_or_text) : '') . '
 							' . (isset($icon) ? $icon : '') . '
-							' . (isset($title_subtitle) ? $title_subtitle : '') . '
-							' . (isset($description) ? $description : '') . '
-							' . (isset($button) ? $button : '') . '
-							' . (!empty($hoverCirclesEfeect) ? $hoverCirclesEfeect : '') . '
+							' . (isset($title_subtitle) ? wp_kses_post($title_subtitle) : '') . '
+							' . (isset($description) ? wp_kses_post($description) : '') . '
+							' . (isset($button) ? wp_kses_post($button) : '') . '
+							' . (!empty($hoverCirclesEfeect) ?  wp_kses_post($hoverCirclesEfeect) : '') . '
 						</div>
 						' . (isset($box_image) ? $box_image : '') . '
 					</div>
 				');
 			}
 		} else {
-			echo wp_kses_post('<div ' . $this->get_render_attribute_string('box_style_attr') . '>
-					' . (isset($box_iocn_or_text) ? $box_iocn_or_text : '') . '
+			echo ('<div ' . $this->get_render_attribute_string('box_style_attr') . '>
+					' . (isset($box_iocn_or_text) ? wp_kses_post($box_iocn_or_text) : '') . '
 					' . (isset($icon) ? $icon : '') . '
-					' . (isset($title_subtitle) ? $title_subtitle : '') . '
-					' . (isset($description) ? $description : '') . '
-					' . (isset($button) ? $button : '') . '
-					' . (!empty($hoverCirclesEfeect) ? $hoverCirclesEfeect : '') . '
+					' . (isset($title_subtitle) ? wp_kses_post($title_subtitle) : '') . '
+					' . (isset($description) ? wp_kses_post($description) : '') . '
+					' . (isset($button) ? wp_kses_post($button) : '') . '
+					' . (!empty($hoverCirclesEfeect) ? wp_kses_post($hoverCirclesEfeect) : '') . '
 				</div>');
 		}
 	}
