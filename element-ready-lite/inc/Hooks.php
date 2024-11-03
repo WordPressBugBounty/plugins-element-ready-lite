@@ -472,9 +472,9 @@ if (!function_exists('element_ready_lite_wp_kses_allowed_html')) {
     // Define allowed attributes for SVG tags
     $allowed_svg_atts = [
       'xmlns'        => [],
-		'id'        => [],
-		'url'        => [],
-		'gradientUnits'        => [],
+      'id'           => [],
+      'url'          => [],
+      'gradientUnits'=> [],
       'viewBox'      => [],
       'version'      => [],
       'width'        => [],
@@ -484,11 +484,11 @@ if (!function_exists('element_ready_lite_wp_kses_allowed_html')) {
       'stroke-width' => [],
       'd'            => [],  // Path elements
       'x'            => [],
-	'x1'            => [],
-		'x2'            => [],	
+      'x1'           => [],
+      'x2'           => [],  
       'y'            => [],
-		'y1'            => [],
-		'y2'            => [],
+      'y1'           => [],
+      'y2'           => [],
       'cx'           => [],
       'cy'           => [],
       'r'            => [],
@@ -504,10 +504,10 @@ if (!function_exists('element_ready_lite_wp_kses_allowed_html')) {
 
     // Add commonly used SVG tags
     $svg_tags = [
-            'svg', 'g', 'path', 'circle', 'rect', 'ellipse', 'line', 
-            'polyline', 'polygon', 'text', 'tspan', 'use', 'defs',
-            'linearGradient', 'radialGradient', 'stop', 'clipPath'
-        ];
+      'svg', 'g', 'path', 'circle', 'rect', 'ellipse', 'line', 
+      'polyline', 'polygon', 'text', 'tspan', 'use', 'defs',
+      'linearGradient', 'radialGradient', 'stop', 'clipPath'
+    ];
 
     foreach ($svg_tags as $tag) {
       $allowedposttags[$tag] = $allowed_svg_atts;
@@ -534,6 +534,11 @@ if (!function_exists('element_ready_lite_wp_kses_allowed_html')) {
       'src'        => [],
       'type'       => [],
       'media'      => [], // Specifies the media for which the source is designed
+    ];
+
+    // Define allowed attributes for style tag (only the style attribute itself)
+    $allowed_style_atts = [
+      'type' => [], // Allows specifying CSS MIME type (text/css)
     ];
 
     // Add allowed tags with the defined attributes (excluding potentially harmful tags)
@@ -579,11 +584,13 @@ if (!function_exists('element_ready_lite_wp_kses_allowed_html')) {
     // Add <source> tag (for video/audio) with allowed attributes
     $allowedposttags['source'] = $allowed_source_atts;
 
+    // Add style tag
+    $allowedposttags['style'] = $allowed_style_atts;
+
     // Return the filtered tags and attributes
     return $allowedposttags;
   }
 
-  add_filter('wp_kses_allowed_html', 'element_ready_lite_wp_kses_allowed_html', 10, 2);
 }
 
 
