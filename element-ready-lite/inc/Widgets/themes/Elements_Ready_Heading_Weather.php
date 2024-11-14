@@ -155,7 +155,7 @@ class Elements_Ready_Heading_Weather extends Widget_Base
 					'default'      => '',
 				],
 				'custom_icon_image' => [
-					'label' => esc_html__('Choose Image', 'textdomain'),
+					'label' => esc_html__('Choose Image', 'element-ready-lite'),
 					'type' => \Elementor\Controls_Manager::MEDIA,
 					'default' => [
 						'url' => ELEMENT_READY_ROOT_IMG . '/temp.png',

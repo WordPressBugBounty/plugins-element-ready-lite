@@ -48,7 +48,7 @@
             jQuery('.offcanvas_menu_wrapper,.off_canvars_overlay').removeClass('active')
         });
 
-        var $offcanvasNav = jQuery('.offcanvas_main_menu'),
+        var $offcanvasNav = jQuery('.offcanvas_main_menu,.element_ready_offcanvas_main_menu'),
             $offcanvasNavSubMenu = $offcanvasNav.find('.sub-menu');
         $offcanvasNavSubMenu.parent().prepend('<span class="menu-expand"><i class="fa fa-angle-down"></i></span>');
 

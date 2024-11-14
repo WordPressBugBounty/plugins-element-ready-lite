@@ -86,7 +86,7 @@ class Element_Ready_Portfolio extends Widget_Base
             '6_pro'      => esc_html__('Layout Six - PRO', 'element-ready-lite'),
             '7_pro'      => esc_html__('Layout Seven - PRO', 'element-ready-lite'),
             '8_pro'      => esc_html__('Layout Eight - PRO', 'element-ready-lite'),
-            '9' => esc_html__('Layout Nine', 'element-ready-pro'),
+            '9' => esc_html__('Layout Nine', 'element-ready-lite'),
             'custom_pro' => esc_html__('Layout Custom - PRO', 'element-ready-lite'),
         ]);
     }
@@ -2425,7 +2425,7 @@ class Element_Ready_Portfolio extends Widget_Base
                 'default' => '',
                 'options' => [
                     'flex'  => esc_html__('Flex', 'element-ready-lite'),
-                    'inline-flex' => esc_html__('Inline Block', 'element-ready-litee'),
+                    'inline-flex' => esc_html__('Inline Block', 'element-ready-lite'),
                     'block' => esc_html__('Block', 'element-ready-lite'),
                     'inline-block' => esc_html__('Inline Block', 'element-ready-lite'),
                     'none' => esc_html__('None', 'element-ready-lite'),
@@ -2602,7 +2602,7 @@ class Element_Ready_Portfolio extends Widget_Base
         $this->start_controls_section(
             'post_slider_date_style_section',
             [
-                'label'     => __('Date', 'element-ready-pro'),
+                'label'     => __('Date', 'element-ready-lite'),
                 'tab'       => Controls_Manager::TAB_STYLE,
                 'condition' => [
                     'content_layout_style' => '9',
@@ -2612,7 +2612,7 @@ class Element_Ready_Portfolio extends Widget_Base
         $this->add_control(
             'date_color',
             [
-                'label'  => __('Color', 'element-ready-pro'),
+                'label'  => __('Color', 'element-ready-lite'),
                 'type'   => Controls_Manager::COLOR,
                 'selectors' => [
                     '{{WRAPPER}} .portfolio__date' => 'color: {{VALUE}}',
@@ -2623,7 +2623,7 @@ class Element_Ready_Portfolio extends Widget_Base
         $this->add_control(
             'date_hover_color',
             [
-                'label'  => __('Hover Color', 'element-ready-pro'),
+                'label'  => __('Hover Color', 'element-ready-lite'),
                 'type'   => Controls_Manager::COLOR,
                 'selectors' => [
                     '{{WRAPPER}} .portfolio__date:hover' => 'color: {{VALUE}}',
@@ -2635,7 +2635,7 @@ class Element_Ready_Portfolio extends Widget_Base
             Group_Control_Typography::get_type(),
             [
                 'name'     => 'date_typography',
-                'label'    => __('Typography', 'element-ready-pro'),
+                'label'    => __('Typography', 'element-ready-lite'),
                 'selector' => '{{WRAPPER}} .portfolio__date',
             ]
         );

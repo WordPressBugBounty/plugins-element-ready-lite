@@ -205,7 +205,7 @@ class Element_Ready_page_cookie
                 'label'       => esc_html__('Delay', 'element-ready-lite'),
                 'type'        => \Elementor\Controls_Manager::NUMBER,
                 'default'     => 2000,
-                'description' => esc_html__('In second'),
+                'description' => esc_html__('In second', 'element-ready-lite'),
                 'label_block' => false,
 
             ]
@@ -224,7 +224,7 @@ class Element_Ready_page_cookie
         $page->add_control(
             'eready_cookie_consent_title_color',
             [
-                'label' => esc_html__('Title Color', 'elementor'),
+                'label' => esc_html__('Title Color', 'element-ready-lite'),
                 'type' => \Elementor\Controls_Manager::COLOR,
                 'selectors' => [
                     '{{WRAPPER}} #gdpr-cookie-message h4' => 'color: {{VALUE}}',
@@ -235,7 +235,7 @@ class Element_Ready_page_cookie
         $page->add_control(
             'eready_cookie_consent_hoiver_title_color',
             [
-                'label' => esc_html__('Hover Color', 'elementor'),
+                'label' => esc_html__('Hover Color', 'element-ready-lite'),
                 'type' => \Elementor\Controls_Manager::COLOR,
                 'selectors' => [
                     '{{WRAPPER}} #gdpr-cookie-message h4:hover' => 'color: {{VALUE}}',
@@ -316,7 +316,7 @@ class Element_Ready_page_cookie
         $page->add_control(
             'eready_cookie_consent_mnss_color',
             [
-                'label' => esc_html__('Color', 'elementor'),
+                'label' => esc_html__('Color', 'element-ready-lite'),
                 'type' => \Elementor\Controls_Manager::COLOR,
                 'selectors' => [
                     '{{WRAPPER}} #gdpr-cookie-message p' => 'color: {{VALUE}}',
@@ -327,7 +327,7 @@ class Element_Ready_page_cookie
         $page->add_control(
             'eready_cookie_consent_hoiver_messgae_color',
             [
-                'label' => esc_html__('Hover Color', 'elementor'),
+                'label' => esc_html__('Hover Color', 'element-ready-lite'),
                 'type' => \Elementor\Controls_Manager::COLOR,
                 'selectors' => [
                     '{{WRAPPER}} #gdpr-cookie-message p:hover' => 'color: {{VALUE}}',
@@ -408,7 +408,7 @@ class Element_Ready_page_cookie
         $page->add_control(
             'eready_cookie_consent_accept_button_color',
             [
-                'label' => esc_html__('Color', 'elementor'),
+                'label' => esc_html__('Color', 'element-ready-lite'),
                 'type' => \Elementor\Controls_Manager::COLOR,
                 'selectors' => [
                     '{{WRAPPER}}  #gdpr-cookie-accept' => 'color: {{VALUE}}',
@@ -419,7 +419,7 @@ class Element_Ready_page_cookie
         $page->add_control(
             'eready_cookie_consent_hoiver_acc_button_color',
             [
-                'label' => esc_html__('Hover Color', 'elementor'),
+                'label' => esc_html__('Hover Color', 'element-ready-lite'),
                 'type' => \Elementor\Controls_Manager::COLOR,
                 'selectors' => [
                     '{{WRAPPER}}  #gdpr-cookie-accept:hover' => 'color: {{VALUE}}',
@@ -557,7 +557,7 @@ class Element_Ready_page_cookie
         $page->add_control(
             'eready_cookie_consent_adv_button_color',
             [
-                'label' => esc_html__('Color', 'elementor'),
+                'label' => esc_html__('Color', 'element-ready-lite'),
                 'type' => \Elementor\Controls_Manager::COLOR,
                 'selectors' => [
                     '{{WRAPPER}} #gdpr-cookie-advanced' => 'color: {{VALUE}}',
@@ -568,7 +568,7 @@ class Element_Ready_page_cookie
         $page->add_control(
             'eready_cookie_consent_hoiver_adv_button_color',
             [
-                'label' => esc_html__('Hover Color', 'elementor'),
+                'label' => esc_html__('Hover Color', 'element-ready-lite'),
                 'type' => \Elementor\Controls_Manager::COLOR,
                 'selectors' => [
                     '{{WRAPPER}} #gdpr-cookie-advanced:hover' => 'color: {{VALUE}}',

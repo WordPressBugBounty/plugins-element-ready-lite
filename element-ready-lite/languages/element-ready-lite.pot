@@ -2,7 +2,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: element-ready\n"
-"POT-Creation-Date: 2024-11-03 09:20+0600\n"
+"POT-Creation-Date: 2024-11-14 16:13+0600\n"
 "PO-Revision-Date: 2018-09-23 14:48+0600\n"
 "Last-Translator: \n"
 "Language-Team: quomodosoft team\n"
@@ -1117,7 +1117,7 @@ msgstr ""
 #: inc/Widgets/scroll_button/Element_Ready_Scroll_Button.php:170
 #: inc/Widgets/search/Search.php:168
 #: inc/Widgets/socials/Element_Ready_Social_Widget.php:95
-#: inc/Widgets/socials/Element_Ready_Social_Widget.php:365
+#: inc/Widgets/socials/Element_Ready_Social_Widget.php:366
 #: inc/Widgets/table/Element_Ready_Data_Table_Widget.php:254
 #: inc/Widgets/themes/Elements_Ready_Drop_Down_Select_Box.php:311
 #: inc/Widgets/user/Signin_SignUp.php:129
@@ -1391,8 +1391,8 @@ msgstr ""
 #: inc/Widgets/slider/Element_Ready_Content_Slider_Widget.php:1079
 #: inc/Widgets/slider/Element_Ready_Content_Slider_Widget.php:1250
 #: inc/Widgets/slider/Element_Ready_Content_Slider_Widget.php:1614
-#: inc/Widgets/socials/Element_Ready_Social_Widget.php:476
-#: inc/Widgets/socials/Element_Ready_Social_Widget.php:679
+#: inc/Widgets/socials/Element_Ready_Social_Widget.php:482
+#: inc/Widgets/socials/Element_Ready_Social_Widget.php:687
 #: inc/Widgets/table/Element_Ready_Data_Table_Widget.php:359
 #: inc/Widgets/teams/Element_Ready_Teams_Widget.php:1237
 #: inc/Widgets/teams/Element_Ready_Teams_Widget.php:1250
@@ -1822,8 +1822,8 @@ msgstr ""
 #: inc/Widgets/scroll_button/Element_Ready_Scroll_Button.php:1025
 #: inc/Widgets/slider/Element_Ready_Content_Slider_Widget.php:825
 #: inc/Widgets/slider/Element_Ready_Content_Slider_Widget.php:845
-#: inc/Widgets/socials/Element_Ready_Social_Widget.php:591
-#: inc/Widgets/socials/Element_Ready_Social_Widget.php:610
+#: inc/Widgets/socials/Element_Ready_Social_Widget.php:599
+#: inc/Widgets/socials/Element_Ready_Social_Widget.php:618
 #: inc/Widgets/teams/Element_Ready_Teams_Widget.php:961
 #: inc/Widgets/teams/Element_Ready_Teams_Widget.php:983
 #: inc/Widgets/teams/Element_Ready_Teams_Widget.php:1533
@@ -3128,8 +3128,8 @@ msgstr ""
 #: inc/Widgets/price_table/Element_Ready_Pricing_Table.php:3675
 #: inc/Widgets/scroll_button/Element_Ready_Scroll_Button.php:1030
 #: inc/Widgets/slider/Element_Ready_Content_Slider_Widget.php:830
-#: inc/Widgets/socials/Element_Ready_Social_Widget.php:596
-#: inc/Widgets/socials/Element_Ready_Social_Widget.php:615
+#: inc/Widgets/socials/Element_Ready_Social_Widget.php:604
+#: inc/Widgets/socials/Element_Ready_Social_Widget.php:623
 #: inc/Widgets/teams/Element_Ready_Teams_Widget.php:966
 #: inc/Widgets/teams/Element_Ready_Teams_Widget.php:1538
 #: inc/Widgets/teams/Element_Ready_Teams_Widget.php:2298
@@ -3525,8 +3525,8 @@ msgstr ""
 #: inc/Widgets/scroll_button/Element_Ready_Scroll_Button.php:814
 #: inc/Widgets/scroll_button/Element_Ready_Scroll_Button.php:1040
 #: inc/Widgets/slider/Element_Ready_Content_Slider_Widget.php:970
-#: inc/Widgets/socials/Element_Ready_Social_Widget.php:329
-#: inc/Widgets/socials/Element_Ready_Social_Widget.php:726
+#: inc/Widgets/socials/Element_Ready_Social_Widget.php:330
+#: inc/Widgets/socials/Element_Ready_Social_Widget.php:734
 #: inc/Widgets/table/Element_Ready_Data_Table_Widget.php:468
 #: inc/Widgets/table/Element_Ready_Data_Table_Widget.php:630
 #: inc/Widgets/teams/Element_Ready_Teams_Widget.php:1118
@@ -3643,8 +3643,8 @@ msgstr ""
 #: inc/Widgets/shortcode/Element_Ready_Shortcode_Widget.php:700
 #: inc/Widgets/slider/Element_Ready_Content_Slider_Widget.php:974
 #: inc/Widgets/slider/Element_Ready_Content_Slider_Widget.php:1658
-#: inc/Widgets/socials/Element_Ready_Social_Widget.php:333
-#: inc/Widgets/socials/Element_Ready_Social_Widget.php:730
+#: inc/Widgets/socials/Element_Ready_Social_Widget.php:334
+#: inc/Widgets/socials/Element_Ready_Social_Widget.php:738
 #: inc/Widgets/table/Element_Ready_Data_Table_Widget.php:472
 #: inc/Widgets/table/Element_Ready_Data_Table_Widget.php:503
 #: inc/Widgets/table/Element_Ready_Data_Table_Widget.php:634
@@ -3762,8 +3762,8 @@ msgstr ""
 #: inc/Widgets/scroll_button/Element_Ready_Scroll_Button.php:1048
 #: inc/Widgets/slider/Element_Ready_Content_Slider_Widget.php:978
 #: inc/Widgets/slider/Element_Ready_Content_Slider_Widget.php:1662
-#: inc/Widgets/socials/Element_Ready_Social_Widget.php:337
-#: inc/Widgets/socials/Element_Ready_Social_Widget.php:734
+#: inc/Widgets/socials/Element_Ready_Social_Widget.php:338
+#: inc/Widgets/socials/Element_Ready_Social_Widget.php:742
 #: inc/Widgets/table/Element_Ready_Data_Table_Widget.php:476
 #: inc/Widgets/table/Element_Ready_Data_Table_Widget.php:507
 #: inc/Widgets/table/Element_Ready_Data_Table_Widget.php:638
@@ -3892,8 +3892,8 @@ msgstr ""
 #: inc/Widgets/shortcode/Element_Ready_Shortcode_Widget.php:708
 #: inc/Widgets/slider/Element_Ready_Content_Slider_Widget.php:982
 #: inc/Widgets/slider/Element_Ready_Content_Slider_Widget.php:1666
-#: inc/Widgets/socials/Element_Ready_Social_Widget.php:341
-#: inc/Widgets/socials/Element_Ready_Social_Widget.php:738
+#: inc/Widgets/socials/Element_Ready_Social_Widget.php:342
+#: inc/Widgets/socials/Element_Ready_Social_Widget.php:746
 #: inc/Widgets/table/Element_Ready_Data_Table_Widget.php:480
 #: inc/Widgets/table/Element_Ready_Data_Table_Widget.php:511
 #: inc/Widgets/table/Element_Ready_Data_Table_Widget.php:642
@@ -4229,8 +4229,8 @@ msgstr ""
 #: inc/Widgets/slider/Element_Ready_Content_Slider_Widget.php:702
 #: inc/Widgets/slider/Element_Ready_Content_Slider_Widget.php:1090
 #: inc/Widgets/slider/Element_Ready_Content_Slider_Widget.php:1262
-#: inc/Widgets/socials/Element_Ready_Social_Widget.php:489
-#: inc/Widgets/socials/Element_Ready_Social_Widget.php:692
+#: inc/Widgets/socials/Element_Ready_Social_Widget.php:496
+#: inc/Widgets/socials/Element_Ready_Social_Widget.php:700
 #: inc/Widgets/table/Element_Ready_Data_Table_Widget.php:347
 #: inc/Widgets/teams/Element_Ready_Teams_Widget.php:1821
 #: inc/Widgets/teams/Element_Ready_Teams_Widget.php:2450
@@ -4491,11 +4491,11 @@ msgstr ""
 #: inc/Widgets/slider/Element_Ready_Content_Slider_Widget.php:1691
 #: inc/Widgets/socials/Element_Ready_Social_Widget.php:166
 #: inc/Widgets/socials/Element_Ready_Social_Widget.php:202
-#: inc/Widgets/socials/Element_Ready_Social_Widget.php:246
-#: inc/Widgets/socials/Element_Ready_Social_Widget.php:292
-#: inc/Widgets/socials/Element_Ready_Social_Widget.php:403
-#: inc/Widgets/socials/Element_Ready_Social_Widget.php:548
-#: inc/Widgets/socials/Element_Ready_Social_Widget.php:777
+#: inc/Widgets/socials/Element_Ready_Social_Widget.php:247
+#: inc/Widgets/socials/Element_Ready_Social_Widget.php:293
+#: inc/Widgets/socials/Element_Ready_Social_Widget.php:405
+#: inc/Widgets/socials/Element_Ready_Social_Widget.php:556
+#: inc/Widgets/socials/Element_Ready_Social_Widget.php:785
 #: inc/Widgets/teams/Element_Ready_Teams_Widget.php:915
 #: inc/Widgets/teams/Element_Ready_Teams_Widget.php:1318
 #: inc/Widgets/teams/Element_Ready_Teams_Widget.php:1397
@@ -5275,7 +5275,7 @@ msgstr ""
 #: inc/Widgets/slider/Element_Ready_Content_Slider_Widget.php:999
 #: inc/Widgets/slider/Element_Ready_Content_Slider_Widget.php:1224
 #: inc/Widgets/slider/Element_Ready_Content_Slider_Widget.php:1579
-#: inc/Widgets/socials/Element_Ready_Social_Widget.php:626
+#: inc/Widgets/socials/Element_Ready_Social_Widget.php:634
 #: inc/Widgets/teams/Element_Ready_Teams_Widget.php:1149
 #: inc/Widgets/teams/Element_Ready_Teams_Widget.php:1467
 #: inc/Widgets/teams/Element_Ready_Teams_Widget.php:1859
@@ -5399,7 +5399,7 @@ msgstr ""
 #: inc/Widgets/slider/Element_Ready_Content_Slider_Widget.php:1024
 #: inc/Widgets/slider/Element_Ready_Content_Slider_Widget.php:1198
 #: inc/Widgets/slider/Element_Ready_Content_Slider_Widget.php:1553
-#: inc/Widgets/socials/Element_Ready_Social_Widget.php:653
+#: inc/Widgets/socials/Element_Ready_Social_Widget.php:661
 #: inc/Widgets/teams/Element_Ready_Teams_Widget.php:1176
 #: inc/Widgets/teams/Element_Ready_Teams_Widget.php:1494
 #: inc/Widgets/teams/Element_Ready_Teams_Widget.php:1886
@@ -5593,10 +5593,10 @@ msgstr ""
 #: inc/Widgets/slider/Element_Ready_Content_Slider_Widget.php:1408
 #: inc/Widgets/slider/Element_Ready_Content_Slider_Widget.php:1633
 #: inc/Widgets/slider/Element_Ready_Content_Slider_Widget.php:1707
-#: inc/Widgets/socials/Element_Ready_Social_Widget.php:262
-#: inc/Widgets/socials/Element_Ready_Social_Widget.php:421
-#: inc/Widgets/socials/Element_Ready_Social_Widget.php:568
-#: inc/Widgets/socials/Element_Ready_Social_Widget.php:797
+#: inc/Widgets/socials/Element_Ready_Social_Widget.php:263
+#: inc/Widgets/socials/Element_Ready_Social_Widget.php:424
+#: inc/Widgets/socials/Element_Ready_Social_Widget.php:576
+#: inc/Widgets/socials/Element_Ready_Social_Widget.php:805
 #: inc/Widgets/table/Element_Ready_Data_Table_Widget.php:380
 #: inc/Widgets/table/Element_Ready_Data_Table_Widget.php:457
 #: inc/Widgets/table/Element_Ready_Data_Table_Widget.php:619
@@ -5859,8 +5859,8 @@ msgstr ""
 #: inc/Widgets/slider/Element_Ready_Content_Slider_Widget.php:1381
 #: inc/Widgets/socials/Element_Ready_Social_Widget.php:154
 #: inc/Widgets/socials/Element_Ready_Social_Widget.php:234
-#: inc/Widgets/socials/Element_Ready_Social_Widget.php:534
-#: inc/Widgets/socials/Element_Ready_Social_Widget.php:764
+#: inc/Widgets/socials/Element_Ready_Social_Widget.php:542
+#: inc/Widgets/socials/Element_Ready_Social_Widget.php:772
 #: inc/Widgets/teams/Element_Ready_Teams_Widget.php:1304
 #: inc/Widgets/teams/Element_Ready_Teams_Widget.php:1384
 #: inc/Widgets/teams/Element_Ready_Teams_Widget.php:2972
@@ -6084,11 +6084,11 @@ msgstr ""
 #: inc/Widgets/slider/Element_Ready_Content_Slider_Widget.php:1700
 #: inc/Widgets/socials/Element_Ready_Social_Widget.php:175
 #: inc/Widgets/socials/Element_Ready_Social_Widget.php:211
-#: inc/Widgets/socials/Element_Ready_Social_Widget.php:255
-#: inc/Widgets/socials/Element_Ready_Social_Widget.php:301
-#: inc/Widgets/socials/Element_Ready_Social_Widget.php:413
-#: inc/Widgets/socials/Element_Ready_Social_Widget.php:559
-#: inc/Widgets/socials/Element_Ready_Social_Widget.php:788
+#: inc/Widgets/socials/Element_Ready_Social_Widget.php:256
+#: inc/Widgets/socials/Element_Ready_Social_Widget.php:302
+#: inc/Widgets/socials/Element_Ready_Social_Widget.php:416
+#: inc/Widgets/socials/Element_Ready_Social_Widget.php:567
+#: inc/Widgets/socials/Element_Ready_Social_Widget.php:796
 #: inc/Widgets/table/Element_Ready_Data_Table_Widget.php:372
 #: inc/Widgets/table/Element_Ready_Data_Table_Widget.php:449
 #: inc/Widgets/table/Element_Ready_Data_Table_Widget.php:611
@@ -6215,7 +6215,7 @@ msgstr ""
 
 #: inc/Modules/Menu_Builder/Widgets/Menu.php:2062
 #: inc/Widgets/search/Search.php:430
-#: inc/Widgets/socials/Element_Ready_Social_Widget.php:375
+#: inc/Widgets/socials/Element_Ready_Social_Widget.php:376
 #: inc/Widgets/video/Element_Ready_Widget_Video.php:731
 msgid "Icon Font Size"
 msgstr ""
@@ -6247,7 +6247,7 @@ msgid "Menu Right"
 msgstr ""
 
 #: inc/Modules/Menu_Builder/Widgets/Menu.php:2577
-#: inc/Widgets/socials/Element_Ready_Social_Widget.php:454
+#: inc/Widgets/socials/Element_Ready_Social_Widget.php:459
 #: inc/Widgets/themes/Elements_Ready_Drop_Down_Select_Box.php:319
 msgid "Icon Width"
 msgstr ""
@@ -6422,7 +6422,7 @@ msgstr ""
 #: inc/Widgets/shortcode/Element_Ready_Shortcode_Widget.php:528
 #: inc/Widgets/slider/Element_Ready_Content_Slider_Widget.php:1122
 #: inc/Widgets/slider/Element_Ready_Content_Slider_Widget.php:1547
-#: inc/Widgets/socials/Element_Ready_Social_Widget.php:517
+#: inc/Widgets/socials/Element_Ready_Social_Widget.php:525
 #: inc/Widgets/teams/Element_Ready_Teams_Widget.php:1296
 #: inc/Widgets/teams/Element_Ready_Teams_Widget.php:1851
 #: inc/Widgets/teams/Element_Ready_Teams_Widget.php:2593
@@ -6574,7 +6574,7 @@ msgstr ""
 #: inc/Widgets/search/Search.php:454
 #: inc/Widgets/shortcode/Element_Ready_Shortcode_Widget.php:724
 #: inc/Widgets/slider/Element_Ready_Content_Slider_Widget.php:1375
-#: inc/Widgets/socials/Element_Ready_Social_Widget.php:756
+#: inc/Widgets/socials/Element_Ready_Social_Widget.php:764
 #: inc/Widgets/teams/Element_Ready_Teams_Widget.php:1376
 #: inc/Widgets/teams/Element_Ready_Teams_Widget.php:2704
 #: inc/Widgets/teams/Element_Ready_Teams_Widget.php:3710
@@ -7194,7 +7194,7 @@ msgstr ""
 #: inc/Widgets/scroll_button/Element_Ready_Scroll_Button.php:750
 #: inc/Widgets/scroll_button/Element_Ready_Scroll_Button.php:1021
 #: inc/Widgets/slider/Element_Ready_Content_Slider_Widget.php:821
-#: inc/Widgets/socials/Element_Ready_Social_Widget.php:588
+#: inc/Widgets/socials/Element_Ready_Social_Widget.php:596
 #: inc/Widgets/teams/Element_Ready_Teams_Widget.php:957
 #: inc/Widgets/teams/Element_Ready_Teams_Widget.php:1529
 #: inc/Widgets/teams/Element_Ready_Teams_Widget.php:2289
@@ -7282,8 +7282,8 @@ msgstr ""
 #: inc/Widgets/scroll_button/Element_Ready_Scroll_Button.php:757
 #: inc/Widgets/scroll_button/Element_Ready_Scroll_Button.php:1028
 #: inc/Widgets/slider/Element_Ready_Content_Slider_Widget.php:828
-#: inc/Widgets/socials/Element_Ready_Social_Widget.php:594
-#: inc/Widgets/socials/Element_Ready_Social_Widget.php:613
+#: inc/Widgets/socials/Element_Ready_Social_Widget.php:602
+#: inc/Widgets/socials/Element_Ready_Social_Widget.php:621
 #: inc/Widgets/teams/Element_Ready_Teams_Widget.php:964
 #: inc/Widgets/teams/Element_Ready_Teams_Widget.php:1536
 #: inc/Widgets/teams/Element_Ready_Teams_Widget.php:2296
@@ -7370,8 +7370,8 @@ msgstr ""
 #: inc/Widgets/scroll_button/Element_Ready_Scroll_Button.php:755
 #: inc/Widgets/scroll_button/Element_Ready_Scroll_Button.php:1026
 #: inc/Widgets/slider/Element_Ready_Content_Slider_Widget.php:826
-#: inc/Widgets/socials/Element_Ready_Social_Widget.php:592
-#: inc/Widgets/socials/Element_Ready_Social_Widget.php:611
+#: inc/Widgets/socials/Element_Ready_Social_Widget.php:600
+#: inc/Widgets/socials/Element_Ready_Social_Widget.php:619
 #: inc/Widgets/teams/Element_Ready_Teams_Widget.php:962
 #: inc/Widgets/teams/Element_Ready_Teams_Widget.php:1534
 #: inc/Widgets/teams/Element_Ready_Teams_Widget.php:2294
@@ -7456,8 +7456,8 @@ msgstr ""
 #: inc/Widgets/scroll_button/Element_Ready_Scroll_Button.php:756
 #: inc/Widgets/scroll_button/Element_Ready_Scroll_Button.php:1027
 #: inc/Widgets/slider/Element_Ready_Content_Slider_Widget.php:827
-#: inc/Widgets/socials/Element_Ready_Social_Widget.php:593
-#: inc/Widgets/socials/Element_Ready_Social_Widget.php:612
+#: inc/Widgets/socials/Element_Ready_Social_Widget.php:601
+#: inc/Widgets/socials/Element_Ready_Social_Widget.php:620
 #: inc/Widgets/teams/Element_Ready_Teams_Widget.php:963
 #: inc/Widgets/teams/Element_Ready_Teams_Widget.php:1535
 #: inc/Widgets/teams/Element_Ready_Teams_Widget.php:2295
@@ -8125,8 +8125,8 @@ msgstr ""
 #: inc/Widgets/scroll_button/Element_Ready_Scroll_Button.php:758
 #: inc/Widgets/scroll_button/Element_Ready_Scroll_Button.php:1029
 #: inc/Widgets/slider/Element_Ready_Content_Slider_Widget.php:829
-#: inc/Widgets/socials/Element_Ready_Social_Widget.php:595
-#: inc/Widgets/socials/Element_Ready_Social_Widget.php:614
+#: inc/Widgets/socials/Element_Ready_Social_Widget.php:603
+#: inc/Widgets/socials/Element_Ready_Social_Widget.php:622
 #: inc/Widgets/teams/Element_Ready_Teams_Widget.php:965
 #: inc/Widgets/teams/Element_Ready_Teams_Widget.php:1537
 #: inc/Widgets/teams/Element_Ready_Teams_Widget.php:2297
@@ -8184,8 +8184,8 @@ msgstr ""
 #: inc/Widgets/scroll_button/Element_Ready_Scroll_Button.php:830
 #: inc/Widgets/scroll_button/Element_Ready_Scroll_Button.php:1056
 #: inc/Widgets/slider/Element_Ready_Content_Slider_Widget.php:986
-#: inc/Widgets/socials/Element_Ready_Social_Widget.php:345
-#: inc/Widgets/socials/Element_Ready_Social_Widget.php:742
+#: inc/Widgets/socials/Element_Ready_Social_Widget.php:346
+#: inc/Widgets/socials/Element_Ready_Social_Widget.php:750
 #: inc/Widgets/teams/Element_Ready_Teams_Widget.php:1134
 #: inc/Widgets/teams/Element_Ready_Teams_Widget.php:1566
 #: inc/Widgets/teams/Element_Ready_Teams_Widget.php:2088
@@ -8405,7 +8405,7 @@ msgstr ""
 #: inc/Widgets/search/Search.php:369
 #: inc/Widgets/shortcode/Element_Ready_Shortcode_Widget.php:674
 #: inc/Widgets/slider/Element_Ready_Content_Slider_Widget.php:737
-#: inc/Widgets/socials/Element_Ready_Social_Widget.php:704
+#: inc/Widgets/socials/Element_Ready_Social_Widget.php:712
 #: inc/Widgets/teams/Element_Ready_Teams_Widget.php:1788
 #: inc/Widgets/teams/Element_Ready_Teams_Widget.php:2103
 #: inc/Widgets/teams/Element_Ready_Teams_Widget.php:4062
@@ -11456,7 +11456,7 @@ msgid "Url"
 msgstr ""
 
 #: inc/Widgets/socials/Element_Ready_Social_Widget.php:133
-#: inc/Widgets/socials/Element_Ready_Social_Widget.php:320
+#: inc/Widgets/socials/Element_Ready_Social_Widget.php:321
 msgid "Twitter"
 msgstr ""
 
@@ -11467,13 +11467,13 @@ msgid "Normal Style"
 msgstr ""
 
 #: inc/Widgets/socials/Element_Ready_Social_Widget.php:182
-#: inc/Widgets/socials/Element_Ready_Social_Widget.php:272
+#: inc/Widgets/socials/Element_Ready_Social_Widget.php:273
 #: inc/Widgets/woocommerce/WooCommerce_Free_Download.php:465
 msgid "Hover Style"
 msgstr ""
 
 #: inc/Widgets/socials/Element_Ready_Social_Widget.php:190
-#: inc/Widgets/socials/Element_Ready_Social_Widget.php:280
+#: inc/Widgets/socials/Element_Ready_Social_Widget.php:281
 #: inc/Widgets/woocommerce/WooCommerce_Free_Download.php:484
 msgid "Hover color"
 msgstr ""
@@ -11482,16 +11482,16 @@ msgstr ""
 msgid "Icon Style"
 msgstr ""
 
-#: inc/Widgets/socials/Element_Ready_Social_Widget.php:432
+#: inc/Widgets/socials/Element_Ready_Social_Widget.php:436
 #: inc/Widgets/themes/Elements_Ready_Drop_Down_Select_Box.php:344
 msgid "Icon Height"
 msgstr ""
 
-#: inc/Widgets/socials/Element_Ready_Social_Widget.php:508
+#: inc/Widgets/socials/Element_Ready_Social_Widget.php:516
 msgid "Social Item"
 msgstr ""
 
-#: inc/Widgets/socials/Element_Ready_Social_Widget.php:607
+#: inc/Widgets/socials/Element_Ready_Social_Widget.php:615
 msgid "Link Display"
 msgstr ""
 

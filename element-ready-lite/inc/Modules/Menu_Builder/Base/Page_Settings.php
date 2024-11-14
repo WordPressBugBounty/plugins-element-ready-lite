@@ -113,7 +113,7 @@ class Page_Settings extends BaseController
                 <div class="element-ready-mega-menu-item">
                     <div class="switch_common">
                         <div class="sm_switch">
-                            <h5><strong><?php echo esc_html__('Is MegaMenu?', 'elements-ready-lite') ?></strong></h5>
+                            <h5><strong><?php echo esc_html__('Is MegaMenu?', 'element-ready-lite') ?></strong></h5>
                             <input name="element_ready_mega_menu_post_item_mega_menu_enable[<?php echo esc_attr($item_id); ?>]" <?php echo esc_attr($enable_menu_item == 'on' ? 'checked' : ''); ?> class="switch alignright pull-right-input is-mega-menu" id="element-ready-mega-menu-item-is-mega-menu-<?php echo esc_attr($item_id); ?>" type="checkbox">
                             <label for="element-ready-mega-menu-item-is-mega-menu-<?php echo esc_attr($item_id); ?>"></label>
                         </div>
@@ -121,7 +121,7 @@ class Page_Settings extends BaseController
                     <div class="element-ready-mega-menu-elementor-editor-link">
                         <div class="switch_common">
                             <div class="sm_switch">
-                                <h5><strong><?php echo esc_html__('Is Classic Content?', 'elements-ready-lite') ?></strong></h5>
+                                <h5><strong><?php echo esc_html__('Is Classic Content?', 'element-ready-lite') ?></strong></h5>
                                 <input name="element_ready_mega_menu_post_item_mega_menu_classic[<?php echo esc_attr($item_id); ?>]" <?php echo esc_attr($enable_menu_classic == 'on' ? 'checked' : ''); ?> class="switch alignright pull-right-input is-classic-mega-menu" id="element-ready-mega-menu-item-is-mega-menu-classic-<?php echo esc_attr($item_id); ?>" type="checkbox">
                                 <label for="element-ready-mega-menu-item-is-mega-menu-classic-<?php echo esc_attr($item_id); ?>"></label>
                             </div>

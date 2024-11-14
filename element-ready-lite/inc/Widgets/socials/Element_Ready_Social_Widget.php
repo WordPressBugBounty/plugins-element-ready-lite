@@ -235,6 +235,7 @@ class Element_Ready_Social_Widget extends Widget_Base
                 'type'      => Controls_Manager::COLOR,
                 'selectors' => [
                     '{{WRAPPER}} .element__ready__socials__buttons {{CURRENT_ITEM}} a i' => 'color: {{VALUE}};',
+                    '{{WRAPPER}} .element__ready__socials__buttons {{CURRENT_ITEM}} a svg' => 'color: {{VALUE}};fill:currentColor;stroke: currentColor;',
                 ],
                 'separator' => 'before',
             ]
@@ -245,7 +246,7 @@ class Element_Ready_Social_Widget extends Widget_Base
                 'name'     => 'social_rep_icon_background',
                 'label'    => esc_html__('Background', 'element-ready-lite'),
                 'types'    => ['classic', 'gradient'],
-                'selector' => '{{WRAPPER}} .element__ready__socials__buttons {{CURRENT_ITEM}} a i',
+                'selector' => '{{WRAPPER}} .element__ready__socials__buttons {{CURRENT_ITEM}} a i,{{WRAPPER}} .element__ready__socials__buttons {{CURRENT_ITEM}} a svg',
             ]
         );
         $repeater->add_group_control(
@@ -253,7 +254,7 @@ class Element_Ready_Social_Widget extends Widget_Base
             [
                 'name'     => 'social_rep_icon_border',
                 'label'    => esc_html__('Border', 'element-ready-lite'),
-                'selector' => '{{WRAPPER}} .element__ready__socials__buttons {{CURRENT_ITEM}} a i',
+                'selector' => '{{WRAPPER}} .element__ready__socials__buttons {{CURRENT_ITEM}} a i,{{WRAPPER}} .element__ready__socials__buttons {{CURRENT_ITEM}} a svg',
             ]
         );
         $repeater->add_responsive_control(
@@ -262,7 +263,7 @@ class Element_Ready_Social_Widget extends Widget_Base
                 'label'     => esc_html__('Border Radius', 'element-ready-lite'),
                 'type'      => Controls_Manager::DIMENSIONS,
                 'selectors' => [
-                    '{{WRAPPER}} .element__ready__socials__buttons {{CURRENT_ITEM}} a i' => 'border-radius: {{TOP}}px {{RIGHT}}px {{BOTTOM}}px {{LEFT}}px;',
+                    '{{WRAPPER}} .element__ready__socials__buttons {{CURRENT_ITEM}} a i, {{WRAPPER}} .element__ready__socials__buttons {{CURRENT_ITEM}} a svg' => 'border-radius: {{TOP}}px {{RIGHT}}px {{BOTTOM}}px {{LEFT}}px;',
                 ],
             ]
         );
@@ -392,6 +393,7 @@ class Element_Ready_Social_Widget extends Widget_Base
                 ],
                 'selectors' => [
                     '{{WRAPPER}} .element__ready__socials__buttons ul li i' => 'font-size: {{SIZE}}{{UNIT}};',
+                    '{{WRAPPER}} .element__ready__socials__buttons ul li svg' => 'width: {{SIZE}}{{UNIT}};',
                 ],
             ]
         );
@@ -402,7 +404,8 @@ class Element_Ready_Social_Widget extends Widget_Base
                 'name'     => 'social_icon_background',
                 'label'    => esc_html__('Background', 'element-ready-lite'),
                 'types'    => ['classic', 'gradient'],
-                'selector' => '{{WRAPPER}} .element__ready__socials__buttons li i',
+
+                'selector' => '{{WRAPPER}} .element__ready__socials__buttons li i, {{WRAPPER}} .element__ready__socials__buttons ul li svg',
             ]
         );
 
@@ -411,7 +414,7 @@ class Element_Ready_Social_Widget extends Widget_Base
             [
                 'name'     => 'social_icon_border',
                 'label'    => esc_html__('Border', 'element-ready-lite'),
-                'selector' => '{{WRAPPER}} .element__ready__socials__buttons li i',
+                'selector' => '{{WRAPPER}} .element__ready__socials__buttons li i, {{WRAPPER}} .element__ready__socials__buttons li svg',
             ]
         );
 
@@ -422,6 +425,7 @@ class Element_Ready_Social_Widget extends Widget_Base
                 'type'      => Controls_Manager::DIMENSIONS,
                 'selectors' => [
                     '{{WRAPPER}} .element__ready__socials__buttons li i' => 'border-radius: {{TOP}}px {{RIGHT}}px {{BOTTOM}}px {{LEFT}}px;',
+                    '{{WRAPPER}} .element__ready__socials__buttons li svg' => 'border-radius: {{TOP}}px {{RIGHT}}px {{BOTTOM}}px {{LEFT}}px;',
                 ],
             ]
         );
@@ -444,6 +448,7 @@ class Element_Ready_Social_Widget extends Widget_Base
                 ],
                 'selectors' => [
                     '{{WRAPPER}} .element__ready__socials__buttons ul li i' => 'height: {{SIZE}}{{UNIT}};line-height: {{SIZE}}{{UNIT}};',
+                    '{{WRAPPER}} .element__ready__socials__buttons ul li svg' => 'height: {{SIZE}}{{UNIT}};line-height: {{SIZE}}{{UNIT}};',
                 ],
             ]
         );
@@ -466,6 +471,7 @@ class Element_Ready_Social_Widget extends Widget_Base
                 ],
                 'selectors' => [
                     '{{WRAPPER}} .element__ready__socials__buttons ul li i' => 'width: {{SIZE}}{{UNIT}};',
+                    '{{WRAPPER}} .element__ready__socials__buttons ul li svg' => 'width: {{SIZE}}{{UNIT}};',
                 ],
             ]
         );
@@ -478,6 +484,7 @@ class Element_Ready_Social_Widget extends Widget_Base
                 'size_units' => ['px', '%', 'em'],
                 'selectors'  => [
                     '{{WRAPPER}} .element__ready__socials__buttons ul li a i' => 'margin: {{TOP}}{{UNIT}} {{RIGHT}}{{UNIT}} {{BOTTOM}}{{UNIT}} {{LEFT}}{{UNIT}};',
+                    '{{WRAPPER}} .element__ready__socials__buttons ul li a svg' => 'margin: {{TOP}}{{UNIT}} {{RIGHT}}{{UNIT}} {{BOTTOM}}{{UNIT}} {{LEFT}}{{UNIT}};',
                 ],
             ]
         );
@@ -491,6 +498,7 @@ class Element_Ready_Social_Widget extends Widget_Base
                 'size_units' => ['px', '%', 'em'],
                 'selectors'  => [
                     '{{WRAPPER}} .element__ready__socials__buttons ul li a i' => 'padding: {{TOP}}{{UNIT}} {{RIGHT}}{{UNIT}} {{BOTTOM}}{{UNIT}} {{LEFT}}{{UNIT}};',
+                    '{{WRAPPER}} .element__ready__socials__buttons ul li a svg' => 'padding: {{TOP}}{{UNIT}} {{RIGHT}}{{UNIT}} {{BOTTOM}}{{UNIT}} {{LEFT}}{{UNIT}};',
                 ],
             ]
         );

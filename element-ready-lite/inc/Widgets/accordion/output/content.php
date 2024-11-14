@@ -1,12 +1,17 @@
 <?php
 
+// Add render attributes for the accordion container
 $this->add_render_attribute('element__ready__adv__accordion', 'class', 'element__ready__adv__accordion');
 $this->add_render_attribute('element__ready__adv__accordion', 'id', 'element__ready__adv__accordion-' . esc_attr($this->get_id()));
 
 ?>
-<div <?php echo wp_kses_post($this->get_render_attribute_string('element__ready__adv__accordion')); ?> <?php echo esc_attr(sprintf(' data-accordion-id=%s', esc_attr($this->get_id()))); ?> <?php echo esc_attr(!empty($settings['element_ready_accordion_type']) ? ' data-accordion-type=' . esc_attr($settings['element_ready_accordion_type']) . '' : 'accordion'); ?> <?php echo esc_attr(!empty($settings['element_ready_accordion_toggle_speed']) ? ' data-toogle-speed=' . esc_attr($settings['element_ready_accordion_toggle_speed']) . '' : '300'); ?>>
+<div <?php echo wp_kses_post($this->get_render_attribute_string('element__ready__adv__accordion')); ?>
+    <?php echo esc_attr(sprintf(' data-accordion-id=%s', esc_attr(sanitize_text_field($this->get_id())))); ?>
+    <?php echo esc_attr(!empty($settings['element_ready_accordion_type']) ? ' data-accordion-type=' . esc_attr(sanitize_text_field($settings['element_ready_accordion_type'])) : 'accordion'); ?>
+    <?php echo esc_attr(!empty($settings['element_ready_accordion_toggle_speed']) ? ' data-toggle-speed=' . esc_attr(sanitize_text_field($settings['element_ready_accordion_toggle_speed'])) : '300'); ?>>
     <?php
 
+    // Loop through accordion tabs
     foreach ($settings['element_ready_adv_accordion_tab'] as $index => $tab) :
 
         $tab_count               = $index + 1;
@@ -16,11 +21,13 @@ $this->add_render_attribute('element__ready__adv__accordion', 'id', 'element__re
         $tab_title_class         = ['elementor-tab-title', 'element__ready__accordion__header'];
         $tab_content_class       = ['element__ready__accordion__content', 'clearfix'];
 
+        // Check if the tab should be active by default
         if ($tab['element_ready_adv_accordion_tab_default_active'] == 'yes') {
             $tab_title_class[]   = 'active-default';
             $tab_content_class[] = 'active-default';
         }
 
+        // Add render attributes for tab titles and content
         $this->add_render_attribute($tab_title_setting_key, [
             'id'            => 'elementor-tab-title-' . $id_int . $tab_count,
             'class'         => $tab_title_class,

@@ -152,7 +152,7 @@ class Element_Ready_Subscriber_Widget extends Widget_Base
 		$this->add_control(
 			'title_tag',
 			[
-				'label'   => __('Title HTML Tag', 'elementor'),
+				'label'   => __('Title HTML Tag', 'element-ready-lite'),
 				'type'    => Controls_Manager::SELECT,
 				'options' => [
 					'h1'   => 'H1',
@@ -1023,7 +1023,7 @@ class Element_Ready_Subscriber_Widget extends Widget_Base
 			Group_Control_Background::get_type(),
 			[
 				'name'     => 'before_background',
-				'label'    => __('Background', 'plugin-domain'),
+				'label'    => __('Background', 'element-ready-lite'),
 				'types'    => ['classic', 'gradient'],
 				'selector' => '{{WRAPPER}} .box__title:before',
 			]
@@ -1335,7 +1335,7 @@ class Element_Ready_Subscriber_Widget extends Widget_Base
 			Group_Control_Background::get_type(),
 			[
 				'name'     => 'after_background',
-				'label'    => __('Background', 'plugin-domain'),
+				'label'    => __('Background', 'element-ready-lite'),
 				'types'    => ['classic', 'gradient'],
 				'selector' => '{{WRAPPER}} .box__title:after',
 			]
@@ -2568,7 +2568,7 @@ class Element_Ready_Subscriber_Widget extends Widget_Base
 		$form = '
 		<form id="mc__form__' . $r_id . '" class="subscriber__form">
 			<label class="subscribe__label" for="mc__email__' . $r_id . '"></label>
-	        <input class="subscriber__email" type="email" id="mc__email__' . $r_id . '" placeholder="' . esc_attr($placeholder_text) . '">
+	        <input class="subscriber__email" type="email" id="mc__email__' . $r_id . '"      placeholder="' . esc_attr($placeholder_text) . '">
 	        ' . (isset($button) ? $button : '') . '
 		</form>';
 

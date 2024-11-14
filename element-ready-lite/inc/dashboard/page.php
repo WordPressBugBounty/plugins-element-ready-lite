@@ -62,7 +62,7 @@ class Element_Ready_Page
                 <div class="element-ready-deactivate-servey-header">
                     <img src="<?php echo esc_url(ELEMENT_READY_ROOT_IMG . 'icon.png'); ?>" />
                     <h3>
-                        <?php echo esc_html__('ElementsReady', 'elements-ready-lite'); ?>
+                        <?php echo esc_html__('ElementsReady', 'element-ready-lite'); ?>
                     </h3>
                 </div>
             </header>

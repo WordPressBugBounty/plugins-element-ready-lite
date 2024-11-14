@@ -352,7 +352,7 @@
                                                             </clipPath>
                                                         </defs>
                                                     </svg>
-                                                    <?php echo esc_html__('Readable content of a page when looking at its layout. ', 'element-ready-liet'); ?>
+                                                    <?php echo esc_html__('Readable content of a page when looking at its layout. ', 'element-ready-lite'); ?>
                                                 </li>
                                                 <li>
                                                     <svg width="20" height="20" viewBox="0 0 20 20" fill="none"

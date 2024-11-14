@@ -706,7 +706,7 @@ class Restuarent_Menu extends Widget_Base {
             $this->add_control(
                 'offcanvas_template_id',
                 [
-                    'label'     => esc_html__( 'Select Content Template', 'appscred-essential' ),
+                    'label'     => esc_html__( 'Select Content Template', 'element-ready-lite' ),
                     'type'      => Controls_Manager::SELECT,
                     'default'   => '0',
                     'options'   => element_ready_elementor_template(),

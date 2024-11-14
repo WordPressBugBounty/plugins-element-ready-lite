@@ -258,23 +258,23 @@ class Element_Ready_Working_Process_Widget extends Widget_Base
         $this->add_responsive_control(
             'icon_align',
             [
-                'label'   => __('Alignment', 'element-ready-pro'),
+                'label'   => __('Alignment', 'element-ready-lite'),
                 'type'    => Controls_Manager::CHOOSE,
                 'options' => [
                     'left' => [
-                        'title' => __('Left', 'element-ready-pro'),
+                        'title' => __('Left', 'element-ready-lite'),
                         'icon'  => 'fa fa-align-left',
                     ],
                     'center' => [
-                        'title' => __('Center', 'element-ready-pro'),
+                        'title' => __('Center', 'element-ready-lite'),
                         'icon'  => 'fa fa-align-center',
                     ],
                     'right' => [
-                        'title' => __('Right', 'element-ready-pro'),
+                        'title' => __('Right', 'element-ready-lite'),
                         'icon'  => 'fa fa-align-right',
                     ],
                     'justify' => [
-                        'title' => __('Justify', 'element-ready-pro'),
+                        'title' => __('Justify', 'element-ready-lite'),
                         'icon'  => 'fa fa-align-justify',
                     ],
                 ],

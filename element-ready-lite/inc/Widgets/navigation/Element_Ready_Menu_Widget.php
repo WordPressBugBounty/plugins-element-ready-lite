@@ -630,7 +630,7 @@ class Element_Ready_Menu_Widget extends Widget_Base
         $this->start_controls_section(
             'badge_style_section',
             [
-                'label'     => esc_html__('Badge', 'ultimate'),
+                'label'     => esc_html__('Badge', 'element-ready-lite'),
                 'tab'       => Controls_Manager::TAB_STYLE,
                 'condition' => [
                     'show_menu_bedge' => 'yes',
@@ -642,13 +642,13 @@ class Element_Ready_Menu_Widget extends Widget_Base
         $this->start_controls_tab(
             'badge_normal_tab',
             [
-                'label' => esc_html__('Normal', 'ultimate'),
+                'label' => esc_html__('Normal', 'element-ready-lite'),
             ]
         );
         $this->add_control(
             'badge_color',
             [
-                'label'     => esc_html__('Color', 'ultimate'),
+                'label'     => esc_html__('Color', 'element-ready-lite'),
                 'type'      => Controls_Manager::COLOR,
                 'default'   => '',
                 'selectors' => [
@@ -661,7 +661,7 @@ class Element_Ready_Menu_Widget extends Widget_Base
             Group_Control_Background::get_type(),
             [
                 'name'     => 'badge_background',
-                'label'    => esc_html__('Background', 'ultimate'),
+                'label'    => esc_html__('Background', 'element-ready-lite'),
                 'types'    => ['classic', 'gradient'],
                 'selector' => '{{WRAPPER}} .single__menu__nav ul.element__ready__menu li a .badge',
             ]
@@ -677,7 +677,7 @@ class Element_Ready_Menu_Widget extends Widget_Base
             Group_Control_Border::get_type(),
             [
                 'name'      => 'badge_border',
-                'label'     => esc_html__('Border', 'ultimate'),
+                'label'     => esc_html__('Border', 'element-ready-lite'),
                 'selector'  => '{{WRAPPER}} .single__menu__nav ul.element__ready__menu li a .badge',
                 'separator' => 'before',
             ]
@@ -685,7 +685,7 @@ class Element_Ready_Menu_Widget extends Widget_Base
         $this->add_responsive_control(
             'badge_radius',
             [
-                'label'      => esc_html__('Border Radius', 'ultimate'),
+                'label'      => esc_html__('Border Radius', 'element-ready-lite'),
                 'type'       => Controls_Manager::DIMENSIONS,
                 'size_units' => ['px', '%', 'em'],
                 'selectors'  => [
@@ -703,7 +703,7 @@ class Element_Ready_Menu_Widget extends Widget_Base
         $this->add_responsive_control(
             'badge_width',
             [
-                'label'      => esc_html__('Width', 'ultimate'),
+                'label'      => esc_html__('Width', 'element-ready-lite'),
                 'type'       => Controls_Manager::SLIDER,
                 'size_units' => ['px', '%'],
                 'range'      => [
@@ -729,7 +729,7 @@ class Element_Ready_Menu_Widget extends Widget_Base
         $this->add_responsive_control(
             'badge_height',
             [
-                'label'      => esc_html__('Height', 'ultimate'),
+                'label'      => esc_html__('Height', 'element-ready-lite'),
                 'type'       => Controls_Manager::SLIDER,
                 'size_units' => ['px', '%'],
                 'range'      => [
@@ -753,7 +753,7 @@ class Element_Ready_Menu_Widget extends Widget_Base
         $this->add_responsive_control(
             'badge_margin',
             [
-                'label'      => esc_html__('Margin', 'ultimate'),
+                'label'      => esc_html__('Margin', 'element-ready-lite'),
                 'type'       => Controls_Manager::DIMENSIONS,
                 'size_units' => ['px', '%', 'em'],
                 'selectors'  => [
@@ -765,7 +765,7 @@ class Element_Ready_Menu_Widget extends Widget_Base
         $this->add_responsive_control(
             'badge_padding',
             [
-                'label'      => esc_html__('Padding', 'ultimate'),
+                'label'      => esc_html__('Padding', 'element-ready-lite'),
                 'type'       => Controls_Manager::DIMENSIONS,
                 'size_units' => ['px', '%', 'em'],
                 'selectors'  => [
@@ -777,13 +777,13 @@ class Element_Ready_Menu_Widget extends Widget_Base
         $this->start_controls_tab(
             'badge_hover_tab',
             [
-                'label' => esc_html__('Hover', 'ultimate'),
+                'label' => esc_html__('Hover', 'element-ready-lite'),
             ]
         );
         $this->add_control(
             'hover_badge_color',
             [
-                'label'     => esc_html__('Color', 'ultimate'),
+                'label'     => esc_html__('Color', 'element-ready-lite'),
                 'type'      => Controls_Manager::COLOR,
                 'selectors' => [
                     '{{WRAPPER}} .single__menu__nav ul.element__ready__menu li a:hover .badge' => 'color: {{VALUE}};',
@@ -795,7 +795,7 @@ class Element_Ready_Menu_Widget extends Widget_Base
             Group_Control_Background::get_type(),
             [
                 'name'     => 'hover_badge_background',
-                'label'    => esc_html__('Background', 'ultimate'),
+                'label'    => esc_html__('Background', 'element-ready-lite'),
                 'types'    => ['classic', 'gradient'],
                 'selector' => '{{WRAPPER}} .single__menu__nav ul.element__ready__menu li a:hover .badge',
             ]
@@ -804,7 +804,7 @@ class Element_Ready_Menu_Widget extends Widget_Base
             Group_Control_Border::get_type(),
             [
                 'name'      => 'hover_badge_border',
-                'label'     => esc_html__('Border', 'ultimate'),
+                'label'     => esc_html__('Border', 'element-ready-lite'),
                 'selector'  => '{{WRAPPER}} .single__menu__nav ul.element__ready__menu li a:hover .badge',
                 'separator' => 'before',
             ]
@@ -812,7 +812,7 @@ class Element_Ready_Menu_Widget extends Widget_Base
         $this->add_responsive_control(
             'hover_badge_radius',
             [
-                'label'      => esc_html__('Border Radius', 'ultimate'),
+                'label'      => esc_html__('Border Radius', 'element-ready-lite'),
                 'type'       => Controls_Manager::DIMENSIONS,
                 'size_units' => ['px', '%', 'em'],
                 'selectors'  => [

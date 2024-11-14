@@ -44,7 +44,7 @@ if (is_active_sidebar('give-forms-sidebar')) {
 								echo wp_kses_post(apply_filters('single_give_form_image_html', $image));
 							} else {
 								$ggpis =  function_exists('give_get_placeholder_img_src') ? give_get_placeholder_img_src() : '';
-								echo wp_kses_post(apply_filters('single_give_form_image_html', sprintf('<img src="%s" alt="%s" />', esc_url($ggpis), esc_attr__('Placeholder', 'give')), $post->ID));
+								echo wp_kses_post(apply_filters('single_give_form_image_html', sprintf('<img src="%s" alt="%s" />', esc_url($ggpis), esc_attr__('Placeholder', 'element-ready-lite')), $post->ID));
 							} ?>
 						</div>
 

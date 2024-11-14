@@ -220,7 +220,7 @@ class Elements_Ready_Theme_Today_Date extends Widget_Base {
 			$this->add_control(
 				'am_pm_more_options',
 				[
-					'label' => esc_html__( 'Additional AM /PM', 'textdomain' ),
+					'label' => esc_html__( 'Additional AM /PM', 'element-ready-lite' ),
 					'type' => \Elementor\Controls_Manager::HEADING,
 					'separator' => 'before',
 				]

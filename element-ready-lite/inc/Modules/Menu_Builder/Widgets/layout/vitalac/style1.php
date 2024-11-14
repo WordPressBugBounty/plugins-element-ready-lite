@@ -130,7 +130,7 @@
                                         class="fa fa-shopping-basket"></i><span>0</span></a>
                             <?php } else { ?>
                                 <a class="cart-btn" href="<?php echo esc_url(wc_get_cart_url()); ?>"><i
-                                        class="fa fa-shopping-basket"></i><span><?php echo esc_html(sprintf(_n('%d', '%d', WC()->cart->get_cart_contents_count()), WC()->cart->get_cart_contents_count())); ?></span></a>
+                                        class="fa fa-shopping-basket"></i><span><?php echo esc_html(sprintf(_n('%d', '%d', WC()->cart->get_cart_contents_count(), 'element-ready-lite'), WC()->cart->get_cart_contents_count())); ?></span></a>
                             <?php } ?>
                             <div class="product-price clearfix">
                                 <span class="price">

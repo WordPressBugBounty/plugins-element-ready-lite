@@ -63,8 +63,8 @@ class Elements_Ready_Drop_Down_Select_Box extends Widget_Base {
 			[
 				'label' => esc_html__( 'Open Link On select?', 'element-ready-lite' ),
 				'type' => \Elementor\Controls_Manager::SWITCHER,
-				'label_on' => esc_html__( 'Yes', 'your-plugin' ),
-				'label_off' => esc_html__( 'No', 'your-plugin' ),
+				'label_on' => esc_html__( 'Yes', 'element-ready-lite' ),
+				'label_off' => esc_html__( 'No', 'element-ready-lite' ),
 				'return_value' => 'yes',
 				'default' => 'yes',
 			]
@@ -74,8 +74,8 @@ class Elements_Ready_Drop_Down_Select_Box extends Widget_Base {
 			[
 				'label' => esc_html__( 'New Tab?', 'element-ready-lite' ),
 				'type' => \Elementor\Controls_Manager::SWITCHER,
-				'label_on' => esc_html__( 'Yes', 'your-plugin' ),
-				'label_off' => esc_html__( 'No', 'your-plugin' ),
+				'label_on' => esc_html__( 'Yes', 'element-ready-lite' ),
+				'label_off' => esc_html__( 'No', 'element-ready-lite' ),
 				'return_value' => 'yes',
 				'default' => 'no',
 			]
@@ -93,8 +93,8 @@ class Elements_Ready_Drop_Down_Select_Box extends Widget_Base {
 			[
 				'label' => esc_html__( 'Link / Text value?', 'element-ready-lite' ),
 				'type' => \Elementor\Controls_Manager::SWITCHER,
-				'label_on' => esc_html__( 'Yes', 'your-plugin' ),
-				'label_off' => esc_html__( 'No', 'your-plugin' ),
+				'label_on' => esc_html__( 'Yes', 'element-ready-lite' ),
+				'label_off' => esc_html__( 'No', 'element-ready-lite' ),
 				'return_value' => 'yes',
 				'default' => 'yes',
 			]

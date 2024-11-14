@@ -2,8 +2,8 @@
 Contributors: QuomodoSoft
 Tags: elementor, addons, elementor addons, elementor widgets, elements, elementor plugins, mega menu, mega menu builder, header footer builder, elements, elementor extensions, elementor modules, page builder addons, essential plugins, essential widgets, elementor pro, free addons, free widgets, free plugins 
 Requires at least: 5.5
-Tested up to: 6.6.2
-Stable tag: 6.4.6
+Tested up to: 6.7
+Stable tag: 6.4.7
 Requires PHP: 7.4
 License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
@@ -716,7 +716,14 @@ The blog building widgets in ElementsReady are pixel perfect and responsive to w
 
 == Changelog ==
 
-= 6.4.5 = (2024-11-03)
+= 6.4.7 = (2024-11-14)
+
+Fix : ER Advanced Accordion Security Issue Fixing
+Fix : ER Mailchimp Sanitization & Escaping for placeholder
+Fix : ER Offcanvas Style Fixing 
+Update : Language POT File Update
+
+= 6.4.6 = (2024-11-03)
 
 Fix : Style Tag Issue Fixing
 Update : Language POT File Update

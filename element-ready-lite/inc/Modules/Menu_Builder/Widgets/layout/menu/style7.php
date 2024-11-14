@@ -94,7 +94,7 @@
                                     if (isset($offcanvas_menu_icon['library']) && $offcanvas_menu_icon['library'] == '') {
                                     ?>
                                 <img class="canvas_open" src="<?php echo esc_url($canvas_url); ?>"
-                                    alt="<?php echo esc_attr__('offcanvas icon'); ?>">
+                                    alt="<?php echo esc_attr__('offcanvas icon', 'element-ready-lite'); ?>">
                                 <?php
                                     } else {
                                     ?>

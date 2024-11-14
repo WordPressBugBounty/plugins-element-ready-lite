@@ -335,19 +335,19 @@ class Element_Ready_Teams_Widget extends Widget_Base
 				'default' => [
 					[
 						'member_name' => esc_html__('Jhon Wick', 'element-ready-lite'),
-						'designation' => esc_html__('Web Developer'),
+						'designation' => esc_html__('Web Developer', 'element-ready-lite'),
 					],
 					[
 						'member_name' => esc_html__('Niloy Khan', 'element-ready-lite'),
-						'designation' => esc_html__('Web Developer'),
+						'designation' => esc_html__('Web Developer', 'element-ready-lite'),
 					],
 					[
 						'member_name' => esc_html__('Abdur Rohman', 'element-ready-lite'),
-						'designation' => esc_html__('CEO'),
+						'designation' => esc_html__('CEO', 'element-ready-lite'),
 					],
 					[
 						'member_name' => esc_html__('Imon Ahmed', 'element-ready-lite'),
-						'designation' => esc_html__('Research Specialist'),
+						'designation' => esc_html__('Research Specialist', 'element-ready-lite'),
 					],
 				],
 				'title_field' => '{{{ member_name }}}',

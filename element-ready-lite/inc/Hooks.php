@@ -467,6 +467,7 @@ if (!function_exists('element_ready_lite_wp_kses_allowed_html')) {
       'muted'      => [], // Audio & Video
       'preload'    => [], // Audio & Video
       'poster'     => [], // Video
+      'placeholder'     => [], // Video
     ];
 
     // Define allowed attributes for SVG tags
@@ -474,7 +475,7 @@ if (!function_exists('element_ready_lite_wp_kses_allowed_html')) {
       'xmlns'        => [],
       'id'           => [],
       'url'          => [],
-      'gradientUnits'=> [],
+      'gradientUnits' => [],
       'viewBox'      => [],
       'version'      => [],
       'width'        => [],
@@ -485,7 +486,7 @@ if (!function_exists('element_ready_lite_wp_kses_allowed_html')) {
       'd'            => [],  // Path elements
       'x'            => [],
       'x1'           => [],
-      'x2'           => [],  
+      'x2'           => [],
       'y'            => [],
       'y1'           => [],
       'y2'           => [],
@@ -504,9 +505,23 @@ if (!function_exists('element_ready_lite_wp_kses_allowed_html')) {
 
     // Add commonly used SVG tags
     $svg_tags = [
-      'svg', 'g', 'path', 'circle', 'rect', 'ellipse', 'line', 
-      'polyline', 'polygon', 'text', 'tspan', 'use', 'defs',
-      'linearGradient', 'radialGradient', 'stop', 'clipPath'
+      'svg',
+      'g',
+      'path',
+      'circle',
+      'rect',
+      'ellipse',
+      'line',
+      'polyline',
+      'polygon',
+      'text',
+      'tspan',
+      'use',
+      'defs',
+      'linearGradient',
+      'radialGradient',
+      'stop',
+      'clipPath'
     ];
 
     foreach ($svg_tags as $tag) {
@@ -590,7 +605,4 @@ if (!function_exists('element_ready_lite_wp_kses_allowed_html')) {
     // Return the filtered tags and attributes
     return $allowedposttags;
   }
-
 }
-
-

@@ -273,7 +273,7 @@ class Element_Ready_Testmonial_Widget extends Widget_Base
 		$repeater->add_control(
 			'title_tag',
 			[
-				'label'   => esc_html__('Title HTML Tag', 'elementor'),
+				'label'   => esc_html__('Title HTML Tag', 'element-ready-lite'),
 				'type'    => Controls_Manager::SELECT,
 				'options' => [
 					'h1'   => 'H1',
@@ -401,19 +401,19 @@ class Element_Ready_Testmonial_Widget extends Widget_Base
 				'default' => [
 					[
 						'member_name' => esc_html__('M Hasan', 'element-ready-lite'),
-						'designation' => esc_html__('Web Developer'),
+						'designation' => esc_html__('Web Developer', 'element-ready-lite'),
 						'description' => esc_html__('Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fuga quos pariatur tempore nihil quisquam tempora odio et mollitia. Ea facere expedita beatae nesciunt vero aliquam similique eius veritatis unde eligendi.', 'element-ready-lite'),
 						'client_rating' => 0,
 					],
 					[
 						'member_name' => esc_html__('M Hasan', 'element-ready-lite'),
-						'designation' => esc_html__('Web Developer'),
+						'designation' => esc_html__('Web Developer', 'element-ready-lite'),
 						'description' => esc_html__('Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fuga quos pariatur tempore nihil quisquam tempora odio et mollitia. Ea facere expedita beatae nesciunt vero aliquam similique eius veritatis unde eligendi.', 'element-ready-lite'),
 						'client_rating' => 0,
 					],
 					[
 						'member_name' => esc_html__('M Hasan', 'element-ready-lite'),
-						'designation' => esc_html__('Web Developer'),
+						'designation' => esc_html__('Web Developer', 'element-ready-lite'),
 						'description' => esc_html__('Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fuga quos pariatur tempore nihil quisquam tempora odio et mollitia. Ea facere expedita beatae nesciunt vero aliquam similique eius veritatis unde eligendi.', 'element-ready-lite'),
 						'client_rating' => 0,
 					],
@@ -5459,7 +5459,7 @@ class Element_Ready_Testmonial_Widget extends Widget_Base
 		$this->start_controls_tab(
 			'box_style_hover_tab',
 			[
-				'label' => esc_html__('Hover', 'plugin-name'),
+				'label' => esc_html__('Hover', 'element-ready-lite'),
 			]
 		);
 		$this->add_control(

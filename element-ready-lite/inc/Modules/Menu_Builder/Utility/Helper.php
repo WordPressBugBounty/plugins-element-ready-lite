@@ -160,10 +160,10 @@ function element_ready_woocommerce_header_add_to_cart_fragment($fragments)
     ob_start();
 ?>
     <a class="cart-contents" href="<?php echo esc_url(wc_get_cart_url()); ?>"
-        title="<?php echo esc_attr__('View your shopping cart'); ?>">
+        title="<?php echo esc_attr__('View your shopping cart', 'element-ready-lite'); ?>">
         <?php
         echo sprintf(
-            esc_html(_n('%d item', '%d items', WC()->cart->get_cart_contents_count())),
+            esc_html(_n('%d item', '%d items', WC()->cart->get_cart_contents_count(), 'element-ready-lite')),
             esc_html(WC()->cart->get_cart_contents_count())
         );
         ?>
@@ -186,7 +186,7 @@ function element_ready_menu_woocommerce_header_add_to_cart_fragment($fragments)
     <div class="cart-area element-ready-cart-content">
         <a class="cart-btn" href="<?php echo esc_url(wc_get_cart_url()); ?>">
             <?php \Elementor\Icons_Manager::render_icon(get_option('element_ready_wc_count_icon'), ['aria-hidden' => 'true']); ?>
-            <span><?php echo wp_kses_post(sprintf(_n('%d', '%d', esc_html(WC()->cart->get_cart_contents_count())), esc_html(WC()->cart->get_cart_contents_count()))); ?></span></a>
+            <span><?php echo wp_kses_post(sprintf(_n('%d', '%d', esc_html(WC()->cart->get_cart_contents_count()), 'element-ready-lite'), esc_html(WC()->cart->get_cart_contents_count()))); ?></span></a>
         <div class="er-wc-product-price">
             <?php if (isset(WC()->cart)) : ?>
                 <?php echo wp_kses_post(wc_price(WC()->cart->total)); ?>

@@ -63,7 +63,7 @@ class Element_Ready_Area_Title_Widget extends Widget_Base
 		return [
 			'set_title_before'       => esc_html__('Set Title Before', 'element-ready-lite'),
 			'set_subtitle_before'    => esc_html__('Set Subtitle Before', 'element-ready-lite'),
-			'set_description_before' => esc_html__('Set Description Before', 'eleemnt-ready'),
+			'set_description_before' => esc_html__('Set Description Before', 'element-ready-lite'),
 			'set_box_before'         => esc_html__('Set Box Before', 'element-ready-lite'),
 			'set_container_before'   => esc_html__('Set Container Before', 'element-ready-lite'),
 		];
@@ -233,7 +233,7 @@ class Element_Ready_Area_Title_Widget extends Widget_Base
 		$this->add_control(
 			'title_tag',
 			[
-				'label'   => esc_html__('Title HTML Tag', 'elementor'),
+				'label'   => esc_html__('Title HTML Tag', 'element-ready-lite'),
 				'type'    => Controls_Manager::SELECT,
 				'options' => [
 					'h1'   => 'H1',

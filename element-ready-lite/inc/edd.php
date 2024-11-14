@@ -82,7 +82,7 @@ if (class_exists('Easy_Digital_Downloads')) :
             $starRating = (round($starRating * 2)) * 10;
         }
         ?>
-        <div title="<?php echo esc_attr($starRating / 20); ?><?php esc_attr_e('out of 5', 'element-readey'); ?>" class="download__star__rating">
+        <div title="<?php echo esc_attr($starRating / 20); ?><?php esc_attr_e('out of 5', 'element-ready-lite'); ?>" class="download__star__rating">
             <div class="rating">
                 <i class="fa fa-star" data-vote="1"></i>
                 <i class="fa fa-star" data-vote="2"></i>
@@ -125,8 +125,8 @@ if (class_exists('Easy_Digital_Downloads')) :
         $ratingclass    = (int) edd_reviews()->average_rating(false);
         ob_start(); ?>
         <div itemprop="reviewRating" itemscope itemtype="http://schema.org/Rating" class="star-rating">
-            <div class="edd_reviews_rating_box <?php if ($rating == 4.5) {  ?>four-half-rating<?php } ?> <?php echo esc_attr__('stars', 'element-readey') . esc_attr($ratingclass); ?>" role="img">
-                <div class="edd_star_rating" aria-label="<?php echo esc_attr($rating)  . ' ' . esc_attr__('stars', 'element-readey'); ?>">
+            <div class="edd_reviews_rating_box <?php if ($rating == 4.5) {  ?>four-half-rating<?php } ?> <?php echo esc_attr__('stars', 'element-ready-lite') . esc_attr($ratingclass); ?>" role="img">
+                <div class="edd_star_rating" aria-label="<?php echo esc_attr($rating)  . ' ' . esc_attr__('stars', 'element-ready-lite'); ?>">
                     <span class="rating-stars"></span>
                     <span class="rating-stars"></span>
                     <span class="rating-stars"></span>

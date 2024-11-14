@@ -1850,7 +1850,7 @@ class Element_Ready_Box_Widget extends Widget_Base
 			if ('before' == $settings['box_image_postion']) {
 
 				echo ('
-					<div ' . $this->get_render_attribute_string('box_wrap_style_attr') . '>
+					<div ' . wp_kses_post($this->get_render_attribute_string('box_wrap_style_attr')) . '>
 						' . (isset($box_image) ? $box_image : '') . '
 						<div ' . $this->get_render_attribute_string('box_style_attr') . '>
 							' . (isset($box_iocn_or_text) ? wp_kses_post($box_iocn_or_text) : '') . '
@@ -1863,8 +1863,8 @@ class Element_Ready_Box_Widget extends Widget_Base
 					</div>
 				');
 			} elseif ('after' == $settings['box_image_postion']) {
-				echo wp_kses_post('
-					<div ' . $this->get_render_attribute_string('box_wrap_style_attr') . '>
+				echo '
+					<div ' . wp_kses_post($this->get_render_attribute_string('box_wrap_style_attr')) . '>
 						<div ' . $this->get_render_attribute_string('box_style_attr') . '>
 							' . (isset($box_iocn_or_text) ? wp_kses_post($box_iocn_or_text) : '') . '
 							' . (isset($icon) ? $icon : '') . '
@@ -1875,10 +1875,10 @@ class Element_Ready_Box_Widget extends Widget_Base
 						</div>
 						' . (isset($box_image) ? $box_image : '') . '
 					</div>
-				');
+				';
 			}
 		} else {
-			echo ('<div ' . $this->get_render_attribute_string('box_style_attr') . '>
+			echo ('<div ' . wp_kses_post($this->get_render_attribute_string('box_style_attr')) . '>
 					' . (isset($box_iocn_or_text) ? wp_kses_post($box_iocn_or_text) : '') . '
 					' . (isset($icon) ? $icon : '') . '
 					' . (isset($title_subtitle) ? wp_kses_post($title_subtitle) : '') . '

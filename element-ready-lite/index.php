@@ -4,9 +4,9 @@
  * Plugin Name: Element Ready Lite
  * Description: Elements Ready comes up with ultimate Elementor blocks and widgets. Ready section and flexible option makes it more efficient for the users
  * Plugin URI: https://elementsready.com
- * Version: 6.4.6
+ * Version: 6.4.7
  * Requires at least: 5.5
- * Tested up to: 6.6.2
+ * Tested up to: 6.7
  * Requires PHP: 7.4
  * Author: QuomodoSoft
  * Author URI: https://quomodosoft.com
@@ -14,7 +14,7 @@
  * License URI: http://www.gnu.org/licenses/gpl-2.0.txt
  * Text Domain: element-ready-lite
  * Domain Path: /languages/
- * Elementor tested up to: 3.25.3
+ * Elementor tested up to: 3.25.6
  */
 
 if (!defined('ABSPATH')) {
