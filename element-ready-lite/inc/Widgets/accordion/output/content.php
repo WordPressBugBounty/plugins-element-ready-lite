@@ -6,9 +6,11 @@ $this->add_render_attribute('element__ready__adv__accordion', 'id', 'element__re
 
 ?>
 <div <?php echo wp_kses_post($this->get_render_attribute_string('element__ready__adv__accordion')); ?>
-    <?php echo esc_attr(sprintf(' data-accordion-id=%s', esc_attr(sanitize_text_field($this->get_id())))); ?>
-    <?php echo esc_attr(!empty($settings['element_ready_accordion_type']) ? ' data-accordion-type=' . esc_attr(sanitize_text_field($settings['element_ready_accordion_type'])) : 'accordion'); ?>
-    <?php echo esc_attr(!empty($settings['element_ready_accordion_toggle_speed']) ? ' data-toggle-speed=' . esc_attr(sanitize_text_field($settings['element_ready_accordion_toggle_speed'])) : '300'); ?>>
+    data-accordion-id="<?php echo esc_attr(sanitize_text_field($this->get_id())); ?>"
+    data-accordion-type="<?php echo esc_attr(!empty($settings['element_ready_accordion_type']) ? sanitize_text_field($settings['element_ready_accordion_type']) : 'accordion'); ?>"
+    data-toggle-speed="<?php echo esc_attr(!empty($settings['element_ready_accordion_toggle_speed']) ? sanitize_text_field($settings['element_ready_accordion_toggle_speed']) : '300'); ?>">
+
+
     <?php
 
     // Loop through accordion tabs
@@ -57,16 +59,32 @@ $this->add_render_attribute('element__ready__adv__accordion', 'id', 'element__re
             </div>
 
             <div <?php echo wp_kses_post($this->get_render_attribute_string($tab_content_setting_key)); ?>>
-                <?php if ('content' == $tab['element_ready_accordion_text_type']) : ?>
-                    <div><?php echo do_shortcode($tab['element_ready_adv_accordion_tab_content']); ?></div>
-                <?php
-                elseif ('template' == $tab['element_ready_accordion_text_type']) :
+                <?php if ('content' === $tab['element_ready_accordion_text_type']) : ?>
+                    <div><?php echo do_shortcode(wp_kses_post($tab['element_ready_adv_accordion_tab_content'])); ?></div>
+                <?php elseif ('template' === $tab['element_ready_accordion_text_type']) : ?>
+                    <?php
                     if (!empty($tab['element_ready_primary_templates'])) {
                         $element_ready_template_id = $tab['element_ready_primary_templates'];
-                        echo wp_kses_post(\Elementor\Plugin::instance()->frontend->get_builder_content_for_display($element_ready_template_id, true));
+
+                        // Fetch template to verify its status
+                        $template_post = get_post($element_ready_template_id);
+                        if ($template_post) {
+                            $template_status = $template_post->post_status;
+                            $is_allowed = true;
+                            if ($template_status === 'private' && !current_user_can('read_private_posts')) {
+                                $is_allowed = false;
+                            } elseif (in_array($template_status, ['draft', 'pending'], true) && !current_user_can('edit_posts')) {
+                                $is_allowed = false;
+                            }
+                            if ($is_allowed) {
+                                echo wp_kses_post(\Elementor\Plugin::instance()->frontend->get_builder_content_for_display($element_ready_template_id, true));
+                            }
+                        }
                     }
-                endif; ?>
+                    ?>
+                <?php endif; ?>
             </div>
+
         </div>
     <?php endforeach; ?>
 </div>

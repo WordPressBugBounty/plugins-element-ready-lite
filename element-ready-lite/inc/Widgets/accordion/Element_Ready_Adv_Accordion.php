@@ -72,16 +72,30 @@ class Element_Ready_Adv_Accordion extends Widget_Base
     public function element_ready_elementor_template()
     {
 
+        // Fetch all templates
         $templates = Plugin::instance()->templates_manager->get_source('local')->get_items();
-        $types     = array();
+
+        $template_lists = [];
         if (empty($templates)) {
             $template_lists = ['0' => esc_html__('Do not Saved Templates.', 'element-ready-lite')];
         } else {
             $template_lists = ['0' => esc_html__('Select Template', 'element-ready-lite')];
+
             foreach ($templates as $template) {
-                $template_lists[$template['template_id']] = $template['title'] . ' (' . $template['type'] . ')';
+                $status = $template['status'] ?? 'publish';
+                $is_allowed = true;
+
+                if ($status === 'private' && !current_user_can('read_private_posts')) {
+                    $is_allowed = false;
+                } elseif (in_array($status, ['draft', 'pending']) && !current_user_can('edit_posts')) {
+                    $is_allowed = false;
+                }
+                if ($is_allowed) {
+                    $template_lists[$template['template_id']] = $template['title'] . ' (' . $template['type'] . ')';
+                }
             }
         }
+
         return $template_lists;
     }
 
@@ -558,7 +572,5 @@ class Element_Ready_Adv_Accordion extends Widget_Base
         include(element_ready_locate_template('content', 'accordion/output'));
     }
 
-    protected function content_template()
-    {
-    }
+    protected function content_template() {}
 }

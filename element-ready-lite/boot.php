@@ -21,11 +21,15 @@ final class Element_Ready_Elementor_Extension
 	public function __construct()
 	{
 		add_action('plugins_loaded', [$this, 'init']);
+		add_action('init', [$this, 'load_textdomain']);
+	}
+	public function load_textdomain(){
+		load_plugin_textdomain('element-ready-lite', false, dirname(plugin_basename(__FILE__)) . '/languages');
 	}
 	public function init()
 	{
 
-		load_plugin_textdomain('element-ready-lite', false, dirname(plugin_basename(__FILE__)) . '/languages');
+		
 
 		/*---------------------------------
 			Check if Elementor installed and activated
