@@ -84,12 +84,16 @@ class Element_Ready_Adv_Accordion extends Widget_Base
             foreach ($templates as $template) {
                 $status = $template['status'] ?? 'publish';
                 $is_allowed = true;
-
-                if ($status === 'private' && !current_user_can('read_private_posts')) {
-                    $is_allowed = false;
-                } elseif (in_array($status, ['draft', 'pending']) && !current_user_can('edit_posts')) {
-                    $is_allowed = false;
+                switch ($status) {
+                    case 'private':
+                        $is_allowed = current_user_can('read_private_posts');
+                        break;
+                    case 'draft':
+                    case 'pending':
+                        $is_allowed = current_user_can('administrator') || current_user_can('editor');
+                        break;
                 }
+
                 if ($is_allowed) {
                     $template_lists[$template['template_id']] = $template['title'] . ' (' . $template['type'] . ')';
                 }

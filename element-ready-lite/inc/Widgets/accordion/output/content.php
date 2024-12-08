@@ -71,10 +71,14 @@ $this->add_render_attribute('element__ready__adv__accordion', 'id', 'element__re
                         if ($template_post) {
                             $template_status = $template_post->post_status;
                             $is_allowed = true;
-                            if ($template_status === 'private' && !current_user_can('read_private_posts')) {
-                                $is_allowed = false;
-                            } elseif (in_array($template_status, ['draft', 'pending'], true) && !current_user_can('edit_posts')) {
-                                $is_allowed = false;
+                            switch ($template_status) {
+                                case 'private':
+                                    $is_allowed = current_user_can('read_private_posts');
+                                    break;
+                                case 'draft':
+                                case 'pending':
+                                    $is_allowed = current_user_can('administrator') || current_user_can('editor');
+                                    break;
                             }
                             if ($is_allowed) {
                                 echo wp_kses_post(\Elementor\Plugin::instance()->frontend->get_builder_content_for_display($element_ready_template_id, true));

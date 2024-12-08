@@ -1108,7 +1108,21 @@ if (!function_exists('element_ready_elementor_template')) {
 		} else {
 			$template_lists = array('0' => esc_html__('Select Template', 'element-ready-lite'));
 			foreach ($templates as $template) {
-				$template_lists[$template['template_id']] = esc_html($template['title'] . ' (' . $template['type'] . ')');
+				$status = $template['status'] ?? 'publish';
+				$is_allowed = true;
+				switch ($status) {
+					case 'private':
+						$is_allowed = current_user_can('read_private_posts');
+						break;
+					case 'draft':
+					case 'pending':
+						$is_allowed = current_user_can('administrator') || current_user_can('editor');
+						break;
+				}
+
+				if ($is_allowed) {
+					$template_lists[$template['template_id']] = $template['title'] . ' (' . $template['type'] . ')';
+				}
 			}
 		}
 		return $template_lists;

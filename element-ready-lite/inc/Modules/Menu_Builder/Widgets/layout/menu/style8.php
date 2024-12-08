@@ -11,7 +11,33 @@
                             <a href="javascript:void(0)"><i class="fa fa-times"></i></a>
                         </div>
                         <div class="offcanva-element-ready-ele-content">
-                            <?php echo wp_kses_post(\Elementor\Plugin::instance()->frontend->get_builder_content_for_display($settings['offcanvas_template_id'])); ?>
+                            <?php
+
+                            if (!empty($settings['offcanvas_template_id'])) {
+                                $element_ready_template_id = $settings['offcanvas_template_id'];
+
+                                // Fetch template to verify its status
+                                $template_post = get_post($element_ready_template_id);
+                                if ($template_post) {
+                                    $template_status = $template_post->post_status;
+                                    $is_allowed = true;
+                                    switch ($template_status) {
+                                        case 'private':
+                                            $is_allowed = current_user_can('read_private_posts');
+                                            break;
+                                        case 'draft':
+                                        case 'pending':
+                                            $is_allowed = current_user_can('administrator') || current_user_can('editor');
+                                            break;
+                                    }
+                                    if ($is_allowed) {
+                                        echo wp_kses_post(\Elementor\Plugin::instance()->frontend->get_builder_content_for_display($element_ready_template_id, true));
+                                    }
+                                } else {
+                                    echo wp_kses_post(\Elementor\Plugin::instance()->frontend->get_builder_content_for_display($settings['offcanvas_template_id']));
+                                }
+                            }
+                            ?>
                         </div>
                     </div>
                 </div>

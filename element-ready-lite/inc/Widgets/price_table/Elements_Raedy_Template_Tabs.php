@@ -834,7 +834,32 @@ class Elements_Raedy_Template_Tabs extends Widget_Base
 					<div <?php $this->print_render_attribute_string($tab_content_setting_key); ?>>
 						<?php
 						if ($item['element_ready_text_type'] == 'template') {
-							echo wp_kses_post(\Elementor\Plugin::instance()->frontend->get_builder_content_for_display($item['element_ready_primary_templates'], true));
+
+
+							if (!empty($item['element_ready_primary_templates'] ?? '')) {
+								$element_ready_template_id = $item['element_ready_primary_templates'];
+
+								// Fetch template to verify its status
+								$template_post = get_post($element_ready_template_id);
+								if ($template_post) {
+									$template_status = $template_post->post_status;
+									$is_allowed = true;
+									switch ($template_status) {
+										case 'private':
+											$is_allowed = current_user_can('read_private_posts');
+											break;
+										case 'draft':
+										case 'pending':
+											$is_allowed = current_user_can('administrator') || current_user_can('editor');
+											break;
+									}
+									if ($is_allowed) {
+										echo wp_kses_post(\Elementor\Plugin::instance()->frontend->get_builder_content_for_display($element_ready_template_id, true));
+									}
+								} else {
+									echo wp_kses_post(\Elementor\Plugin::instance()->frontend->get_builder_content_for_display($item['element_ready_primary_templates'], true));
+								}
+							}
 						} else {
 							$this->print_text_editor($item['tab_content']);
 						}

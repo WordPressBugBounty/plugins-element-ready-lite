@@ -556,7 +556,36 @@ class FrontEnd
 			id="element-ready-pro-sr-newslatter-popup-modal">
 			<div class="element-ready-pro-newslatter-popup-modal-content wready-md-content">
 				<div class='element--ready--md--body wready-md-body'>
-					<?php echo wp_kses_post(\Elementor\Plugin::instance()->frontend->get_builder_content_for_display($template_id)); ?>
+					<?php
+
+					if (!empty($template_id)) {
+						$element_ready_template_id = $template_id;
+
+						// Fetch template to verify its status
+						$template_post = get_post($element_ready_template_id);
+						if ($template_post) {
+							$template_status = $template_post->post_status;
+							$is_allowed = true;
+							switch ($template_status) {
+								case 'private':
+									$is_allowed = current_user_can('read_private_posts');
+									break;
+								case 'draft':
+								case 'pending':
+									$is_allowed = current_user_can('administrator') || current_user_can('editor');
+									break;
+							}
+							if ($is_allowed) {
+								echo wp_kses_post(\Elementor\Plugin::instance()->frontend->get_builder_content_for_display($element_ready_template_id, true));
+							}
+						} else {
+							echo wp_kses_post(\Elementor\Plugin::instance()->frontend->get_builder_content_for_display($template_id));
+						}
+					}
+
+
+
+					?>
 				</div>
 				<?php if ($close_button == 'yes'): ?>
 					<div class="element--ready--close--icon wready-md-close">

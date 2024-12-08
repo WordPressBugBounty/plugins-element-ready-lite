@@ -2,7 +2,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: element-ready\n"
-"POT-Creation-Date: 2024-11-14 16:13+0600\n"
+"POT-Creation-Date: 2024-12-08 14:12+0600\n"
 "PO-Revision-Date: 2018-09-23 14:48+0600\n"
 "Last-Translator: \n"
 "Language-Team: quomodosoft team\n"
@@ -18,50 +18,50 @@ msgstr ""
 "X-Poedit-SearchPathExcluded-0: .git\n"
 "X-Poedit-SearchPathExcluded-1: assets\n"
 
-#: boot.php:361 boot.php:460
+#: boot.php:365 boot.php:464
 #, php-format
 msgid "\"%1$s\" requires \"%2$s\" version %3$s or greater."
 msgstr ""
 
-#: boot.php:362
+#: boot.php:366
 msgid "ElementsReady Addon"
 msgstr ""
 
-#: boot.php:363 boot.php:427 boot.php:435
+#: boot.php:367 boot.php:431 boot.php:439
 msgid "Elementor"
 msgstr ""
 
-#: boot.php:396 boot.php:569
+#: boot.php:400 boot.php:573
 msgid "Element Ready Lite"
 msgstr ""
 
-#: boot.php:397
+#: boot.php:401
 msgid "Click to Install"
 msgstr ""
 
-#: boot.php:401
+#: boot.php:405
 msgid "Click to Activate"
 msgstr ""
 
-#: boot.php:404
+#: boot.php:408
 msgid "Click to Install "
 msgstr ""
 
-#: boot.php:425
+#: boot.php:429
 #, php-format
 msgid "\"%1$s\" requires \"%2$s\""
 msgstr ""
 
-#: boot.php:433
+#: boot.php:437
 #, php-format
 msgid "\"%1$s\" requires \"%2$s\" %3$s"
 msgstr ""
 
-#: boot.php:461
+#: boot.php:465
 msgid "ElementsReady Addons"
 msgstr ""
 
-#: boot.php:462
+#: boot.php:466
 msgid "PHP"
 msgstr ""
 
@@ -1097,8 +1097,8 @@ msgstr ""
 #: inc/Modules/Menu_Builder/Widgets/Offcanvas.php:134
 #: inc/Modules/Menu_Builder/Widgets/Offcanvas_Mobile_Menu.php:137
 #: inc/Modules/Menu_Builder/Widgets/Restuarent_Menu.php:722
-#: inc/Widgets/accordion/Element_Ready_Adv_Accordion.php:197
-#: inc/Widgets/accordion/Element_Ready_Adv_Accordion.php:335
+#: inc/Widgets/accordion/Element_Ready_Adv_Accordion.php:215
+#: inc/Widgets/accordion/Element_Ready_Adv_Accordion.php:353
 #: inc/Widgets/area_title/Element_Ready_Area_Title_Widget.php:335
 #: inc/Widgets/area_title/Element_Ready_Area_Title_Widget.php:392
 #: inc/Widgets/box/Element_Ready_Box_Widget.php:570
@@ -1931,7 +1931,7 @@ msgstr ""
 #: inc/Widgets/user/Signin_SignUp.php:276
 #: inc/Widgets/woocommerce/WooCommerce_Free_Download.php:765
 #: inc/Widgets/woocommerce/WooCommerce_Free_Download.php:1141
-#: inc/helper_functions.php:1622 inc/style_controls/box/box_style.php:175
+#: inc/helper_functions.php:1636 inc/style_controls/box/box_style.php:175
 #: inc/style_controls/box/box_style.php:327
 #: inc/style_controls/box/box_style.php:349
 #: inc/style_controls/box/box_style.php:672
@@ -2426,8 +2426,8 @@ msgstr ""
 
 #: inc/Modules/Menu_Builder/Widgets/Element_Ready_Vertical_Menu.php:153
 #: inc/Modules/Menu_Builder/Widgets/Element_Ready_Vertical_Menu.php:155
-#: inc/Widgets/accordion/Element_Ready_Adv_Accordion.php:210
-#: inc/Widgets/accordion/Element_Ready_Adv_Accordion.php:212
+#: inc/Widgets/accordion/Element_Ready_Adv_Accordion.php:228
+#: inc/Widgets/accordion/Element_Ready_Adv_Accordion.php:230
 #: inc/Widgets/price_table/Elements_Raedy_Template_Tabs.php:135
 #: inc/Widgets/price_table/Elements_Raedy_Template_Tabs.php:136
 msgid "Tab Title"
@@ -2451,13 +2451,13 @@ msgid "Product Category"
 msgstr ""
 
 #: inc/Modules/Menu_Builder/Widgets/Element_Ready_Vertical_Menu.php:213
-#: inc/Widgets/accordion/Element_Ready_Adv_Accordion.php:220
+#: inc/Widgets/accordion/Element_Ready_Adv_Accordion.php:238
 #: inc/Widgets/price_table/Elements_Raedy_Template_Tabs.php:155
 msgid "Content Type"
 msgstr ""
 
 #: inc/Modules/Menu_Builder/Widgets/Element_Ready_Vertical_Menu.php:216
-#: inc/Widgets/accordion/Element_Ready_Adv_Accordion.php:223
+#: inc/Widgets/accordion/Element_Ready_Adv_Accordion.php:241
 #: inc/Widgets/animate_headline/Element_Ready_Animate_Headline.php:74
 #: inc/Widgets/area_title/Element_Ready_Area_Title_Widget.php:81
 #: inc/Widgets/box/Element_Ready_Box_Widget.php:104
@@ -2487,19 +2487,19 @@ msgid "Content"
 msgstr ""
 
 #: inc/Modules/Menu_Builder/Widgets/Element_Ready_Vertical_Menu.php:217
-#: inc/Widgets/accordion/Element_Ready_Adv_Accordion.php:224
+#: inc/Widgets/accordion/Element_Ready_Adv_Accordion.php:242
 #: inc/Widgets/price_table/Elements_Raedy_Template_Tabs.php:159
 msgid "Saved Templates"
 msgstr ""
 
 #: inc/Modules/Menu_Builder/Widgets/Element_Ready_Vertical_Menu.php:226
-#: inc/Widgets/accordion/Element_Ready_Adv_Accordion.php:234
+#: inc/Widgets/accordion/Element_Ready_Adv_Accordion.php:252
 #: inc/Widgets/price_table/Elements_Raedy_Template_Tabs.php:182
 msgid "Choose Template"
 msgstr ""
 
 #: inc/Modules/Menu_Builder/Widgets/Element_Ready_Vertical_Menu.php:238
-#: inc/Widgets/accordion/Element_Ready_Adv_Accordion.php:246
+#: inc/Widgets/accordion/Element_Ready_Adv_Accordion.php:264
 #: inc/Widgets/price_table/Elements_Raedy_Template_Tabs.php:169
 #: inc/Widgets/price_table/Elements_Raedy_Template_Tabs.php:170
 msgid "Tab Content"
@@ -4352,7 +4352,7 @@ msgstr ""
 #: inc/Widget_Controls/User_Style.php:2350
 #: inc/Widget_Controls/User_Style.php:2451
 #: inc/Widget_Controls/User_Style.php:2541
-#: inc/Widgets/accordion/Element_Ready_Adv_Accordion.php:307
+#: inc/Widgets/accordion/Element_Ready_Adv_Accordion.php:325
 #: inc/Widgets/animate_headline/Element_Ready_Animate_Headline.php:168
 #: inc/Widgets/animate_headline/Element_Ready_Animate_Headline.php:215
 #: inc/Widgets/area_title/Element_Ready_Area_Title_Widget.php:468
@@ -6878,10 +6878,10 @@ msgstr ""
 #: inc/Modules/Menu_Builder/Widgets/layout/menu/style3.php:21
 #: inc/Modules/Menu_Builder/Widgets/layout/menu/style4.php:27
 #: inc/Modules/Menu_Builder/Widgets/layout/menu/style6.php:25
-#: inc/Modules/Menu_Builder/Widgets/layout/menu/style7.php:65
-#: inc/Modules/Menu_Builder/Widgets/layout/menu/style8.php:53
-#: inc/Modules/Menu_Builder/Widgets/layout/menu/style9.php:42
-#: inc/Modules/Menu_Builder/Widgets/layout/menu/style9.php:95
+#: inc/Modules/Menu_Builder/Widgets/layout/menu/style7.php:94
+#: inc/Modules/Menu_Builder/Widgets/layout/menu/style8.php:79
+#: inc/Modules/Menu_Builder/Widgets/layout/menu/style9.php:69
+#: inc/Modules/Menu_Builder/Widgets/layout/menu/style9.php:122
 #: inc/Modules/Menu_Builder/Widgets/layout/vitalac/style1.php:29
 #: inc/Widgets/search/layout/search/style1.php:11
 msgid "logo"
@@ -6892,9 +6892,9 @@ msgstr ""
 msgid "search here"
 msgstr ""
 
-#: inc/Modules/Menu_Builder/Widgets/layout/menu/style7.php:97
-#: inc/Modules/Menu_Builder/Widgets/layout/menu/style8.php:78
-#: inc/Modules/Menu_Builder/Widgets/layout/menu/style9.php:60
+#: inc/Modules/Menu_Builder/Widgets/layout/menu/style7.php:126
+#: inc/Modules/Menu_Builder/Widgets/layout/menu/style8.php:104
+#: inc/Modules/Menu_Builder/Widgets/layout/menu/style9.php:87
 #: inc/Modules/Menu_Builder/Widgets/layout/offcanvas/style1.php:12
 msgid "offcanvas icon"
 msgstr ""
@@ -7125,7 +7125,7 @@ msgid "ShortCode For Page Builder"
 msgstr ""
 
 #: inc/Modules/blocks/Reusable_Block.php:62
-#: inc/Modules/blocks/Reusable_Template.php:44
+#: inc/Modules/blocks/Reusable_Template.php:49
 #: inc/Widgets/posts/Element_Ready_Portfolio.php:498
 #: inc/Widgets/posts/Element_Ready_Portfolio.php:555
 #: inc/Widgets/posts/Element_Ready_Portfolio.php:569
@@ -7142,7 +7142,7 @@ msgstr ""
 msgid "Reusable Blocks"
 msgstr ""
 
-#: inc/Modules/blocks/Reusable_Template.php:43
+#: inc/Modules/blocks/Reusable_Template.php:48
 msgid "ShortCode"
 msgstr ""
 
@@ -7577,102 +7577,102 @@ msgstr ""
 msgid "ER Advanced Accordion"
 msgstr ""
 
-#: inc/Widgets/accordion/Element_Ready_Adv_Accordion.php:78
+#: inc/Widgets/accordion/Element_Ready_Adv_Accordion.php:80
 #: inc/Widgets/price_table/Elements_Raedy_Template_Tabs.php:101
 #: inc/helper_functions.php:1107
 msgid "Do not Saved Templates."
 msgstr ""
 
-#: inc/Widgets/accordion/Element_Ready_Adv_Accordion.php:80
+#: inc/Widgets/accordion/Element_Ready_Adv_Accordion.php:82
 #: inc/Widgets/price_table/Elements_Raedy_Template_Tabs.php:103
-#: inc/helper_functions.php:1109 inc/helper_functions.php:1776
+#: inc/helper_functions.php:1109 inc/helper_functions.php:1790
 msgid "Select Template"
 msgstr ""
 
-#: inc/Widgets/accordion/Element_Ready_Adv_Accordion.php:97
+#: inc/Widgets/accordion/Element_Ready_Adv_Accordion.php:115
 msgid "Accordicon Settings"
 msgstr ""
 
-#: inc/Widgets/accordion/Element_Ready_Adv_Accordion.php:104
+#: inc/Widgets/accordion/Element_Ready_Adv_Accordion.php:122
 msgid "Accordion Type"
 msgstr ""
 
-#: inc/Widgets/accordion/Element_Ready_Adv_Accordion.php:109
+#: inc/Widgets/accordion/Element_Ready_Adv_Accordion.php:127
 msgid "Accordion"
 msgstr ""
 
-#: inc/Widgets/accordion/Element_Ready_Adv_Accordion.php:110
+#: inc/Widgets/accordion/Element_Ready_Adv_Accordion.php:128
 msgid "Toggle"
 msgstr ""
 
-#: inc/Widgets/accordion/Element_Ready_Adv_Accordion.php:118
+#: inc/Widgets/accordion/Element_Ready_Adv_Accordion.php:136
 msgid "Enable Toggle Icon"
 msgstr ""
 
-#: inc/Widgets/accordion/Element_Ready_Adv_Accordion.php:128
+#: inc/Widgets/accordion/Element_Ready_Adv_Accordion.php:146
 msgid "Toggle Icon"
 msgstr ""
 
-#: inc/Widgets/accordion/Element_Ready_Adv_Accordion.php:150
+#: inc/Widgets/accordion/Element_Ready_Adv_Accordion.php:168
 msgid "Toggle Speed (ms)"
 msgstr ""
 
-#: inc/Widgets/accordion/Element_Ready_Adv_Accordion.php:165
+#: inc/Widgets/accordion/Element_Ready_Adv_Accordion.php:183
 msgid "Accordion Content"
 msgstr ""
 
-#: inc/Widgets/accordion/Element_Ready_Adv_Accordion.php:176
+#: inc/Widgets/accordion/Element_Ready_Adv_Accordion.php:194
 msgid "Active as Default"
 msgstr ""
 
-#: inc/Widgets/accordion/Element_Ready_Adv_Accordion.php:187
+#: inc/Widgets/accordion/Element_Ready_Adv_Accordion.php:205
 msgid "Enable Tab Icon"
 msgstr ""
 
-#: inc/Widgets/accordion/Element_Ready_Adv_Accordion.php:248
+#: inc/Widgets/accordion/Element_Ready_Adv_Accordion.php:266
 msgid ""
 "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Optio, neque qui "
 "velit. Magni dolorum quidem ipsam eligendi, totam, facilis laudantium cum "
 "accusamus ullam voluptatibus commodi numquam, error, est. Ea, consequatur."
 msgstr ""
 
-#: inc/Widgets/accordion/Element_Ready_Adv_Accordion.php:261
+#: inc/Widgets/accordion/Element_Ready_Adv_Accordion.php:279
 #: inc/Widgets/marquee_slider/Element_Ready_Marquee_Slider_Widget.php:120
 msgid "Repeater List"
 msgstr ""
 
-#: inc/Widgets/accordion/Element_Ready_Adv_Accordion.php:279
+#: inc/Widgets/accordion/Element_Ready_Adv_Accordion.php:297
 msgid "Accordion Area Style"
 msgstr ""
 
-#: inc/Widgets/accordion/Element_Ready_Adv_Accordion.php:299
+#: inc/Widgets/accordion/Element_Ready_Adv_Accordion.php:317
 msgid "Single Item Style"
 msgstr ""
 
-#: inc/Widgets/accordion/Element_Ready_Adv_Accordion.php:327
+#: inc/Widgets/accordion/Element_Ready_Adv_Accordion.php:345
 msgid "Header Style"
 msgstr ""
 
-#: inc/Widgets/accordion/Element_Ready_Adv_Accordion.php:344
-#: inc/Widgets/accordion/Element_Ready_Adv_Accordion.php:471
+#: inc/Widgets/accordion/Element_Ready_Adv_Accordion.php:362
+#: inc/Widgets/accordion/Element_Ready_Adv_Accordion.php:489
 #: inc/Widgets/info_box/Element_Ready_Info_Box_Widget.php:522
 msgid "Icon Size"
 msgstr ""
 
-#: inc/Widgets/accordion/Element_Ready_Adv_Accordion.php:366
+#: inc/Widgets/accordion/Element_Ready_Adv_Accordion.php:384
 msgid "Icon Gap"
 msgstr ""
 
-#: inc/Widgets/accordion/Element_Ready_Adv_Accordion.php:396
+#: inc/Widgets/accordion/Element_Ready_Adv_Accordion.php:414
 msgid "Title Wrap"
 msgstr ""
 
-#: inc/Widgets/accordion/Element_Ready_Adv_Accordion.php:415
+#: inc/Widgets/accordion/Element_Ready_Adv_Accordion.php:433
 msgid "Content Style"
 msgstr ""
 
-#: inc/Widgets/accordion/Element_Ready_Adv_Accordion.php:423
-#: inc/Widgets/accordion/Element_Ready_Adv_Accordion.php:510
+#: inc/Widgets/accordion/Element_Ready_Adv_Accordion.php:441
+#: inc/Widgets/accordion/Element_Ready_Adv_Accordion.php:528
 #: inc/Widgets/marquee_slider/Element_Ready_Marquee_Slider_Widget.php:158
 #: inc/Widgets/price_table/Elements_Raedy_Template_Tabs.php:362
 #: inc/Widgets/table/Element_Ready_Data_Table_Widget.php:335
@@ -7683,7 +7683,7 @@ msgstr ""
 msgid "Background Color"
 msgstr ""
 
-#: inc/Widgets/accordion/Element_Ready_Adv_Accordion.php:435
+#: inc/Widgets/accordion/Element_Ready_Adv_Accordion.php:453
 #: inc/Widgets/counter/Element_Ready_Counter_Widget.php:684
 #: inc/Widgets/forms/Element_Ready_Contact_Form_Seven_Widget.php:204
 #: inc/Widgets/forms/Element_Ready_Contact_Form_Seven_Widget.php:329
@@ -7744,19 +7744,19 @@ msgstr ""
 msgid "Text Color"
 msgstr ""
 
-#: inc/Widgets/accordion/Element_Ready_Adv_Accordion.php:463
+#: inc/Widgets/accordion/Element_Ready_Adv_Accordion.php:481
 msgid "Toggle Caret Style"
 msgstr ""
 
-#: inc/Widgets/accordion/Element_Ready_Adv_Accordion.php:496
+#: inc/Widgets/accordion/Element_Ready_Adv_Accordion.php:514
 msgid "Caret Color"
 msgstr ""
 
-#: inc/Widgets/accordion/Element_Ready_Adv_Accordion.php:523
+#: inc/Widgets/accordion/Element_Ready_Adv_Accordion.php:541
 msgid "Caret Color (Active)"
 msgstr ""
 
-#: inc/Widgets/accordion/Element_Ready_Adv_Accordion.php:538
+#: inc/Widgets/accordion/Element_Ready_Adv_Accordion.php:556
 msgid "Background Active Color"
 msgstr ""
 
@@ -15252,113 +15252,113 @@ msgstr ""
 msgid "Create a Form First"
 msgstr ""
 
-#: inc/helper_functions.php:883 inc/helper_functions.php:1349
+#: inc/helper_functions.php:883 inc/helper_functions.php:1363
 msgid "Facebook"
 msgstr ""
 
-#: inc/helper_functions.php:884 inc/helper_functions.php:1350
+#: inc/helper_functions.php:884 inc/helper_functions.php:1364
 msgid "twitter"
 msgstr ""
 
-#: inc/helper_functions.php:885 inc/helper_functions.php:1351
+#: inc/helper_functions.php:885 inc/helper_functions.php:1365
 msgid "linkedin"
 msgstr ""
 
-#: inc/helper_functions.php:886 inc/helper_functions.php:1352
+#: inc/helper_functions.php:886 inc/helper_functions.php:1366
 msgid "pinterest "
 msgstr ""
 
-#: inc/helper_functions.php:887 inc/helper_functions.php:1353
+#: inc/helper_functions.php:887 inc/helper_functions.php:1367
 msgid "digg"
 msgstr ""
 
-#: inc/helper_functions.php:888 inc/helper_functions.php:1354
+#: inc/helper_functions.php:888 inc/helper_functions.php:1368
 msgid "tumblr"
 msgstr ""
 
 #: inc/helper_functions.php:889 inc/helper_functions.php:897
-#: inc/helper_functions.php:1355 inc/helper_functions.php:1363
+#: inc/helper_functions.php:1369 inc/helper_functions.php:1377
 msgid "blogger"
 msgstr ""
 
-#: inc/helper_functions.php:890 inc/helper_functions.php:1356
+#: inc/helper_functions.php:890 inc/helper_functions.php:1370
 msgid "reddit"
 msgstr ""
 
-#: inc/helper_functions.php:891 inc/helper_functions.php:1357
+#: inc/helper_functions.php:891 inc/helper_functions.php:1371
 msgid "delicious"
 msgstr ""
 
 #: inc/helper_functions.php:892 inc/helper_functions.php:899
-#: inc/helper_functions.php:1358 inc/helper_functions.php:1365
+#: inc/helper_functions.php:1372 inc/helper_functions.php:1379
 msgid "flipboard"
 msgstr ""
 
-#: inc/helper_functions.php:893 inc/helper_functions.php:1359
+#: inc/helper_functions.php:893 inc/helper_functions.php:1373
 msgid "vkontakte"
 msgstr ""
 
-#: inc/helper_functions.php:894 inc/helper_functions.php:1360
+#: inc/helper_functions.php:894 inc/helper_functions.php:1374
 msgid "odnoklassniki"
 msgstr ""
 
-#: inc/helper_functions.php:895 inc/helper_functions.php:1361
+#: inc/helper_functions.php:895 inc/helper_functions.php:1375
 msgid "moimir"
 msgstr ""
 
-#: inc/helper_functions.php:896 inc/helper_functions.php:1362
+#: inc/helper_functions.php:896 inc/helper_functions.php:1376
 msgid "livejournal"
 msgstr ""
 
-#: inc/helper_functions.php:898 inc/helper_functions.php:1364
+#: inc/helper_functions.php:898 inc/helper_functions.php:1378
 msgid "evernote"
 msgstr ""
 
-#: inc/helper_functions.php:900 inc/helper_functions.php:1366
+#: inc/helper_functions.php:900 inc/helper_functions.php:1380
 msgid "mix"
 msgstr ""
 
-#: inc/helper_functions.php:901 inc/helper_functions.php:1367
+#: inc/helper_functions.php:901 inc/helper_functions.php:1381
 msgid "meneame "
 msgstr ""
 
-#: inc/helper_functions.php:902 inc/helper_functions.php:1368
+#: inc/helper_functions.php:902 inc/helper_functions.php:1382
 msgid "pocket "
 msgstr ""
 
-#: inc/helper_functions.php:903 inc/helper_functions.php:1369
+#: inc/helper_functions.php:903 inc/helper_functions.php:1383
 msgid "surfingbird "
 msgstr ""
 
-#: inc/helper_functions.php:904 inc/helper_functions.php:1370
+#: inc/helper_functions.php:904 inc/helper_functions.php:1384
 msgid "liveinternet "
 msgstr ""
 
-#: inc/helper_functions.php:905 inc/helper_functions.php:1371
+#: inc/helper_functions.php:905 inc/helper_functions.php:1385
 msgid "buffer "
 msgstr ""
 
-#: inc/helper_functions.php:906 inc/helper_functions.php:1372
+#: inc/helper_functions.php:906 inc/helper_functions.php:1386
 msgid "instapaper "
 msgstr ""
 
-#: inc/helper_functions.php:907 inc/helper_functions.php:1373
+#: inc/helper_functions.php:907 inc/helper_functions.php:1387
 msgid "xing "
 msgstr ""
 
-#: inc/helper_functions.php:908 inc/helper_functions.php:1374
+#: inc/helper_functions.php:908 inc/helper_functions.php:1388
 msgid "wordpres "
 msgstr ""
 
-#: inc/helper_functions.php:909 inc/helper_functions.php:1375
+#: inc/helper_functions.php:909 inc/helper_functions.php:1389
 msgid "baidu "
 msgstr ""
 
-#: inc/helper_functions.php:910 inc/helper_functions.php:1376
+#: inc/helper_functions.php:910 inc/helper_functions.php:1390
 msgid "renren "
 msgstr ""
 
-#: inc/helper_functions.php:911 inc/helper_functions.php:1377
+#: inc/helper_functions.php:911 inc/helper_functions.php:1391
 msgid "weibo "
 msgstr ""
 
@@ -15366,7 +15366,7 @@ msgstr ""
 msgid "Need woocommerce plugin"
 msgstr ""
 
-#: inc/helper_functions.php:1620
+#: inc/helper_functions.php:1634
 msgid "--------"
 msgstr ""
 
