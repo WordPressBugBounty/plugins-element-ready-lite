@@ -8,7 +8,7 @@
             </a>
             <div class="header-account element-ready-submenu">
                 <?php if ($settings['modal_template_id'] > 0 && $settings['modal_template_id'] != ''): ?>
-                    <?php echo wp_kses_post(\Elementor\Plugin::instance()->frontend->get_builder_content_for_display($settings['modal_template_id'])); ?>
+                    <?php echo \Elementor\Plugin::instance()->frontend->get_builder_content_for_display($settings['modal_template_id']); ?>
                 <?php endif; ?>
                 <div class="er-ready-count-close-btn">
                     <?php echo wp_kses_post(element_ready_render_icons($settings['close_icon'], 'er-icons')); ?>

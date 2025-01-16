@@ -576,10 +576,10 @@ class FrontEnd
 									break;
 							}
 							if ($is_allowed) {
-								echo wp_kses_post(\Elementor\Plugin::instance()->frontend->get_builder_content_for_display($element_ready_template_id, true));
+								echo \Elementor\Plugin::instance()->frontend->get_builder_content_for_display($element_ready_template_id, true);
 							}
 						} else {
-							echo wp_kses_post(\Elementor\Plugin::instance()->frontend->get_builder_content_for_display($template_id));
+							echo \Elementor\Plugin::instance()->frontend->get_builder_content_for_display($template_id);
 						}
 					}
 

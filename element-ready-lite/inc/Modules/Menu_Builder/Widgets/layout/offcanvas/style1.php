@@ -19,21 +19,21 @@
     </div>
 </div>
 <div
-    class="element-ready-body-overlay <?php echo esc_attr($settings['offcanvas_container_direction'] != 'yes' ? 'element-ready-overlay-rightbar' : ''); ?>">
+    class="element-ready-body-overlay <?php echo esc_attr(($settings['offcanvas_container_direction'] ?? '') != 'yes' ? 'element-ready-overlay-rightbar' : ''); ?>">
 </div>
 <div
-    class="element-ready-sidebar-menu <?php echo esc_attr($settings['offcanvas_container_direction'] != 'yes' ? 'element-ready-offcanvus-rightbar' : ''); ?>">
+    class="element-ready-sidebar-menu <?php echo esc_attr(($settings['offcanvas_container_direction'] ?? '') != 'yes' ? 'element-ready-offcanvus-rightbar' : ''); ?>">
     <button class="sidebar-menu-close"><i class="fa fa-times"></i></button>
     <div class="sidebar-inner">
         <?php
 
-        if (!empty($settings['offcanvas_template_id'])) {
+        if (!empty($settings['offcanvas_template_id'] ?? '')) {
             $element_ready_template_id = $settings['offcanvas_template_id'];
 
             // Fetch template to verify its status
-            $template_post = get_post($element_ready_template_id);
+            $template_post = get_post($element_ready_template_id ?? 0);
             if ($template_post) {
-                $template_status = $template_post->post_status;
+                $template_status = $template_post->post_status ?? '';
                 $is_allowed = true;
                 switch ($template_status) {
                     case 'private':
@@ -45,10 +45,11 @@
                         break;
                 }
                 if ($is_allowed) {
-                    echo wp_kses_post(\Elementor\Plugin::instance()->frontend->get_builder_content_for_display($element_ready_template_id, true));
+                    echo \Elementor\Plugin::instance()->frontend->get_builder_content_for_display($element_ready_template_id, true);
                 }
             } else {
-                echo wp_kses_post(\Elementor\Plugin::instance()->frontend->get_builder_content_for_display($settings['offcanvas_template_id']));
+				echo \Elementor\Plugin::instance()->frontend->get_builder_content_for_display($settings['offcanvas_template_id'] ?? 0);
+                
             }
         }
 

@@ -854,10 +854,10 @@ class Elements_Raedy_Template_Tabs extends Widget_Base
 											break;
 									}
 									if ($is_allowed) {
-										echo wp_kses_post(\Elementor\Plugin::instance()->frontend->get_builder_content_for_display($element_ready_template_id, true));
+										echo \Elementor\Plugin::instance()->frontend->get_builder_content_for_display($element_ready_template_id, true);
 									}
 								} else {
-									echo wp_kses_post(\Elementor\Plugin::instance()->frontend->get_builder_content_for_display($item['element_ready_primary_templates'], true));
+									echo \Elementor\Plugin::instance()->frontend->get_builder_content_for_display($item['element_ready_primary_templates'], true);
 								}
 							}
 						} else {

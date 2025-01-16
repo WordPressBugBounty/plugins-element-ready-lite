@@ -524,7 +524,7 @@ class Element_Raedy_Sticky
                     'type'       => \Elementor\Controls_Manager::DIMENSIONS,
                     'size_units' => ['px', '%', 'em'],
                     'selectors'  => [
-                        '{{WRAPPER}} .elementor-column-wrap.elementor-element-populated' => 'padding: {{TOP}}{{UNIT}} {{RIGHT}}{{UNIT}} {{BOTTOM}}{{UNIT}} {{LEFT}}{{UNIT}};',
+                        '{{WRAPPER}} .elementor-element-populated' => 'padding: {{TOP}}{{UNIT}} {{RIGHT}}{{UNIT}} {{BOTTOM}}{{UNIT}} {{LEFT}}{{UNIT}};',
 
                     ],
                     'separator' => 'before',
@@ -538,7 +538,7 @@ class Element_Raedy_Sticky
                     'type'       => \Elementor\Controls_Manager::DIMENSIONS,
                     'size_units' => ['px', '%', 'em'],
                     'selectors'  => [
-                        '{{WRAPPER}} .elementor-column-wrap.elementor-element-populated' => 'margin: {{TOP}}{{UNIT}} {{RIGHT}}{{UNIT}} {{BOTTOM}}{{UNIT}} {{LEFT}}{{UNIT}};',
+                        '{{WRAPPER}} .elementor-element-populated' => 'margin: {{TOP}}{{UNIT}} {{RIGHT}}{{UNIT}} {{BOTTOM}}{{UNIT}} {{LEFT}}{{UNIT}};',
 
                     ],
                     'separator' => 'before',

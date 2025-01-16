@@ -126,6 +126,6 @@ class Elementor_Helper
     static function display_elementor_content($id = null)
     {
 
-        echo wp_kses_post(\Elementor\Plugin::instance()->frontend->get_builder_content_for_display(esc_attr($id), true));
+        echo \Elementor\Plugin::instance()->frontend->get_builder_content_for_display(esc_attr($id), true);
     }
 }

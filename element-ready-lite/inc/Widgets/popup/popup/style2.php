@@ -12,7 +12,7 @@
                 <div class="modal-dialog modal-dialog-centered">
                     <div class="modal-content element-ready-user-modal-content">
                         <?php if ($settings['modal_template_id'] > 0 && $settings['modal_template_id'] != ''): ?>
-                            <?php echo wp_kses_post(\Elementor\Plugin::instance()->frontend->get_builder_content_for_display($settings['modal_template_id'])); ?>
+                            <?php echo \Elementor\Plugin::instance()->frontend->get_builder_content_for_display($settings['modal_template_id']); ?>
                         <?php endif; ?>
                     </div>
                 </div>

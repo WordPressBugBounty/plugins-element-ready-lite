@@ -5212,7 +5212,7 @@ class Menu extends Widget_Base
         $nav_walker_default['first_li_menu_pointer'] = $settings['menu_item_li_menu_pointer'];
         $nav_walker_default['first_li_menu_hover_pointer'] = $settings['menu_item_li_menu_hover_pointer'];
 
-        ?>
+?>
         <!--====== Header START ======-->
         <?php if ($settings['menu_style'] == 'style1'): ?>
             <?php
@@ -5275,9 +5275,7 @@ class Menu extends Widget_Base
             <?php include('layout/menu/style5.php'); ?>
         <?php endif; ?>
         <!--====== PART ENDS ======-->
-        <?php
+<?php
     }
-    protected function content_template()
-    {
-    }
+    protected function content_template() {}
 }
