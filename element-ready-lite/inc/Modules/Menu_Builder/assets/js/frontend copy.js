@@ -139,21 +139,36 @@
 
         $offcanvasNav.on('click', 'li a, li .element-ready-menu-expand', function(e) {
             var $this = $(this);
-            if (($this.parent().attr('class').match(/\b(element-ready-menu-item-has-children|has-children|has-sub-menu|element-ready-element-ready-sub-menu)\b/)) && ($this.attr('href') === '#' || $this.hasClass('element-ready-menu-expand'))) {
-                e.preventDefault();
-                if ($this.siblings('ul:visible').length) {
-                    $this.siblings('ul').slideUp('slow');
-                } else {
-                    $this.closest('li').siblings('li').find('ul:visible').slideUp('slow');
-                    $this.siblings('ul').slideDown('slow');
+            
+            // Check if the clicked item has a submenu
+            if ($this.parent().hasClass('element-ready-menu-item-has-children') || 
+                $this.parent().hasClass('has-children') || 
+                $this.parent().hasClass('has-sub-menu') || 
+                $this.parent().hasClass('element-ready-element-ready-sub-menu')) {
+                
+                // Prevent default action for links with "#" or expand buttons
+                if ($this.attr('href') === '#' || $this.hasClass('element-ready-menu-expand')) {
+                    e.preventDefault();
+        
+                    // Check if the submenu is visible
+                    var $submenu = $this.siblings('ul');
+                    if ($submenu.is(':visible')) {
+                        $submenu.slideUp('slow'); // Close current submenu
+                        $this.parent().removeClass('menu-open');
+                    } else {
+                       setTimeout(function(){
+                         // Close other submenus only in the same level
+                         $this.closest('ul').find('ul:visible').slideUp('slow').parent().removeClass('menu-open');
+                        
+                         // Open the current submenu
+                         $submenu.slideDown('slow');
+                         $this.parent().addClass('menu-open');
+                       }, 500);
+                    }
                 }
             }
-            if ($this.is('a') || $this.is('span') || $this.attr('clas').match(/\b(element-ready-menu-expand)\b/)) {
-                $this.parent().toggleClass('menu-open');
-            } else if ($this.is('li') && $this.attr('class').match(/\b('element-ready-menu-item-has-children')\b/)) {
-                $this.toggleClass('menu-open');
-            }
         });
+        
     }
 
     $(window).on('elementor/frontend/init', function() {
