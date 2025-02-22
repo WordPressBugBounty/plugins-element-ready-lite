@@ -4631,7 +4631,7 @@ class Element_Ready_Portfolio extends Widget_Base
     public function element_ready_render_loop_content($contetntstyle = NULL)
     {
         $settings   = $this->get_settings_for_display();
-        $inner_display = $settings['hover_content_layout_tab_style'];
+        $inner_display = $settings['hover_content_layout_tab_style'] ?? '';
         $content_layout_style = $settings['content_layout_style'] ?? '';
     ?>
         <?php if ($contetntstyle == 1) : ?>

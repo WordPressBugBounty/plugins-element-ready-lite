@@ -2,7 +2,7 @@
 
 namespace Element_Ready\section_control;
 
-class Element_Raedy_Sticky
+class Element_Ready_Sticky
 {
 
     private static $instance = null;
@@ -562,11 +562,12 @@ class Element_Raedy_Sticky
             (isset($settings['element_ready_sticky_type']) && $settings['element_ready_sticky_type'] != '')
         ) {
 
-            echo "
-            <script>
-                window.element_ready_section_sticky_data.section" . esc_attr($data['id']) . " = JSON.parse('" . wp_json_encode($settings) . "');
-            </script>
-            ";
+?>
+<script>
+    window.element_ready_section_sticky_data.section<?php echo esc_attr($data['id']); ?> = <?php echo wp_json_encode($settings); ?>;
+</script>
+<?php
+
         }
     }
     public function inline_script()
@@ -593,5 +594,5 @@ class Element_Raedy_Sticky
 }
 
 if (element_ready_get_modules_option('sticky_section')) {
-    Element_Raedy_Sticky::getInstance();
+    Element_Ready_Sticky::getInstance();
 }
