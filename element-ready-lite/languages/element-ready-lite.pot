@@ -2,7 +2,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: element-ready\n"
-"POT-Creation-Date: 2025-02-22 12:25+0600\n"
+"POT-Creation-Date: 2025-04-12 11:51+0600\n"
 "PO-Revision-Date: 2018-09-23 14:48+0600\n"
 "Last-Translator: \n"
 "Language-Team: quomodosoft team\n"
@@ -11,7 +11,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Poedit 3.5\n"
+"X-Generator: Poedit 3.6\n"
 "X-Poedit-Basepath: ..\n"
 "X-Poedit-KeywordsList: __;_e;esc_html__;esc_html__e;esc_attr__;esc_attr_e\n"
 "X-Poedit-SearchPath-0: .\n"
@@ -2072,8 +2072,8 @@ msgid "Choose File"
 msgstr ""
 
 #: inc/Document/Global_Settings.php:22 inc/Document/Page_Settings.php:28
-#: inc/Modules/TemplateLibrary/base/view.php:8 inc/dashboard/page.php:65
-#: inc/dashboard/page.php:431 inc/dashboard/page.php:432
+#: inc/Modules/TemplateLibrary/base/view.php:8 inc/dashboard/page.php:96
+#: inc/dashboard/page.php:469 inc/dashboard/page.php:470
 msgid "ElementsReady"
 msgstr ""
 
@@ -12882,7 +12882,7 @@ msgstr ""
 
 #: inc/Widgets/themes/Elements_Ready_Heading_Weather.php:141
 #: inc/Widgets/weather/Open_Weather.php:142
-msgid "Cach ?"
+msgid "Cache ?"
 msgstr ""
 
 #: inc/Widgets/themes/Elements_Ready_Heading_Weather.php:150
@@ -14214,7 +14214,7 @@ msgstr ""
 msgid "Tags"
 msgstr ""
 
-#: inc/dashboard/Settings.php:22 inc/dashboard/page.php:444
+#: inc/dashboard/Settings.php:22 inc/dashboard/page.php:482
 #: inc/dashboard/views/dashboard.php:101
 msgid "Go Pro"
 msgstr ""
@@ -14899,49 +14899,49 @@ msgstr ""
 msgid "Column Wrapper Link"
 msgstr ""
 
-#: inc/dashboard/page.php:70
+#: inc/dashboard/page.php:101
 msgid ""
 "If you have a moment, please share why you are deactivating Element Ready "
 "Lite:"
 msgstr ""
 
-#: inc/dashboard/page.php:92
+#: inc/dashboard/page.php:123
 msgid "Others"
 msgstr ""
 
-#: inc/dashboard/page.php:100
+#: inc/dashboard/page.php:131
 msgid "Submit &amp; Deactivate"
 msgstr ""
 
-#: inc/dashboard/page.php:103
+#: inc/dashboard/page.php:134
 msgid "Skip & Deactivate"
 msgstr ""
 
-#: inc/dashboard/page.php:195 inc/dashboard/page.php:249
+#: inc/dashboard/page.php:233 inc/dashboard/page.php:287
 msgid "Error!"
 msgstr ""
 
-#: inc/dashboard/page.php:206 inc/dashboard/page.php:266
+#: inc/dashboard/page.php:244 inc/dashboard/page.php:304
 msgid "Saved!"
 msgstr ""
 
-#: inc/dashboard/page.php:255
+#: inc/dashboard/page.php:293
 msgid "Disable all Modules!"
 msgstr ""
 
-#: inc/dashboard/page.php:445
+#: inc/dashboard/page.php:483
 msgid "Go Pro 🔥"
 msgstr ""
 
-#: inc/dashboard/page.php:455 inc/dashboard/page.php:456
+#: inc/dashboard/page.php:493 inc/dashboard/page.php:494
 msgid "Support"
 msgstr ""
 
-#: inc/dashboard/page.php:465 inc/dashboard/page.php:466
+#: inc/dashboard/page.php:503 inc/dashboard/page.php:504
 msgid "Documentation"
 msgstr ""
 
-#: inc/dashboard/page.php:484 inc/dashboard/page.php:485
+#: inc/dashboard/page.php:522 inc/dashboard/page.php:523
 msgid "MyAccount"
 msgstr ""
 

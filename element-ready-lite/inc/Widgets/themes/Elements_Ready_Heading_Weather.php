@@ -138,7 +138,7 @@ class Elements_Ready_Heading_Weather extends Widget_Base
 				],
 
 				'weather_cache_enable' => [
-					'label'        => esc_html__('Cach ?', 'element-ready-lite'),
+					'label'        => esc_html__('Cache ?', 'element-ready-lite'),
 					'type'         => Controls_Manager::SWITCHER,
 					'label_on'     => esc_html__('Show', 'element-ready-lite'),
 					'label_off'    => esc_html__('Hide', 'element-ready-lite'),

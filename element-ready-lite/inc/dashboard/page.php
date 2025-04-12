@@ -34,6 +34,37 @@ class Element_Ready_Page
         add_action('wp_ajax_element_ready_modules_options', [$this, 'element_ready_modules_options_ajax']);
         add_action('admin_post_element_ready_api_data_options', [$this, 'element_ready_api_data']);
     }
+
+    public function api_keys_validate_options($data)
+    {
+        $validated = array();
+
+        // Sanitize and validate Facebook App ID
+        if (isset($data['facebook_app_id'])) {
+            $app_id = sanitize_text_field($data['facebook_app_id']);
+            if (preg_match('/^[0-9]{5,20}$/', $app_id)) {
+                $validated['facebook_app_id'] = $app_id;
+            }
+        }
+
+        // Sanitize and validate Facebook Secret Code (typically a 32+ char alphanumeric string)
+        if (isset($data['facebook_secret_code'])) {
+            $secret = sanitize_text_field($data['facebook_secret_code']);
+            if (preg_match('/^[a-zA-Z0-9]{32,}$/', $secret)) {
+                $validated['facebook_secret_code'] = $secret;
+            }
+        }
+
+        // Sanitize and validate Weather API Key (assuming 32+ alphanumeric chars)
+        if (isset($data['weather_api_key'])) {
+            $key = sanitize_text_field($data['weather_api_key']);
+            if (preg_match('/^[a-zA-Z0-9]{32,}$/', $key)) {
+                $validated['weather_api_key'] = $key;
+            }
+        }
+
+        return $validated;
+    }
     public function proceed()
     {
 
@@ -157,6 +188,10 @@ class Element_Ready_Page
     function element_ready_api_data()
     {
 
+        if (!current_user_can('manage_options')) {
+            wp_redirect(sanitize_url(wp_unslash($_SERVER["HTTP_REFERER"] ?? '')));
+        }
+
         if (!isset($_POST['_element_ready_api_data']) || !wp_verify_nonce(sanitize_text_field(wp_unslash($_POST['_element_ready_api_data'])), 'element-ready-api-data')) {
             wp_redirect(sanitize_url(wp_unslash($_SERVER["HTTP_REFERER"] ?? '')));
         }
@@ -168,7 +203,10 @@ class Element_Ready_Page
         // Save
 
         $data = map_deep(wp_unslash($_POST['element-ready-api-data']), 'sanitize_text_field');
+
         $validate_options = $this->validate_options($data);
+
+        $validate_options = $this->api_keys_validate_options($validate_options);
 
         update_option('element_ready_api_data', $validate_options);
 
