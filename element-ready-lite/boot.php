@@ -5,7 +5,7 @@ final class Element_Ready_Elementor_Extension
 
 	const VERSION                   = '3.0';
 	const MINIMUM_ELEMENTOR_VERSION = '3.5';
-	const MINIMUM_PHP_VERSION       = '7.0';
+	const MINIMUM_PHP_VERSION       = '7.4';
 
 	private static $_instance = null;
 
@@ -20,16 +20,19 @@ final class Element_Ready_Elementor_Extension
 
 	public function __construct()
 	{
+		add_action('doing_it_wrong_trigger_error', array($this, 'textdomain_notice'), 10, 3);
 		add_action('plugins_loaded', [$this, 'init']);
 		add_action('init', [$this, 'load_textdomain']);
 	}
-	public function load_textdomain(){
+	public function load_textdomain()
+	{
 		load_plugin_textdomain('element-ready-lite', false, dirname(plugin_basename(__FILE__)) . '/languages');
 	}
+
 	public function init()
 	{
 
-		
+
 
 		/*---------------------------------
 			Check if Elementor installed and activated
@@ -120,7 +123,28 @@ final class Element_Ready_Elementor_Extension
 	}
 
 
+	public function textdomain_notice($trigger, $function, $message)
+	{
+		if (!defined('WP_DEBUG') || !WP_DEBUG) {
+			return $trigger;
+		}
 
+		$textDomain = 'element-ready-lite';
+
+		if (
+			strpos($function, '_load_textdomain_just_in_time') !== false &&
+			strpos($message, 'Translation loading for the') !== false &&
+			strpos($message, $textDomain) !== false &&
+			strpos($message, 'domain was triggered too early') !== false &&
+			strpos($message, 'some code in the plugin or theme running too early') !== false &&
+			strpos($message, 'Translations should be loaded at the') !== false &&
+			strpos($message, 'init') !== false
+		) {
+			return false;
+		}
+
+		return $trigger;
+	}
 	/*******************************
 	 * 	ADD ASSETS
 	 *******************************/

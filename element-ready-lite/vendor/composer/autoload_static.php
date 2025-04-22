@@ -168,7 +168,6 @@ class ComposerStaticInitc06da798ded6bf51a1267c6287422b22
         'Element_Ready\\dashboard\\Widgets' => __DIR__ . '/../..' . '/inc/dashboard/Widgets.php',
         'Element_Ready\\section_control\\Element_Raedy_Lite_Section_Layout' => __DIR__ . '/../..' . '/inc/section_control/Element_Raedy_Lite_Section_Layout.php',
         'Element_Ready\\section_control\\Element_Raedy_Section_Dismiss' => __DIR__ . '/../..' . '/inc/section_control/Element_Raedy_Section_Dismiss.php',
-        'Element_Ready\\section_control\\Element_Raedy_Sticky' => __DIR__ . '/../..' . '/inc/section_control/Element_Raedy_Sticky.php',
         'Element_Ready\\section_control\\Element_Ready_Lite_Section_Layout' => __DIR__ . '/../..' . '/inc/section_control/Element_Ready_Lite_Section_Layout.php',
         'Element_Ready\\section_control\\Element_Ready_Section_Dismiss' => __DIR__ . '/../..' . '/inc/section_control/Element_Ready_Section_Dismiss.php',
         'Element_Ready\\section_control\\Element_Ready_Sticky' => __DIR__ . '/../..' . '/inc/section_control/Element_Ready_Sticky.php',

@@ -2,7 +2,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: element-ready\n"
-"POT-Creation-Date: 2025-04-12 11:51+0600\n"
+"POT-Creation-Date: 2025-04-22 15:38+0600\n"
 "PO-Revision-Date: 2018-09-23 14:48+0600\n"
 "Last-Translator: \n"
 "Language-Team: quomodosoft team\n"
@@ -18,50 +18,50 @@ msgstr ""
 "X-Poedit-SearchPathExcluded-0: .git\n"
 "X-Poedit-SearchPathExcluded-1: assets\n"
 
-#: boot.php:365 boot.php:464
+#: boot.php:389 boot.php:488
 #, php-format
 msgid "\"%1$s\" requires \"%2$s\" version %3$s or greater."
 msgstr ""
 
-#: boot.php:366
+#: boot.php:390
 msgid "ElementsReady Addon"
 msgstr ""
 
-#: boot.php:367 boot.php:431 boot.php:439
+#: boot.php:391 boot.php:455 boot.php:463
 msgid "Elementor"
 msgstr ""
 
-#: boot.php:400 boot.php:573
+#: boot.php:424 boot.php:597
 msgid "Element Ready Lite"
 msgstr ""
 
-#: boot.php:401
+#: boot.php:425
 msgid "Click to Install"
 msgstr ""
 
-#: boot.php:405
+#: boot.php:429
 msgid "Click to Activate"
 msgstr ""
 
-#: boot.php:408
+#: boot.php:432
 msgid "Click to Install "
 msgstr ""
 
-#: boot.php:429
+#: boot.php:453
 #, php-format
 msgid "\"%1$s\" requires \"%2$s\""
 msgstr ""
 
-#: boot.php:437
+#: boot.php:461
 #, php-format
 msgid "\"%1$s\" requires \"%2$s\" %3$s"
 msgstr ""
 
-#: boot.php:465
+#: boot.php:489
 msgid "ElementsReady Addons"
 msgstr ""
 
-#: boot.php:466
+#: boot.php:490
 msgid "PHP"
 msgstr ""
 

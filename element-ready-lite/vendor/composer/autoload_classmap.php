@@ -153,7 +153,6 @@ return array(
     'Element_Ready\\dashboard\\Widgets' => $baseDir . '/inc/dashboard/Widgets.php',
     'Element_Ready\\section_control\\Element_Raedy_Lite_Section_Layout' => $baseDir . '/inc/section_control/Element_Raedy_Lite_Section_Layout.php',
     'Element_Ready\\section_control\\Element_Raedy_Section_Dismiss' => $baseDir . '/inc/section_control/Element_Raedy_Section_Dismiss.php',
-    'Element_Ready\\section_control\\Element_Raedy_Sticky' => $baseDir . '/inc/section_control/Element_Raedy_Sticky.php',
     'Element_Ready\\section_control\\Element_Ready_Lite_Section_Layout' => $baseDir . '/inc/section_control/Element_Ready_Lite_Section_Layout.php',
     'Element_Ready\\section_control\\Element_Ready_Section_Dismiss' => $baseDir . '/inc/section_control/Element_Ready_Section_Dismiss.php',
     'Element_Ready\\section_control\\Element_Ready_Sticky' => $baseDir . '/inc/section_control/Element_Ready_Sticky.php',
