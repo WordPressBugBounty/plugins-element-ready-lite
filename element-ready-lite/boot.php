@@ -23,7 +23,16 @@ final class Element_Ready_Elementor_Extension
 		add_action('doing_it_wrong_trigger_error', array($this, 'textdomain_notice'), 10, 3);
 		add_action('plugins_loaded', [$this, 'init']);
 		add_action('init', [$this, 'load_textdomain']);
+		$this->init_appsero_sdk();
 	}
+
+	public function init_appsero_sdk()
+	{
+		$client = new \Appsero\Client('f5f86071-9f3d-43e2-b259-602b34155ffd', 'ElementsReady Addons for Elementor', ELEMENT_READY_ROOT_FILE);
+
+		$client->insights()->init();
+	}
+
 	public function load_textdomain()
 	{
 		load_plugin_textdomain('element-ready-lite', false, dirname(plugin_basename(__FILE__)) . '/languages');

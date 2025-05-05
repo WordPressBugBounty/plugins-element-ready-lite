@@ -174,6 +174,7 @@ class Element_Ready_Social_Widget extends Widget_Base
                 'name'     => 'social_rep_border',
                 'label'    => esc_html__('Border', 'element-ready-lite'),
                 'selector' => '{{WRAPPER}} .element__ready__socials__buttons {{CURRENT_ITEM}} a',
+                '{{WRAPPER}} .element__ready__socials__buttons {{CURRENT_ITEM}} a svg path' => 'fill: {{VALUE}};',
             ]
         );
         $repeater->add_control(
@@ -234,12 +235,13 @@ class Element_Ready_Social_Widget extends Widget_Base
                 'label'     => esc_html__('Color', 'element-ready-lite'),
                 'type'      => Controls_Manager::COLOR,
                 'selectors' => [
-                    '{{WRAPPER}} .element__ready__socials__buttons {{CURRENT_ITEM}} a i' => 'color: {{VALUE}};',
-                    '{{WRAPPER}} .element__ready__socials__buttons {{CURRENT_ITEM}} a svg' => 'color: {{VALUE}};fill:currentColor;stroke: currentColor;',
+                    '{{WRAPPER}} .element__ready__socials__buttons {{CURRENT_ITEM}} a i'           => 'color: {{VALUE}};',
+                    '{{WRAPPER}} .element__ready__socials__buttons {{CURRENT_ITEM}} a svg path' => 'fill: {{VALUE}}; stroke: {{VALUE}};',
                 ],
                 'separator' => 'before',
             ]
         );
+
         $repeater->add_group_control(
             Group_Control_Background::get_type(),
             [
@@ -281,7 +283,8 @@ class Element_Ready_Social_Widget extends Widget_Base
                 'label'     => esc_html__('Hover color', 'element-ready-lite'),
                 'type'      => Controls_Manager::COLOR,
                 'selectors' => [
-                    '{{WRAPPER}} .element__ready__socials__buttons {{CURRENT_ITEM}} a:hover i' => 'color: {{VALUE}};',
+                    '{{WRAPPER}} .element__ready__socials__buttons {{CURRENT_ITEM}} a:hover i'           => 'color: {{VALUE}};',
+                    '{{WRAPPER}} .element__ready__socials__buttons {{CURRENT_ITEM}} a:hover svg path' => 'fill: {{VALUE}}; stroke: {{VALUE}};',
                 ],
                 'separator' => 'before',
             ]
@@ -544,6 +547,7 @@ class Element_Ready_Social_Widget extends Widget_Base
                 'default'   => '',
                 'selectors' => [
                     '{{WRAPPER}} .element__ready__socials__buttons ul li a' => 'color: {{VALUE}};',
+                    '{{WRAPPER}} .element__ready__socials__buttons ul li a svg path' => 'fill: {{VALUE}}; stroke: {{VALUE}};',
                 ],
             ]
         );
@@ -765,7 +769,7 @@ class Element_Ready_Social_Widget extends Widget_Base
             ]
         );
 
-        //Hover Color
+        // Hover Color
         $this->add_control(
             'hover_social_button_color',
             [
@@ -773,9 +777,11 @@ class Element_Ready_Social_Widget extends Widget_Base
                 'type'      => Controls_Manager::COLOR,
                 'selectors' => [
                     '{{WRAPPER}} .element__ready__socials__buttons ul li a:hover, {{WRAPPER}} .element__ready__socials__buttons ul li a:focus' => 'color: {{VALUE}};',
+                    '{{WRAPPER}} .element__ready__socials__buttons ul li a:hover svg path' => 'fill: {{VALUE}}; stroke: {{VALUE}};',
                 ],
             ]
         );
+
 
         // Hover Background
         $this->add_group_control(

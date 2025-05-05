@@ -81,6 +81,7 @@ class Element_Ready_Page
     }
     public function servey_footer()
     {
+        return;
 
         if (!$this->proceed()) {
             return;

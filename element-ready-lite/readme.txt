@@ -2,8 +2,8 @@
 Contributors: QuomodoSoft
 Tags: elementor, addons, elementor addons, elementor widgets, elements, elementor plugins, mega menu, mega menu builder, header footer builder, elements, elementor extensions, elementor modules, page builder addons, essential plugins, essential widgets, elementor pro, free addons, free widgets, free plugins 
 Requires at least: 5.5
-Tested up to: 6.8
-Stable tag: 6.6.4
+Tested up to: 6.8.1
+Stable tag: 6.7
 Requires PHP: 7.4
 License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
@@ -716,10 +716,17 @@ The blog building widgets in ElementsReady are pixel perfect and responsive to w
 
 == Changelog ==
 
+= 6.7 = (2025-05-05)
+
+Add : Added appsero.
+Fix : Marquee Slider Widget Control extend & fixing
+Fix : Er Social Share Button Widget fixing
+Fix : Er Portfolio Widget control update
+
 = 6.6.4 = (2025-04-22)
 
 Improvement: Compatibility with latest Elementor and WordPress
-Fix : Text Domain Issue with the latest WordPress version
+Fix : Text Domian Issue with the latest WordPress version
 Update : Language POT File Update
 
 = 6.6.3 = (2025-04-12)
@@ -1229,6 +1236,15 @@ Fix : Dashboard save button issue
 1. Upload the plugin files to the `/wp-content/plugins/plugin-name` directory, or install the plugin through the WordPress plugins screen directly.
 2. Activate the plugin through the 'Plugins' screen in WordPress
 3. All Settings will be found in Admin sidebar -> ElementsReady
+
+## Privacy Policy 
+ElementsReady Addons for Elementor uses [Appsero](https://appsero.com) SDK to collect some telemetry data upon user's confirmation. This helps us to troubleshoot problems faster & make product improvements.
+
+Appsero SDK **does not gather any data by default.** The SDK only starts gathering basic telemetry data **when a user allows it via the admin notice**. We collect the data to ensure a great user experience for all our users. 
+
+Integrating Appsero SDK **DOES NOT IMMEDIATELY** start gathering data, **without confirmation from users in any case.**
+
+Learn more about how [Appsero collects and uses this data](https://appsero.com/privacy-policy/).
 
 == Frequently Asked Questions ==
 

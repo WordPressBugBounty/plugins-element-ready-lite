@@ -44,12 +44,11 @@
 }
 
 .marquee-scroll-two .marquee-wrapper {
-	position: absolute;
-	left: 0;
-	top: 0;
-	width: 100%;
-	height: 60px;
-	
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 60px;
 }
 .marquee-scroll-two .marquee-wrapper:before {
   position: absolute;
@@ -58,10 +57,10 @@
   width: 100%;
   height: 100%;
   z-index: -1;
-  content: '';
+  content: "";
   transform: rotate(1deg);
   display: block;
-	background: #D2A98E;
+  background: #d2a98e;
 }
 
 .marquee-scroll-two .marquee-scroll-main {
@@ -70,6 +69,7 @@
   padding: 0;
   position: relative;
   width: calc(100% + 0px);
+  overflow-x: clip;
 }
 .marquee-scroll-two .marquee-scroll-item {
   gap: 50px;
@@ -94,4 +94,4 @@
   100% {
     transform: translateX(-100%);
   }
-} 
+}

@@ -3123,8 +3123,6 @@ class Element_Ready_Portfolio extends Widget_Base
             ]
         );
 
-
-
         $this->add_control(
             'readmore_icon_size',
             [
@@ -3134,8 +3132,8 @@ class Element_Ready_Portfolio extends Widget_Base
                 'range' => [
                     'px' => [
                         'min' => 0,
-                        'max' => 1000,
-                        'step' => 5,
+                        'max' => 100,
+                        'step' => 1,
                     ],
                     '%' => [
                         'min' => 0,
@@ -3144,7 +3142,7 @@ class Element_Ready_Portfolio extends Widget_Base
                 ],
                 'default' => [
                     'unit' => 'px',
-                    'size' => 30,
+                    'size' => 12,
                 ],
 
                 'selectors' => [
@@ -3164,8 +3162,8 @@ class Element_Ready_Portfolio extends Widget_Base
                 'range' => [
                     'px' => [
                         'min' => 0,
-                        'max' => 200,
-                        'step' => 5,
+                        'max' => 100,
+                        'step' => 1,
                     ],
                     '%' => [
                         'min' => 0,
@@ -3174,7 +3172,7 @@ class Element_Ready_Portfolio extends Widget_Base
                 ],
                 'default' => [
                     'unit' => 'px',
-                    'size' => 65,
+                    'size' => 20,
                 ],
 
                 'selectors' => [
@@ -3251,8 +3249,6 @@ class Element_Ready_Portfolio extends Widget_Base
                 ],
             ]
         );
-
-
 
         $this->end_controls_tab(); // Normal Tab end
 

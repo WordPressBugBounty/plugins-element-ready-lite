@@ -549,6 +549,7 @@ class Element_Ready_Counter_Widget extends Widget_Base
 				'type'   => Controls_Manager::COLOR,
 				'selectors' => [
 					'{{WRAPPER}} .counter__icon' => 'color: {{VALUE}};',
+					'{{WRAPPER}} .counter__icon svg path' => 'fill: {{VALUE}}; stroke: {{VALUE}};',
 				],
 			]
 		);
@@ -598,6 +599,7 @@ class Element_Ready_Counter_Widget extends Widget_Base
 				'type'   => Controls_Manager::COLOR,
 				'selectors' => [
 					'{{WRAPPER}} .single__counter:hover .counter__icon' => 'color: {{VALUE}};',
+					'{{WRAPPER}} .single__counter:hover .counter__icon svg path' => 'fill: {{VALUE}}; stroke: {{VALUE}};',
 				],
 			]
 		);

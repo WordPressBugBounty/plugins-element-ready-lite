@@ -40,7 +40,6 @@ class Element_Ready_Marquee_Slider_Widget extends Widget_Base
     public function get_style_depends()
     {
 
-
         return [
             'er-marquee',
         ];
@@ -67,7 +66,7 @@ class Element_Ready_Marquee_Slider_Widget extends Widget_Base
             [
                 'label' => esc_html__('Marquee Style', 'element-ready-lite'),
                 'type' => \Elementor\Controls_Manager::SELECT,
-                'default' => 'solid',
+                'default' => 'style1',
                 'options' => [
                     'style1' => esc_html__('Style One', 'element-ready-lite'),
                     'style2'  => esc_html__('Style Two', 'element-ready-lite'),
@@ -117,15 +116,18 @@ class Element_Ready_Marquee_Slider_Widget extends Widget_Base
         $this->add_control(
             'marquee_lists',
             [
-                'label' => esc_html__('Repeater List', 'element-ready-lite'),
+                'label' => esc_html__('Marquee List', 'element-ready-lite'),
                 'type' => \Elementor\Controls_Manager::REPEATER,
                 'fields' => $repeater->get_controls(),
                 'default' => [
                     [
-                        'marquee_item_title' => esc_html__('Title #1', 'element-ready-lite'),
+                        'marquee_item_title' => esc_html__('Web Designing', 'element-ready-lite'),
                     ],
                     [
-                        'marquee_item_title' => esc_html__('Title #2', 'element-ready-lite'),
+                        'marquee_item_title' => esc_html__('Web Development', 'element-ready-lite'),
+                    ],
+                    [
+                        'marquee_item_title' => esc_html__('Graphic Design', 'element-ready-lite'),
                     ],
                 ],
                 'title_field' => '{{{ marquee_item_title }}}',
@@ -163,7 +165,6 @@ class Element_Ready_Marquee_Slider_Widget extends Widget_Base
             ]
         );
 
-
         $this->add_control(
             'marquee_text_color',
             [
@@ -174,15 +175,15 @@ class Element_Ready_Marquee_Slider_Widget extends Widget_Base
                 ],
             ]
         );
-		$this->add_group_control(
-			\Elementor\Group_Control_Text_Stroke::get_type(),
-			[
-				'name' => 'marquee_stroke',
-				'selector' => '{{WRAPPER}} .marquee-scroll-text',
-			]
-		);
+        $this->add_group_control(
+            \Elementor\Group_Control_Text_Stroke::get_type(),
+            [
+                'name' => 'marquee_stroke',
+                'selector' => '{{WRAPPER}} .marquee-scroll-text',
+            ]
+        );
 
-		$this->add_control(
+        $this->add_control(
             'marquee_icon_color',
             [
                 'label' => esc_html__('Icon Color', 'element-ready-lite'),
@@ -201,72 +202,77 @@ class Element_Ready_Marquee_Slider_Widget extends Widget_Base
                 'selector' => '{{WRAPPER}} .marquee-section span i',
             ]
         );
-		
-		// Width
-		$this->add_control(
-			'marquee_icon_width',
-			[
-				'label'      => esc_html__('SVG Icon Width', 'element-ready-lite'),
-				'type'       => \Elementor\Controls_Manager::SLIDER,
-				'size_units' => ['px', '%'],
-				'range'      => [
-					'px' => [
-						'min'  => 0,
-						'max'  => 1000,
-						'step' => 1,
-					],
-					'%' => [
-						'min' => 0,
-						'max' => 100,
-					],
-				],
-				'default' => [
-					'unit' => 'px',
-				],
-				'selectors' => [
-					'{{WRAPPER}} .marquee-section span, {{WRAPPER}} .marquee-section span svg' => 'width: {{SIZE}}{{UNIT}};',
-				],
-			]
-		);
 
-		// Height
-		$this->add_control(
-			'marquee_icon_height',
-			[
-				'label'      => esc_html__('SVG Icon Height', 'element-ready-lite'),
-				'type'       => \Elementor\Controls_Manager::SLIDER,
-				'size_units' => ['px', '%'],
-				'range'      => [
-					'px' => [
-						'min'  => 0,
-						'max'  => 1000,
-						'step' => 1,
-					],
-					'%' => [
-						'min' => 0,
-						'max' => 100,
-					],
-				],
-				'default' => [
-					'unit' => 'px',
-				],
-				'selectors' => [
-					'{{WRAPPER}} .marquee-section span, {{WRAPPER}} .marquee-section span svg' => 'height: {{SIZE}}{{UNIT}};',
-				],
-			]
-		);
-		
+        // Width
+        $this->add_control(
+            'marquee_icon_width',
+            [
+                'label'      => esc_html__('SVG Icon Width', 'element-ready-lite'),
+                'type'       => \Elementor\Controls_Manager::SLIDER,
+                'size_units' => ['px', '%'],
+                'range'      => [
+                    'px' => [
+                        'min'  => 0,
+                        'max'  => 1000,
+                        'step' => 1,
+                    ],
+                    '%' => [
+                        'min' => 0,
+                        'max' => 100,
+                    ],
+                ],
+                'default' => [
+                    'unit' => 'px',
+                    'size' => 20,
+                ],
+                'selectors' => [
+                    '{{WRAPPER}} .marquee-section span, {{WRAPPER}} .marquee-section span svg' => 'width: {{SIZE}}{{UNIT}};',
+                ],
+            ]
+        );
+
+        // Height
+        $this->add_control(
+            'marquee_icon_height',
+            [
+                'label'      => esc_html__('SVG Icon Height', 'element-ready-lite'),
+                'type'       => \Elementor\Controls_Manager::SLIDER,
+                'size_units' => ['px', '%'],
+                'range'      => [
+                    'px' => [
+                        'min'  => 0,
+                        'max'  => 1000,
+                        'step' => 1,
+                    ],
+                    '%' => [
+                        'min' => 0,
+                        'max' => 100,
+                    ],
+                ],
+                'default' => [
+                    'unit' => 'px',
+                    'size' => 20,
+                ],
+                'selectors' => [
+                    '{{WRAPPER}} .marquee-section span, {{WRAPPER}} .marquee-section span svg' => 'height: {{SIZE}}{{UNIT}};',
+                ],
+            ]
+        );
+
         $this->add_control(
             'marquee_angle_color',
             [
                 'label' => esc_html__('Marquee Angle Color', 'element-ready-lite'),
                 'type' => \Elementor\Controls_Manager::COLOR,
                 'selectors' => [
-                    '{{WRAPPER}} .marquee-scroll-two .marquee-wrapper' => 'background: {{VALUE}}',
+                    '{{WRAPPER}} .marquee-scroll-two .marquee-wrapper:before' => 'background: {{VALUE}}',
+                ],
+                'condition' => [
+                    'marquee_style' => 'style1',
                 ],
             ]
         );
-		
+
 
         $this->add_responsive_control(
             'title_padding',
@@ -291,6 +297,17 @@ class Element_Ready_Marquee_Slider_Widget extends Widget_Base
                 ],
             ]
         );
+        $this->add_responsive_control(
+            'container_margin',
+            [
+                'type' => \Elementor\Controls_Manager::DIMENSIONS,
+                'label' => esc_html__('Container Margin', 'element-ready-lite'),
+                'size_units' => ['px', '%', 'em', 'rem', 'custom'],
+                'selectors' => [
+                    '{{WRAPPER}} .marquee-scroll' => 'margin: {{TOP}}{{UNIT}} {{RIGHT}}{{UNIT}} {{BOTTOM}}{{UNIT}} {{LEFT}}{{UNIT}};',
+                ],
+            ]
+        );
 
         $this->end_controls_section();
     }
@@ -308,11 +325,11 @@ class Element_Ready_Marquee_Slider_Widget extends Widget_Base
                             <?php
                             foreach ($settings['marquee_lists'] as $marquee_item) { ?>
                                 <div class="marquee-section">
-                                <p class="marquee-scroll-text"><?php echo esc_html($marquee_item['marquee_item_title']); ?></p>
-                                <span>
-                                    <?php \Elementor\Icons_Manager::render_icon($settings['marquee_icon'], ['aria-hidden' => 'true']); ?>
-                                </span>
-                            </div>
+                                    <p class="marquee-scroll-text"><?php echo esc_html($marquee_item['marquee_item_title']); ?></p>
+                                    <span>
+                                        <?php \Elementor\Icons_Manager::render_icon($settings['marquee_icon'], ['aria-hidden' => 'true']); ?>
+                                    </span>
+                                </div>
                             <?php }
 
                             ?>
@@ -321,11 +338,11 @@ class Element_Ready_Marquee_Slider_Widget extends Widget_Base
                             <?php
                             foreach ($settings['marquee_lists'] as $marquee_item) { ?>
                                 <div class="marquee-section">
-                                <p class="marquee-scroll-text"><?php echo esc_html($marquee_item['marquee_item_title']); ?></p>
-                                <span>
-                                    <?php \Elementor\Icons_Manager::render_icon($settings['marquee_icon'], ['aria-hidden' => 'true']); ?>
-                                </span>
-                            </div>
+                                    <p class="marquee-scroll-text"><?php echo esc_html($marquee_item['marquee_item_title']); ?></p>
+                                    <span>
+                                        <?php \Elementor\Icons_Manager::render_icon($settings['marquee_icon'], ['aria-hidden' => 'true']); ?>
+                                    </span>
+                                </div>
                             <?php }
 
                             ?>
@@ -341,9 +358,13 @@ class Element_Ready_Marquee_Slider_Widget extends Widget_Base
                         <?php
                         foreach ($settings['marquee_lists'] as $marquee_item) { ?>
                             <div class="marquee-section">
-                            <p class="marquee-scroll-text"><?php echo esc_html($marquee_item['marquee_item_title']); ?></p>
+                                <p class="marquee-scroll-text"><?php echo esc_html($marquee_item['marquee_item_title']); ?></p>
                                 <span>
-                                    <?php \Elementor\Icons_Manager::render_icon($settings['marquee_icon'], ['aria-hidden' => 'true']); ?>
+                                    <?php if (! empty($settings['marquee_icon'])) {
+                                        \Elementor\Icons_Manager::render_icon($settings['marquee_icon'], ['aria-hidden' => 'true']);
+                                    }
+                                    ?>
+
                                 </span>
                             </div>
                         <?php }
@@ -357,7 +378,7 @@ class Element_Ready_Marquee_Slider_Widget extends Widget_Base
                         <?php
                         foreach ($settings['marquee_lists'] as $marquee_item) { ?>
                             <div class="marquee-section">
-                            <p class="marquee-scroll-text"><?php echo esc_html($marquee_item['marquee_item_title']); ?></p>
+                                <p class="marquee-scroll-text"><?php echo esc_html($marquee_item['marquee_item_title']); ?></p>
                                 <span>
                                     <?php \Elementor\Icons_Manager::render_icon($settings['marquee_icon'], ['aria-hidden' => 'true']); ?>
                                 </span>
