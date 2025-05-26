@@ -28,7 +28,7 @@ final class Element_Ready_Elementor_Extension
 
 	public function init_appsero_sdk()
 	{
-		$client = new \Appsero\Client('f5f86071-9f3d-43e2-b259-602b34155ffd', 'ElementsReady Addons for Elementor', ELEMENT_READY_ROOT_FILE);
+		$client = new \Appsero\Client('1a00a1e9-b51a-4310-92d6-27db8034935f', 'ElementsReady Addons for Elementor', ELEMENT_READY_ROOT_FILE);
 
 		$client->insights()->init();
 	}
@@ -40,8 +40,6 @@ final class Element_Ready_Elementor_Extension
 
 	public function init()
 	{
-
-
 
 		/*---------------------------------
 			Check if Elementor installed and activated
