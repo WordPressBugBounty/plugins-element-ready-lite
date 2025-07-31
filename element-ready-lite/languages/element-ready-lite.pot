@@ -2,7 +2,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: element-ready\n"
-"POT-Creation-Date: 2025-05-04 16:28+0600\n"
+"POT-Creation-Date: 2025-07-31 09:56+0600\n"
 "PO-Revision-Date: 2018-09-23 14:48+0600\n"
 "Last-Translator: \n"
 "Language-Team: quomodosoft team\n"
@@ -18,50 +18,50 @@ msgstr ""
 "X-Poedit-SearchPathExcluded-0: .git\n"
 "X-Poedit-SearchPathExcluded-1: assets\n"
 
-#: boot.php:389 boot.php:488
+#: boot.php:396 boot.php:495
 #, php-format
 msgid "\"%1$s\" requires \"%2$s\" version %3$s or greater."
 msgstr ""
 
-#: boot.php:390
+#: boot.php:397
 msgid "ElementsReady Addon"
 msgstr ""
 
-#: boot.php:391 boot.php:455 boot.php:463
+#: boot.php:398 boot.php:462 boot.php:470
 msgid "Elementor"
 msgstr ""
 
-#: boot.php:424 boot.php:597
+#: boot.php:431 boot.php:604
 msgid "Element Ready Lite"
 msgstr ""
 
-#: boot.php:425
+#: boot.php:432
 msgid "Click to Install"
 msgstr ""
 
-#: boot.php:429
+#: boot.php:436
 msgid "Click to Activate"
 msgstr ""
 
-#: boot.php:432
+#: boot.php:439
 msgid "Click to Install "
 msgstr ""
 
-#: boot.php:453
+#: boot.php:460
 #, php-format
 msgid "\"%1$s\" requires \"%2$s\""
 msgstr ""
 
-#: boot.php:461
+#: boot.php:468
 #, php-format
 msgid "\"%1$s\" requires \"%2$s\" %3$s"
 msgstr ""
 
-#: boot.php:489
+#: boot.php:496
 msgid "ElementsReady Addons"
 msgstr ""
 
-#: boot.php:490
+#: boot.php:497
 msgid "PHP"
 msgstr ""
 
@@ -493,14 +493,14 @@ msgstr ""
 #: inc/Widgets/teams/Element_Ready_Teams_Widget.php:3433
 #: inc/Widgets/teams/Element_Ready_Teams_Widget.php:3480
 #: inc/Widgets/teams/Element_Ready_Teams_Widget.php:3528
-#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:552
-#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:600
-#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:794
-#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:851
-#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:863
-#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:875
-#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:887
-#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:899
+#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:553
+#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:601
+#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:795
+#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:852
+#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:864
+#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:876
+#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:888
+#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:900
 #: inc/Widgets/themes/Element_Ready_Theme_News_Ticker_Widget.php:74
 #: inc/Widgets/themes/Element_Ready_Theme_News_Ticker_Widget.php:86
 #: inc/Widgets/themes/Element_Ready_Theme_News_Ticker_Widget.php:98
@@ -728,14 +728,14 @@ msgstr ""
 #: inc/Widgets/teams/Element_Ready_Teams_Widget.php:3432
 #: inc/Widgets/teams/Element_Ready_Teams_Widget.php:3479
 #: inc/Widgets/teams/Element_Ready_Teams_Widget.php:3527
-#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:553
-#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:601
-#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:795
-#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:852
-#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:864
-#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:876
-#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:888
-#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:900
+#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:554
+#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:602
+#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:796
+#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:853
+#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:865
+#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:877
+#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:889
+#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:901
 #: inc/Widgets/themes/Element_Ready_Theme_News_Ticker_Widget.php:75
 #: inc/Widgets/themes/Element_Ready_Theme_News_Ticker_Widget.php:87
 #: inc/Widgets/themes/Element_Ready_Theme_News_Ticker_Widget.php:99
@@ -1291,12 +1291,12 @@ msgstr ""
 #: inc/Widgets/area_title/Element_Ready_Area_Title_Widget.php:961
 #: inc/Widgets/area_title/Element_Ready_Area_Title_Widget.php:1065
 #: inc/Widgets/area_title/Element_Ready_Area_Title_Widget.php:1193
-#: inc/Widgets/area_title/Element_Ready_Area_Title_Widget.php:1536
-#: inc/Widgets/area_title/Element_Ready_Area_Title_Widget.php:1821
-#: inc/Widgets/area_title/Element_Ready_Area_Title_Widget.php:1927
-#: inc/Widgets/area_title/Element_Ready_Area_Title_Widget.php:2241
-#: inc/Widgets/area_title/Element_Ready_Area_Title_Widget.php:2526
-#: inc/Widgets/area_title/Element_Ready_Area_Title_Widget.php:2679
+#: inc/Widgets/area_title/Element_Ready_Area_Title_Widget.php:1555
+#: inc/Widgets/area_title/Element_Ready_Area_Title_Widget.php:1840
+#: inc/Widgets/area_title/Element_Ready_Area_Title_Widget.php:1946
+#: inc/Widgets/area_title/Element_Ready_Area_Title_Widget.php:2260
+#: inc/Widgets/area_title/Element_Ready_Area_Title_Widget.php:2545
+#: inc/Widgets/area_title/Element_Ready_Area_Title_Widget.php:2698
 #: inc/Widgets/box/Element_Ready_Box_Widget.php:770
 #: inc/Widgets/box/Element_Ready_Box_Widget.php:973
 #: inc/Widgets/box/Element_Ready_Box_Widget.php:1039
@@ -1406,24 +1406,24 @@ msgstr ""
 #: inc/Widgets/teams/Element_Ready_Teams_Widget.php:4489
 #: inc/Widgets/teams/Element_Ready_Teams_Widget.php:4837
 #: inc/Widgets/teams/Element_Ready_Teams_Widget.php:5149
-#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:1212
-#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:2137
-#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:2570
-#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:3077
-#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:3226
-#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:3356
-#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:3500
-#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:3771
-#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:4051
-#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:4220
-#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:4672
-#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:4969
-#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:5048
-#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:5121
-#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:5195
-#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:5450
-#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:5804
-#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:6100
+#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:1213
+#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:2138
+#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:2571
+#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:3078
+#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:3227
+#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:3357
+#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:3501
+#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:3772
+#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:4052
+#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:4221
+#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:4673
+#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:4970
+#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:5049
+#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:5122
+#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:5196
+#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:5451
+#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:5805
+#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:6101
 #: inc/Widgets/themes/Element_Ready_Theme_News_Ticker_Widget.php:284
 #: inc/Widgets/themes/Elements_Ready_Drop_Down_Select_Box.php:297
 #: inc/Widgets/user/SignUp.php:176 inc/Widgets/user/SignUp.php:855
@@ -1754,7 +1754,7 @@ msgid "Isolate"
 msgstr ""
 
 #: inc/Base/Section_Isolation.php:33
-#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:5256
+#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:5257
 #: inc/Widgets/user/Signin_SignUp.php:275
 #: inc/style_controls/box/box_style.php:326
 #: inc/style_controls/box/box_style.php:823
@@ -1776,16 +1776,16 @@ msgstr ""
 #: inc/Widgets/area_title/Element_Ready_Area_Title_Widget.php:579
 #: inc/Widgets/area_title/Element_Ready_Area_Title_Widget.php:634
 #: inc/Widgets/area_title/Element_Ready_Area_Title_Widget.php:1159
-#: inc/Widgets/area_title/Element_Ready_Area_Title_Widget.php:1282
-#: inc/Widgets/area_title/Element_Ready_Area_Title_Widget.php:1302
-#: inc/Widgets/area_title/Element_Ready_Area_Title_Widget.php:1567
-#: inc/Widgets/area_title/Element_Ready_Area_Title_Widget.php:1587
-#: inc/Widgets/area_title/Element_Ready_Area_Title_Widget.php:1883
-#: inc/Widgets/area_title/Element_Ready_Area_Title_Widget.php:1987
-#: inc/Widgets/area_title/Element_Ready_Area_Title_Widget.php:2007
-#: inc/Widgets/area_title/Element_Ready_Area_Title_Widget.php:2272
-#: inc/Widgets/area_title/Element_Ready_Area_Title_Widget.php:2292
-#: inc/Widgets/area_title/Element_Ready_Area_Title_Widget.php:2860
+#: inc/Widgets/area_title/Element_Ready_Area_Title_Widget.php:1301
+#: inc/Widgets/area_title/Element_Ready_Area_Title_Widget.php:1321
+#: inc/Widgets/area_title/Element_Ready_Area_Title_Widget.php:1586
+#: inc/Widgets/area_title/Element_Ready_Area_Title_Widget.php:1606
+#: inc/Widgets/area_title/Element_Ready_Area_Title_Widget.php:1902
+#: inc/Widgets/area_title/Element_Ready_Area_Title_Widget.php:2006
+#: inc/Widgets/area_title/Element_Ready_Area_Title_Widget.php:2026
+#: inc/Widgets/area_title/Element_Ready_Area_Title_Widget.php:2291
+#: inc/Widgets/area_title/Element_Ready_Area_Title_Widget.php:2311
+#: inc/Widgets/area_title/Element_Ready_Area_Title_Widget.php:2879
 #: inc/Widgets/box/Element_Ready_Box_Widget.php:1283
 #: inc/Widgets/forms/Element_Ready_Contact_Form_Seven_Widget.php:662
 #: inc/Widgets/forms/Element_Ready_WP_Form_Widget.php:663
@@ -1842,33 +1842,33 @@ msgstr ""
 #: inc/Widgets/teams/Element_Ready_Teams_Widget.php:4562
 #: inc/Widgets/teams/Element_Ready_Teams_Widget.php:4873
 #: inc/Widgets/teams/Element_Ready_Teams_Widget.php:4895
-#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:958
-#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:978
-#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:1454
-#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:1508
-#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:2111
-#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:2363
-#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:2417
-#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:2869
-#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:2923
-#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:3385
-#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:3615
-#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:3635
-#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:3895
-#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:3915
-#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:4247
-#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:4418
-#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:4438
-#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:4715
-#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:4735
-#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:5106
-#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:5179
-#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:5232
-#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:5426
-#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:5550
-#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:5570
-#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:5846
-#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:5866
+#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:959
+#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:979
+#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:1455
+#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:1509
+#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:2112
+#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:2364
+#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:2418
+#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:2870
+#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:2924
+#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:3386
+#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:3616
+#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:3636
+#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:3896
+#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:3916
+#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:4248
+#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:4419
+#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:4439
+#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:4716
+#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:4736
+#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:5107
+#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:5180
+#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:5233
+#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:5427
+#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:5551
+#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:5571
+#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:5847
+#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:5867
 #: inc/Widgets/woocommerce/WooCommerce_Free_Download.php:760
 #: inc/Widgets/woocommerce/WooCommerce_Free_Download.php:819
 #: inc/Widgets/woocommerce/WooCommerce_Free_Download.php:1136
@@ -1927,7 +1927,7 @@ msgstr ""
 #: inc/Widgets/shortcode/Element_Ready_Shortcode_Widget.php:704
 #: inc/Widgets/teams/Element_Ready_Teams_Widget.php:4367
 #: inc/Widgets/teams/Element_Ready_Teams_Widget.php:4388
-#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:5257
+#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:5258
 #: inc/Widgets/user/Signin_SignUp.php:276
 #: inc/Widgets/woocommerce/WooCommerce_Free_Download.php:765
 #: inc/Widgets/woocommerce/WooCommerce_Free_Download.php:1141
@@ -2072,8 +2072,8 @@ msgid "Choose File"
 msgstr ""
 
 #: inc/Document/Global_Settings.php:22 inc/Document/Page_Settings.php:28
-#: inc/Modules/TemplateLibrary/base/view.php:8 inc/dashboard/page.php:96
-#: inc/dashboard/page.php:469 inc/dashboard/page.php:470
+#: inc/Modules/TemplateLibrary/base/view.php:8 inc/dashboard/page.php:97
+#: inc/dashboard/page.php:470 inc/dashboard/page.php:471
 msgid "ElementsReady"
 msgstr ""
 
@@ -2166,7 +2166,7 @@ msgstr ""
 #: inc/Modules/Menu_Builder/Widgets/Offcanvas.php:753
 #: inc/Modules/Newslatter/base/FrontEnd.php:368
 #: inc/Widgets/counter/Element_Ready_Counter_Widget.php:463
-#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:4162
+#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:4163
 #: inc/section_control/Element_Raedy_Section_Dismiss.php:174
 #: inc/section_control/Element_Raedy_Sticky.php:117
 #: inc/section_control/Element_Ready_Section_Dismiss.php:174
@@ -2478,7 +2478,7 @@ msgstr ""
 #: inc/Widgets/scroll_button/Element_Ready_Scroll_Button.php:67
 #: inc/Widgets/socials/Element_Ready_Social_Widget.php:89
 #: inc/Widgets/teams/Element_Ready_Teams_Widget.php:95
-#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:100
+#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:101
 #: inc/Widgets/wc/ER_Shopping_Cart_Coupon.php:56
 #: inc/Widgets/woocommerce/WooCommerce_Free_Download.php:154
 #: inc/Widgets/woocommerce/WooCommerce_Free_Download.php:231
@@ -2667,8 +2667,8 @@ msgstr ""
 #: inc/Widgets/table/Element_Ready_Data_Table_Widget.php:135
 #: inc/Widgets/table/Element_Ready_Data_Table_Widget.php:147
 #: inc/Widgets/table/Element_Ready_Data_Table_Widget.php:159
-#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:121
-#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:186
+#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:122
+#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:187
 #: inc/Widgets/themes/Elements_Ready_Heading_Weather.php:143
 #: inc/Widgets/user/SignUp.php:134 inc/Widgets/user/SignUp.php:299
 #: inc/Widgets/user/Signin_SignUp.php:164
@@ -2736,8 +2736,8 @@ msgstr ""
 #: inc/Widgets/table/Element_Ready_Data_Table_Widget.php:136
 #: inc/Widgets/table/Element_Ready_Data_Table_Widget.php:148
 #: inc/Widgets/table/Element_Ready_Data_Table_Widget.php:160
-#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:122
-#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:187
+#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:123
+#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:188
 #: inc/Widgets/themes/Elements_Ready_Heading_Weather.php:144
 #: inc/Widgets/user/SignUp.php:135 inc/Widgets/user/SignUp.php:300
 #: inc/Widgets/user/Signin_SignUp.php:165
@@ -3104,11 +3104,11 @@ msgstr ""
 #: inc/Widget_Controls/User_Style.php:2624
 #: inc/Widgets/area_title/Element_Ready_Area_Title_Widget.php:584
 #: inc/Widgets/area_title/Element_Ready_Area_Title_Widget.php:1164
-#: inc/Widgets/area_title/Element_Ready_Area_Title_Widget.php:1287
-#: inc/Widgets/area_title/Element_Ready_Area_Title_Widget.php:1572
-#: inc/Widgets/area_title/Element_Ready_Area_Title_Widget.php:1888
-#: inc/Widgets/area_title/Element_Ready_Area_Title_Widget.php:1992
-#: inc/Widgets/area_title/Element_Ready_Area_Title_Widget.php:2277
+#: inc/Widgets/area_title/Element_Ready_Area_Title_Widget.php:1306
+#: inc/Widgets/area_title/Element_Ready_Area_Title_Widget.php:1591
+#: inc/Widgets/area_title/Element_Ready_Area_Title_Widget.php:1907
+#: inc/Widgets/area_title/Element_Ready_Area_Title_Widget.php:2011
+#: inc/Widgets/area_title/Element_Ready_Area_Title_Widget.php:2296
 #: inc/Widgets/forms/Element_Ready_Contact_Form_Seven_Widget.php:667
 #: inc/Widgets/forms/Element_Ready_WP_Form_Widget.php:668
 #: inc/Widgets/forms/Element_Ready_WeForms_Widget.php:668
@@ -3139,20 +3139,20 @@ msgstr ""
 #: inc/Widgets/teams/Element_Ready_Teams_Widget.php:4294
 #: inc/Widgets/teams/Element_Ready_Teams_Widget.php:4546
 #: inc/Widgets/teams/Element_Ready_Teams_Widget.php:4878
-#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:963
-#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:1459
-#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:2116
-#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:2368
-#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:2874
-#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:3620
-#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:3900
-#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:4423
-#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:4720
-#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:5111
-#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:5184
-#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:5237
-#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:5555
-#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:5851
+#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:964
+#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:1460
+#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:2117
+#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:2369
+#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:2875
+#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:3621
+#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:3901
+#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:4424
+#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:4721
+#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:5112
+#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:5185
+#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:5238
+#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:5556
+#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:5852
 #: inc/Widgets/woocommerce/WooCommerce_Free_Download.php:1565
 #: inc/Widgets/woocommerce/WooCommerce_Free_Download.php:2138
 #: inc/Widgets/woocommerce/WooCommerce_Free_Download.php:2710
@@ -3484,11 +3484,11 @@ msgstr ""
 #: inc/Modules/Menu_Builder/Widgets/Restuarent_Menu.php:952
 #: inc/Widget_Controls/Shopping_Cart_Style.php:1390
 #: inc/Widgets/area_title/Element_Ready_Area_Title_Widget.php:594
-#: inc/Widgets/area_title/Element_Ready_Area_Title_Widget.php:1427
-#: inc/Widgets/area_title/Element_Ready_Area_Title_Widget.php:1712
-#: inc/Widgets/area_title/Element_Ready_Area_Title_Widget.php:2132
-#: inc/Widgets/area_title/Element_Ready_Area_Title_Widget.php:2417
-#: inc/Widgets/area_title/Element_Ready_Area_Title_Widget.php:2805
+#: inc/Widgets/area_title/Element_Ready_Area_Title_Widget.php:1446
+#: inc/Widgets/area_title/Element_Ready_Area_Title_Widget.php:1731
+#: inc/Widgets/area_title/Element_Ready_Area_Title_Widget.php:2151
+#: inc/Widgets/area_title/Element_Ready_Area_Title_Widget.php:2436
+#: inc/Widgets/area_title/Element_Ready_Area_Title_Widget.php:2824
 #: inc/Widgets/box/Element_Ready_Box_Widget.php:538
 #: inc/Widgets/box/Element_Ready_Box_Widget.php:1205
 #: inc/Widgets/copyright_text/Element_Ready_Copyright_Text.php:74
@@ -3536,18 +3536,18 @@ msgstr ""
 #: inc/Widgets/teams/Element_Ready_Teams_Widget.php:4404
 #: inc/Widgets/teams/Element_Ready_Teams_Widget.php:4697
 #: inc/Widgets/teams/Element_Ready_Teams_Widget.php:5030
-#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:1103
-#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:1469
-#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:1833
-#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:2148
-#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:2378
-#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:2884
-#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:4563
-#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:4860
-#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:5271
-#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:5371
-#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:5695
-#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:5991
+#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:1104
+#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:1470
+#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:1834
+#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:2149
+#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:2379
+#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:2885
+#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:4564
+#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:4861
+#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:5272
+#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:5372
+#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:5696
+#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:5992
 #: inc/Widgets/themes/Elements_Ready_Heading_Weather.php:398
 #: inc/Widgets/themes/Elements_Ready_Theme_Today_Date.php:420
 #: inc/Widgets/user/Elements_Ready_Login_LogOut_Link.php:175
@@ -3584,11 +3584,11 @@ msgstr ""
 #: inc/Modules/Menu_Builder/Widgets/Restuarent_Menu.php:958
 #: inc/Widget_Controls/Shopping_Cart_Style.php:1395
 #: inc/Widgets/area_title/Element_Ready_Area_Title_Widget.php:598
-#: inc/Widgets/area_title/Element_Ready_Area_Title_Widget.php:1431
-#: inc/Widgets/area_title/Element_Ready_Area_Title_Widget.php:1716
-#: inc/Widgets/area_title/Element_Ready_Area_Title_Widget.php:2136
-#: inc/Widgets/area_title/Element_Ready_Area_Title_Widget.php:2421
-#: inc/Widgets/area_title/Element_Ready_Area_Title_Widget.php:2809
+#: inc/Widgets/area_title/Element_Ready_Area_Title_Widget.php:1450
+#: inc/Widgets/area_title/Element_Ready_Area_Title_Widget.php:1735
+#: inc/Widgets/area_title/Element_Ready_Area_Title_Widget.php:2155
+#: inc/Widgets/area_title/Element_Ready_Area_Title_Widget.php:2440
+#: inc/Widgets/area_title/Element_Ready_Area_Title_Widget.php:2828
 #: inc/Widgets/box/Element_Ready_Box_Widget.php:542
 #: inc/Widgets/box/Element_Ready_Box_Widget.php:1209
 #: inc/Widgets/copyright_text/Element_Ready_Copyright_Text.php:78
@@ -3657,20 +3657,20 @@ msgstr ""
 #: inc/Widgets/teams/Element_Ready_Teams_Widget.php:4408
 #: inc/Widgets/teams/Element_Ready_Teams_Widget.php:4701
 #: inc/Widgets/teams/Element_Ready_Teams_Widget.php:5034
-#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:1107
-#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:1473
-#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:1837
-#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:2152
-#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:2382
-#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:2888
-#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:3283
-#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:4567
-#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:4864
-#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:5275
-#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:5300
-#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:5375
-#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:5699
-#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:5995
+#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:1108
+#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:1474
+#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:1838
+#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:2153
+#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:2383
+#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:2889
+#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:3284
+#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:4568
+#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:4865
+#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:5276
+#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:5301
+#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:5376
+#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:5700
+#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:5996
 #: inc/Widgets/themes/Elements_Ready_Heading_Weather.php:403
 #: inc/Widgets/themes/Elements_Ready_Theme_Today_Date.php:425
 #: inc/Widgets/user/Elements_Ready_Login_LogOut_Link.php:180
@@ -3713,11 +3713,11 @@ msgstr ""
 #: inc/Modules/Menu_Builder/Widgets/Restuarent_Menu.php:964
 #: inc/Widget_Controls/Shopping_Cart_Style.php:1394
 #: inc/Widgets/area_title/Element_Ready_Area_Title_Widget.php:602
-#: inc/Widgets/area_title/Element_Ready_Area_Title_Widget.php:1435
-#: inc/Widgets/area_title/Element_Ready_Area_Title_Widget.php:1720
-#: inc/Widgets/area_title/Element_Ready_Area_Title_Widget.php:2140
-#: inc/Widgets/area_title/Element_Ready_Area_Title_Widget.php:2425
-#: inc/Widgets/area_title/Element_Ready_Area_Title_Widget.php:2813
+#: inc/Widgets/area_title/Element_Ready_Area_Title_Widget.php:1454
+#: inc/Widgets/area_title/Element_Ready_Area_Title_Widget.php:1739
+#: inc/Widgets/area_title/Element_Ready_Area_Title_Widget.php:2159
+#: inc/Widgets/area_title/Element_Ready_Area_Title_Widget.php:2444
+#: inc/Widgets/area_title/Element_Ready_Area_Title_Widget.php:2832
 #: inc/Widgets/box/Element_Ready_Box_Widget.php:546
 #: inc/Widgets/box/Element_Ready_Box_Widget.php:689
 #: inc/Widgets/box/Element_Ready_Box_Widget.php:1213
@@ -3776,20 +3776,20 @@ msgstr ""
 #: inc/Widgets/teams/Element_Ready_Teams_Widget.php:4412
 #: inc/Widgets/teams/Element_Ready_Teams_Widget.php:4705
 #: inc/Widgets/teams/Element_Ready_Teams_Widget.php:5038
-#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:1111
-#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:1477
-#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:1841
-#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:2156
-#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:2386
-#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:2892
-#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:3285
-#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:4571
-#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:4868
-#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:5277
-#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:5302
-#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:5379
-#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:5703
-#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:5999
+#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:1112
+#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:1478
+#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:1842
+#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:2157
+#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:2387
+#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:2893
+#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:3286
+#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:4572
+#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:4869
+#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:5278
+#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:5303
+#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:5380
+#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:5704
+#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:6000
 #: inc/Widgets/themes/Elements_Ready_Heading_Weather.php:405
 #: inc/Widgets/themes/Elements_Ready_Theme_Today_Date.php:427
 #: inc/Widgets/user/Elements_Ready_Login_LogOut_Link.php:182
@@ -3833,11 +3833,11 @@ msgstr ""
 #: inc/Modules/Menu_Builder/Widgets/Restuarent_Menu.php:970
 #: inc/Widget_Controls/Shopping_Cart_Style.php:1396
 #: inc/Widgets/area_title/Element_Ready_Area_Title_Widget.php:606
-#: inc/Widgets/area_title/Element_Ready_Area_Title_Widget.php:1439
-#: inc/Widgets/area_title/Element_Ready_Area_Title_Widget.php:1724
-#: inc/Widgets/area_title/Element_Ready_Area_Title_Widget.php:2144
-#: inc/Widgets/area_title/Element_Ready_Area_Title_Widget.php:2429
-#: inc/Widgets/area_title/Element_Ready_Area_Title_Widget.php:2817
+#: inc/Widgets/area_title/Element_Ready_Area_Title_Widget.php:1458
+#: inc/Widgets/area_title/Element_Ready_Area_Title_Widget.php:1743
+#: inc/Widgets/area_title/Element_Ready_Area_Title_Widget.php:2163
+#: inc/Widgets/area_title/Element_Ready_Area_Title_Widget.php:2448
+#: inc/Widgets/area_title/Element_Ready_Area_Title_Widget.php:2836
 #: inc/Widgets/box/Element_Ready_Box_Widget.php:550
 #: inc/Widgets/box/Element_Ready_Box_Widget.php:1217
 #: inc/Widgets/copyright_text/Element_Ready_Copyright_Text.php:86
@@ -3906,20 +3906,20 @@ msgstr ""
 #: inc/Widgets/teams/Element_Ready_Teams_Widget.php:4416
 #: inc/Widgets/teams/Element_Ready_Teams_Widget.php:4709
 #: inc/Widgets/teams/Element_Ready_Teams_Widget.php:5042
-#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:1115
-#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:1481
-#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:1845
-#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:2160
-#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:2390
-#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:2896
-#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:3284
-#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:4575
-#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:4872
-#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:5276
-#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:5301
-#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:5383
-#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:5707
-#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:6003
+#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:1116
+#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:1482
+#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:1846
+#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:2161
+#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:2391
+#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:2897
+#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:3285
+#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:4576
+#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:4873
+#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:5277
+#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:5302
+#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:5384
+#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:5708
+#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:6004
 #: inc/Widgets/themes/Elements_Ready_Heading_Weather.php:404
 #: inc/Widgets/themes/Elements_Ready_Theme_Today_Date.php:426
 #: inc/Widgets/user/Elements_Ready_Login_LogOut_Link.php:181
@@ -4153,8 +4153,8 @@ msgstr ""
 #: inc/Widgets/area_title/Element_Ready_Area_Title_Widget.php:972
 #: inc/Widgets/area_title/Element_Ready_Area_Title_Widget.php:1076
 #: inc/Widgets/area_title/Element_Ready_Area_Title_Widget.php:1204
-#: inc/Widgets/area_title/Element_Ready_Area_Title_Widget.php:1938
-#: inc/Widgets/area_title/Element_Ready_Area_Title_Widget.php:2690
+#: inc/Widgets/area_title/Element_Ready_Area_Title_Widget.php:1957
+#: inc/Widgets/area_title/Element_Ready_Area_Title_Widget.php:2709
 #: inc/Widgets/box/Element_Ready_Box_Widget.php:783
 #: inc/Widgets/box/Element_Ready_Box_Widget.php:1050
 #: inc/Widgets/box/Element_Ready_Box_Widget.php:1307
@@ -4238,16 +4238,16 @@ msgstr ""
 #: inc/Widgets/teams/Element_Ready_Teams_Widget.php:3570
 #: inc/Widgets/teams/Element_Ready_Teams_Widget.php:4115
 #: inc/Widgets/teams/Element_Ready_Teams_Widget.php:4476
-#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:1223
-#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:1709
-#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:2126
-#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:2587
-#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:3095
-#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:3368
-#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:3760
-#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:4040
-#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:4232
-#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:5439
+#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:1224
+#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:1710
+#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:2127
+#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:2588
+#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:3096
+#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:3369
+#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:3761
+#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:4041
+#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:4233
+#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:5440
 #: inc/Widgets/themes/Element_Ready_Theme_News_Ticker_Widget.php:427
 #: inc/Widgets/themes/Element_Ready_Theme_News_Ticker_Widget.php:477
 #: inc/Widgets/themes/Elements_Ready_Drop_Down_Select_Box.php:284
@@ -4358,13 +4358,13 @@ msgstr ""
 #: inc/Widgets/area_title/Element_Ready_Area_Title_Widget.php:468
 #: inc/Widgets/area_title/Element_Ready_Area_Title_Widget.php:843
 #: inc/Widgets/area_title/Element_Ready_Area_Title_Widget.php:1148
-#: inc/Widgets/area_title/Element_Ready_Area_Title_Widget.php:1270
-#: inc/Widgets/area_title/Element_Ready_Area_Title_Widget.php:1555
-#: inc/Widgets/area_title/Element_Ready_Area_Title_Widget.php:1870
-#: inc/Widgets/area_title/Element_Ready_Area_Title_Widget.php:1975
-#: inc/Widgets/area_title/Element_Ready_Area_Title_Widget.php:2260
-#: inc/Widgets/area_title/Element_Ready_Area_Title_Widget.php:2583
-#: inc/Widgets/area_title/Element_Ready_Area_Title_Widget.php:2719
+#: inc/Widgets/area_title/Element_Ready_Area_Title_Widget.php:1289
+#: inc/Widgets/area_title/Element_Ready_Area_Title_Widget.php:1574
+#: inc/Widgets/area_title/Element_Ready_Area_Title_Widget.php:1889
+#: inc/Widgets/area_title/Element_Ready_Area_Title_Widget.php:1994
+#: inc/Widgets/area_title/Element_Ready_Area_Title_Widget.php:2279
+#: inc/Widgets/area_title/Element_Ready_Area_Title_Widget.php:2602
+#: inc/Widgets/area_title/Element_Ready_Area_Title_Widget.php:2738
 #: inc/Widgets/box/Element_Ready_Box_Widget.php:761
 #: inc/Widgets/box/Element_Ready_Box_Widget.php:1030
 #: inc/Widgets/box/Element_Ready_Box_Widget.php:1101
@@ -4511,26 +4511,26 @@ msgstr ""
 #: inc/Widgets/teams/Element_Ready_Teams_Widget.php:4237
 #: inc/Widgets/teams/Element_Ready_Teams_Widget.php:4527
 #: inc/Widgets/teams/Element_Ready_Teams_Widget.php:4859
-#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:920
-#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:1281
-#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:1345
-#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:1793
-#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:1964
-#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:2073
-#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:2257
-#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:2627
-#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:2763
-#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:3135
-#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:3577
-#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:3857
-#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:4211
-#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:4406
-#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:4703
-#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:5026
-#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:5337
-#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:5479
-#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:5538
-#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:5834
+#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:921
+#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:1282
+#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:1346
+#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:1794
+#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:1965
+#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:2074
+#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:2258
+#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:2628
+#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:2764
+#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:3136
+#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:3578
+#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:3858
+#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:4212
+#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:4407
+#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:4704
+#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:5027
+#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:5338
+#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:5480
+#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:5539
+#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:5835
 #: inc/Widgets/themes/Element_Ready_Theme_News_Ticker_Widget.php:258
 #: inc/Widgets/themes/Element_Ready_Theme_News_Ticker_Widget.php:367
 #: inc/Widgets/themes/Element_Ready_Theme_News_Ticker_Widget.php:440
@@ -4655,11 +4655,11 @@ msgstr ""
 #: inc/Widget_Controls/User_Style.php:2602
 #: inc/Widget_Controls/User_Style.php:2614
 #: inc/Widgets/area_title/Element_Ready_Area_Title_Widget.php:629
-#: inc/Widgets/area_title/Element_Ready_Area_Title_Widget.php:1297
-#: inc/Widgets/area_title/Element_Ready_Area_Title_Widget.php:1582
-#: inc/Widgets/area_title/Element_Ready_Area_Title_Widget.php:2002
-#: inc/Widgets/area_title/Element_Ready_Area_Title_Widget.php:2287
-#: inc/Widgets/area_title/Element_Ready_Area_Title_Widget.php:2855
+#: inc/Widgets/area_title/Element_Ready_Area_Title_Widget.php:1316
+#: inc/Widgets/area_title/Element_Ready_Area_Title_Widget.php:1601
+#: inc/Widgets/area_title/Element_Ready_Area_Title_Widget.php:2021
+#: inc/Widgets/area_title/Element_Ready_Area_Title_Widget.php:2306
+#: inc/Widgets/area_title/Element_Ready_Area_Title_Widget.php:2874
 #: inc/Widgets/box/Element_Ready_Box_Widget.php:1280
 #: inc/Widgets/mailchimp/Element_Ready_Subscriber_Widget.php:701
 #: inc/Widgets/mailchimp/Element_Ready_Subscriber_Widget.php:1057
@@ -4683,19 +4683,19 @@ msgstr ""
 #: inc/Widgets/teams/Element_Ready_Teams_Widget.php:4458
 #: inc/Widgets/teams/Element_Ready_Teams_Widget.php:4558
 #: inc/Widgets/teams/Element_Ready_Teams_Widget.php:4890
-#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:973
-#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:1504
-#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:2413
-#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:2919
-#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:3380
-#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:3630
-#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:3910
-#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:4244
-#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:4434
-#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:4730
-#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:5421
-#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:5566
-#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:5861
+#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:974
+#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:1505
+#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:2414
+#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:2920
+#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:3381
+#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:3631
+#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:3911
+#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:4245
+#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:4435
+#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:4731
+#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:5422
+#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:5567
+#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:5862
 #: inc/Widgets/woocommerce/WooCommerce_Free_Download.php:815
 #: inc/Widgets/woocommerce/WooCommerce_Free_Download.php:1577
 #: inc/Widgets/woocommerce/WooCommerce_Free_Download.php:2150
@@ -4783,11 +4783,11 @@ msgstr ""
 #: inc/Widget_Controls/User_Style.php:2043
 #: inc/Widget_Controls/User_Style.php:2619
 #: inc/Widgets/area_title/Element_Ready_Area_Title_Widget.php:635
-#: inc/Widgets/area_title/Element_Ready_Area_Title_Widget.php:1303
-#: inc/Widgets/area_title/Element_Ready_Area_Title_Widget.php:1588
-#: inc/Widgets/area_title/Element_Ready_Area_Title_Widget.php:2008
-#: inc/Widgets/area_title/Element_Ready_Area_Title_Widget.php:2293
-#: inc/Widgets/area_title/Element_Ready_Area_Title_Widget.php:2861
+#: inc/Widgets/area_title/Element_Ready_Area_Title_Widget.php:1322
+#: inc/Widgets/area_title/Element_Ready_Area_Title_Widget.php:1607
+#: inc/Widgets/area_title/Element_Ready_Area_Title_Widget.php:2027
+#: inc/Widgets/area_title/Element_Ready_Area_Title_Widget.php:2312
+#: inc/Widgets/area_title/Element_Ready_Area_Title_Widget.php:2880
 #: inc/Widgets/box/Element_Ready_Box_Widget.php:1284
 #: inc/Widgets/mailchimp/Element_Ready_Subscriber_Widget.php:707
 #: inc/Widgets/mailchimp/Element_Ready_Subscriber_Widget.php:1063
@@ -4809,19 +4809,19 @@ msgstr ""
 #: inc/Widgets/teams/Element_Ready_Teams_Widget.php:4462
 #: inc/Widgets/teams/Element_Ready_Teams_Widget.php:4563
 #: inc/Widgets/teams/Element_Ready_Teams_Widget.php:4896
-#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:979
-#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:1509
-#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:2418
-#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:2924
-#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:3386
-#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:3636
-#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:3916
-#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:4248
-#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:4439
-#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:4736
-#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:5427
-#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:5571
-#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:5867
+#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:980
+#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:1510
+#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:2419
+#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:2925
+#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:3387
+#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:3637
+#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:3917
+#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:4249
+#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:4440
+#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:4737
+#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:5428
+#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:5572
+#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:5868
 #: inc/Widgets/woocommerce/WooCommerce_Free_Download.php:820
 #: inc/Widgets/woocommerce/WooCommerce_Free_Download.php:1581
 #: inc/Widgets/woocommerce/WooCommerce_Free_Download.php:2154
@@ -4862,11 +4862,11 @@ msgstr ""
 #: inc/Widget_Controls/User_Style.php:2044
 #: inc/Widget_Controls/User_Style.php:2620
 #: inc/Widgets/area_title/Element_Ready_Area_Title_Widget.php:636
-#: inc/Widgets/area_title/Element_Ready_Area_Title_Widget.php:1304
-#: inc/Widgets/area_title/Element_Ready_Area_Title_Widget.php:1589
-#: inc/Widgets/area_title/Element_Ready_Area_Title_Widget.php:2009
-#: inc/Widgets/area_title/Element_Ready_Area_Title_Widget.php:2294
-#: inc/Widgets/area_title/Element_Ready_Area_Title_Widget.php:2862
+#: inc/Widgets/area_title/Element_Ready_Area_Title_Widget.php:1323
+#: inc/Widgets/area_title/Element_Ready_Area_Title_Widget.php:1608
+#: inc/Widgets/area_title/Element_Ready_Area_Title_Widget.php:2028
+#: inc/Widgets/area_title/Element_Ready_Area_Title_Widget.php:2313
+#: inc/Widgets/area_title/Element_Ready_Area_Title_Widget.php:2881
 #: inc/Widgets/box/Element_Ready_Box_Widget.php:1285
 #: inc/Widgets/mailchimp/Element_Ready_Subscriber_Widget.php:708
 #: inc/Widgets/mailchimp/Element_Ready_Subscriber_Widget.php:1064
@@ -4889,19 +4889,19 @@ msgstr ""
 #: inc/Widgets/teams/Element_Ready_Teams_Widget.php:4463
 #: inc/Widgets/teams/Element_Ready_Teams_Widget.php:4564
 #: inc/Widgets/teams/Element_Ready_Teams_Widget.php:4897
-#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:980
-#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:1510
-#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:2419
-#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:2925
-#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:3387
-#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:3637
-#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:3917
-#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:4249
-#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:4440
-#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:4737
-#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:5428
-#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:5572
-#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:5868
+#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:981
+#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:1511
+#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:2420
+#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:2926
+#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:3388
+#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:3638
+#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:3918
+#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:4250
+#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:4441
+#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:4738
+#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:5429
+#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:5573
+#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:5869
 #: inc/Widgets/woocommerce/WooCommerce_Free_Download.php:821
 #: inc/Widgets/woocommerce/WooCommerce_Free_Download.php:1582
 #: inc/Widgets/woocommerce/WooCommerce_Free_Download.php:2155
@@ -4980,11 +4980,11 @@ msgstr ""
 #: inc/Widget_Controls/User_Style.php:2046
 #: inc/Widget_Controls/User_Style.php:2622
 #: inc/Widgets/area_title/Element_Ready_Area_Title_Widget.php:637
-#: inc/Widgets/area_title/Element_Ready_Area_Title_Widget.php:1305
-#: inc/Widgets/area_title/Element_Ready_Area_Title_Widget.php:1590
-#: inc/Widgets/area_title/Element_Ready_Area_Title_Widget.php:2010
-#: inc/Widgets/area_title/Element_Ready_Area_Title_Widget.php:2295
-#: inc/Widgets/area_title/Element_Ready_Area_Title_Widget.php:2863
+#: inc/Widgets/area_title/Element_Ready_Area_Title_Widget.php:1324
+#: inc/Widgets/area_title/Element_Ready_Area_Title_Widget.php:1609
+#: inc/Widgets/area_title/Element_Ready_Area_Title_Widget.php:2029
+#: inc/Widgets/area_title/Element_Ready_Area_Title_Widget.php:2314
+#: inc/Widgets/area_title/Element_Ready_Area_Title_Widget.php:2882
 #: inc/Widgets/box/Element_Ready_Box_Widget.php:1286
 #: inc/Widgets/mailchimp/Element_Ready_Subscriber_Widget.php:709
 #: inc/Widgets/mailchimp/Element_Ready_Subscriber_Widget.php:1065
@@ -5007,19 +5007,19 @@ msgstr ""
 #: inc/Widgets/teams/Element_Ready_Teams_Widget.php:4464
 #: inc/Widgets/teams/Element_Ready_Teams_Widget.php:4565
 #: inc/Widgets/teams/Element_Ready_Teams_Widget.php:4898
-#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:981
-#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:1511
-#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:2420
-#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:2926
-#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:3388
-#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:3638
-#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:3918
-#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:4250
-#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:4441
-#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:4738
-#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:5429
-#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:5573
-#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:5869
+#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:982
+#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:1512
+#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:2421
+#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:2927
+#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:3389
+#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:3639
+#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:3919
+#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:4251
+#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:4442
+#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:4739
+#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:5430
+#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:5574
+#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:5870
 #: inc/Widgets/woocommerce/WooCommerce_Free_Download.php:822
 #: inc/Widgets/woocommerce/WooCommerce_Free_Download.php:1583
 #: inc/Widgets/woocommerce/WooCommerce_Free_Download.php:2156
@@ -5063,9 +5063,9 @@ msgstr ""
 #: inc/Widgets/teams/Element_Ready_Teams_Widget.php:3297
 #: inc/Widgets/teams/Element_Ready_Teams_Widget.php:3320
 #: inc/Widgets/teams/Element_Ready_Teams_Widget.php:4389
-#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:5258
-#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:5281
-#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:5304
+#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:5259
+#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:5282
+#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:5305
 #: inc/Widgets/themes/Elements_Ready_Heading_Weather.php:406
 #: inc/Widgets/themes/Elements_Ready_Theme_Today_Date.php:428
 #: inc/section_control/Element_Raedy_Section_Dismiss.php:216
@@ -5217,11 +5217,11 @@ msgstr ""
 #: inc/Widget_Controls/User_Style.php:1762
 #: inc/Widgets/area_title/Element_Ready_Area_Title_Widget.php:516
 #: inc/Widgets/area_title/Element_Ready_Area_Title_Widget.php:935
-#: inc/Widgets/area_title/Element_Ready_Area_Title_Widget.php:1456
-#: inc/Widgets/area_title/Element_Ready_Area_Title_Widget.php:1741
-#: inc/Widgets/area_title/Element_Ready_Area_Title_Widget.php:2161
-#: inc/Widgets/area_title/Element_Ready_Area_Title_Widget.php:2446
-#: inc/Widgets/area_title/Element_Ready_Area_Title_Widget.php:2623
+#: inc/Widgets/area_title/Element_Ready_Area_Title_Widget.php:1475
+#: inc/Widgets/area_title/Element_Ready_Area_Title_Widget.php:1760
+#: inc/Widgets/area_title/Element_Ready_Area_Title_Widget.php:2180
+#: inc/Widgets/area_title/Element_Ready_Area_Title_Widget.php:2465
+#: inc/Widgets/area_title/Element_Ready_Area_Title_Widget.php:2642
 #: inc/Widgets/counter/Element_Ready_Counter_Widget.php:351
 #: inc/Widgets/edd/Element_Ready_Easy_Digital_Download.php:99
 #: inc/Widgets/edd/Element_Ready_Easy_Digital_Download.php:126
@@ -5287,20 +5287,20 @@ msgstr ""
 #: inc/Widgets/teams/Element_Ready_Teams_Widget.php:3801
 #: inc/Widgets/teams/Element_Ready_Teams_Widget.php:4728
 #: inc/Widgets/teams/Element_Ready_Teams_Widget.php:5061
-#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:1132
-#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:1394
-#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:1742
-#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:1913
-#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:2022
-#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:2303
-#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:2809
-#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:3526
-#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:3806
-#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:4095
-#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:4592
-#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:4889
-#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:5724
-#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:6020
+#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:1133
+#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:1395
+#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:1743
+#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:1914
+#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:2023
+#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:2304
+#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:2810
+#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:3527
+#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:3807
+#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:4096
+#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:4593
+#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:4890
+#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:5725
+#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:6021
 #: inc/Widgets/themes/Elements_Ready_Drop_Down_Select_Box.php:176
 #: inc/Widgets/user/SignUp.php:717 inc/Widgets/user/Signin.php:517
 #: inc/Widgets/user/Signin_SignUp.php:680
@@ -5345,11 +5345,11 @@ msgstr ""
 #: inc/Widget_Controls/User_Style.php:1384
 #: inc/Widget_Controls/User_Style.php:1787
 #: inc/Widgets/area_title/Element_Ready_Area_Title_Widget.php:542
-#: inc/Widgets/area_title/Element_Ready_Area_Title_Widget.php:1481
-#: inc/Widgets/area_title/Element_Ready_Area_Title_Widget.php:1766
-#: inc/Widgets/area_title/Element_Ready_Area_Title_Widget.php:2186
-#: inc/Widgets/area_title/Element_Ready_Area_Title_Widget.php:2471
-#: inc/Widgets/area_title/Element_Ready_Area_Title_Widget.php:2648
+#: inc/Widgets/area_title/Element_Ready_Area_Title_Widget.php:1500
+#: inc/Widgets/area_title/Element_Ready_Area_Title_Widget.php:1785
+#: inc/Widgets/area_title/Element_Ready_Area_Title_Widget.php:2205
+#: inc/Widgets/area_title/Element_Ready_Area_Title_Widget.php:2490
+#: inc/Widgets/area_title/Element_Ready_Area_Title_Widget.php:2667
 #: inc/Widgets/box/Element_Ready_Box_Widget.php:1318
 #: inc/Widgets/box/Element_Ready_Box_Widget.php:1404
 #: inc/Widgets/counter/Element_Ready_Counter_Widget.php:379
@@ -5411,20 +5411,20 @@ msgstr ""
 #: inc/Widgets/teams/Element_Ready_Teams_Widget.php:3828
 #: inc/Widgets/teams/Element_Ready_Teams_Widget.php:4755
 #: inc/Widgets/teams/Element_Ready_Teams_Widget.php:5088
-#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:1157
-#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:1419
-#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:1767
-#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:1938
-#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:2047
-#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:2328
-#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:2834
-#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:3551
-#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:3831
-#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:4120
-#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:4617
-#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:4914
-#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:5749
-#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:6045
+#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:1158
+#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:1420
+#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:1768
+#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:1939
+#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:2048
+#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:2329
+#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:2835
+#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:3552
+#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:3832
+#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:4121
+#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:4618
+#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:4915
+#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:5750
+#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:6046
 #: inc/Widgets/themes/Elements_Ready_Drop_Down_Select_Box.php:198
 #: inc/Widgets/user/SignUp.php:695 inc/Widgets/user/Signin.php:495
 #: inc/Widgets/user/Signin_SignUp.php:658
@@ -5503,9 +5503,9 @@ msgstr ""
 #: inc/Widgets/area_title/Element_Ready_Area_Title_Widget.php:490
 #: inc/Widgets/area_title/Element_Ready_Area_Title_Widget.php:865
 #: inc/Widgets/area_title/Element_Ready_Area_Title_Widget.php:1182
-#: inc/Widgets/area_title/Element_Ready_Area_Title_Widget.php:1906
-#: inc/Widgets/area_title/Element_Ready_Area_Title_Widget.php:2599
-#: inc/Widgets/area_title/Element_Ready_Area_Title_Widget.php:2735
+#: inc/Widgets/area_title/Element_Ready_Area_Title_Widget.php:1925
+#: inc/Widgets/area_title/Element_Ready_Area_Title_Widget.php:2618
+#: inc/Widgets/area_title/Element_Ready_Area_Title_Widget.php:2754
 #: inc/Widgets/box/Element_Ready_Box_Widget.php:738
 #: inc/Widgets/box/Element_Ready_Box_Widget.php:1071
 #: inc/Widgets/box/Element_Ready_Box_Widget.php:1241
@@ -5614,23 +5614,23 @@ msgstr ""
 #: inc/Widgets/teams/Element_Ready_Teams_Widget.php:3759
 #: inc/Widgets/teams/Element_Ready_Teams_Widget.php:4194
 #: inc/Widgets/teams/Element_Ready_Teams_Widget.php:4257
-#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:936
-#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:1303
-#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:1367
-#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:1809
-#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:1980
-#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:2089
-#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:2279
-#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:2649
-#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:2785
-#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:3157
-#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:3593
-#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:3873
-#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:4077
-#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:4981
-#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:5353
-#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:5495
-#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:6112
+#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:937
+#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:1304
+#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:1368
+#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:1810
+#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:1981
+#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:2090
+#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:2280
+#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:2650
+#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:2786
+#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:3158
+#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:3594
+#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:3874
+#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:4078
+#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:4982
+#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:5354
+#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:5496
+#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:6113
 #: inc/Widgets/themes/Elements_Ready_Drop_Down_Select_Box.php:249
 #: inc/Widgets/user/SignUp.php:821 inc/Widgets/user/Signin.php:621
 #: inc/Widgets/user/Signin_SignUp.php:784
@@ -5766,10 +5766,10 @@ msgstr ""
 #: inc/Widgets/area_title/Element_Ready_Area_Title_Widget.php:924
 #: inc/Widgets/area_title/Element_Ready_Area_Title_Widget.php:1025
 #: inc/Widgets/area_title/Element_Ready_Area_Title_Widget.php:1129
-#: inc/Widgets/area_title/Element_Ready_Area_Title_Widget.php:1852
-#: inc/Widgets/area_title/Element_Ready_Area_Title_Widget.php:2564
-#: inc/Widgets/area_title/Element_Ready_Area_Title_Widget.php:2708
-#: inc/Widgets/area_title/Element_Ready_Area_Title_Widget.php:2785
+#: inc/Widgets/area_title/Element_Ready_Area_Title_Widget.php:1871
+#: inc/Widgets/area_title/Element_Ready_Area_Title_Widget.php:2583
+#: inc/Widgets/area_title/Element_Ready_Area_Title_Widget.php:2727
+#: inc/Widgets/area_title/Element_Ready_Area_Title_Widget.php:2804
 #: inc/Widgets/box/Element_Ready_Box_Widget.php:850
 #: inc/Widgets/box/Element_Ready_Box_Widget.php:949
 #: inc/Widgets/box/Element_Ready_Box_Widget.php:1179
@@ -5869,18 +5869,18 @@ msgstr ""
 #: inc/Widgets/teams/Element_Ready_Teams_Widget.php:3638
 #: inc/Widgets/teams/Element_Ready_Teams_Widget.php:3718
 #: inc/Widgets/teams/Element_Ready_Teams_Widget.php:4161
-#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:1269
-#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:1334
-#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:2245
-#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:2616
-#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:2751
-#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:3124
-#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:3215
-#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:3480
-#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:5016
-#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:5082
-#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:5154
-#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:5326
+#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:1270
+#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:1335
+#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:2246
+#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:2617
+#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:2752
+#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:3125
+#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:3216
+#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:3481
+#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:5017
+#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:5083
+#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:5155
+#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:5327
 #: inc/Widgets/themes/Element_Ready_Theme_News_Ticker_Widget.php:245
 #: inc/Widgets/themes/Element_Ready_Theme_News_Ticker_Widget.php:354
 #: inc/Widgets/themes/Element_Ready_Theme_News_Ticker_Widget.php:399
@@ -5982,9 +5982,9 @@ msgstr ""
 #: inc/Widgets/area_title/Element_Ready_Area_Title_Widget.php:483
 #: inc/Widgets/area_title/Element_Ready_Area_Title_Widget.php:858
 #: inc/Widgets/area_title/Element_Ready_Area_Title_Widget.php:1175
-#: inc/Widgets/area_title/Element_Ready_Area_Title_Widget.php:1899
-#: inc/Widgets/area_title/Element_Ready_Area_Title_Widget.php:2592
-#: inc/Widgets/area_title/Element_Ready_Area_Title_Widget.php:2728
+#: inc/Widgets/area_title/Element_Ready_Area_Title_Widget.php:1918
+#: inc/Widgets/area_title/Element_Ready_Area_Title_Widget.php:2611
+#: inc/Widgets/area_title/Element_Ready_Area_Title_Widget.php:2747
 #: inc/Widgets/box/Element_Ready_Box_Widget.php:1063
 #: inc/Widgets/box/Element_Ready_Box_Widget.php:1111
 #: inc/Widgets/box/Element_Ready_Box_Widget.php:1234
@@ -6106,21 +6106,21 @@ msgstr ""
 #: inc/Widgets/teams/Element_Ready_Teams_Widget.php:3750
 #: inc/Widgets/teams/Element_Ready_Teams_Widget.php:4185
 #: inc/Widgets/teams/Element_Ready_Teams_Widget.php:4248
-#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:929
-#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:1296
-#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:1360
-#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:1802
-#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:1973
-#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:2082
-#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:2272
-#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:2642
-#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:2778
-#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:3150
-#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:3586
-#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:3866
-#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:4070
-#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:5346
-#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:5488
+#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:930
+#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:1297
+#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:1361
+#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:1803
+#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:1974
+#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:2083
+#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:2273
+#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:2643
+#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:2779
+#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:3151
+#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:3587
+#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:3867
+#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:4071
+#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:5347
+#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:5489
 #: inc/Widgets/themes/Element_Ready_Theme_News_Ticker_Widget.php:268
 #: inc/Widgets/themes/Element_Ready_Theme_News_Ticker_Widget.php:377
 #: inc/Widgets/themes/Element_Ready_Theme_News_Ticker_Widget.php:419
@@ -6372,7 +6372,7 @@ msgstr ""
 #: inc/Widget_Controls/User_Style.php:2420
 #: inc/Widgets/area_title/Element_Ready_Area_Title_Widget.php:404
 #: inc/Widgets/area_title/Element_Ready_Area_Title_Widget.php:1123
-#: inc/Widgets/area_title/Element_Ready_Area_Title_Widget.php:2558
+#: inc/Widgets/area_title/Element_Ready_Area_Title_Widget.php:2577
 #: inc/Widgets/box/Element_Ready_Box_Widget.php:837
 #: inc/Widgets/box/Element_Ready_Box_Widget.php:1022
 #: inc/Widgets/box/Element_Ready_Box_Widget.php:1173
@@ -6428,12 +6428,12 @@ msgstr ""
 #: inc/Widgets/teams/Element_Ready_Teams_Widget.php:2593
 #: inc/Widgets/teams/Element_Ready_Teams_Widget.php:3630
 #: inc/Widgets/teams/Element_Ready_Teams_Widget.php:4153
-#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:1250
-#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:1736
-#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:2193
-#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:2699
-#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:3202
-#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:5222
+#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:1251
+#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:1737
+#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:2194
+#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:2700
+#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:3203
+#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:5223
 #: inc/Widgets/themes/Element_Ready_Theme_News_Ticker_Widget.php:238
 #: inc/Widgets/user/SignUp.php:689 inc/Widgets/user/Signin.php:489
 #: inc/Widgets/user/Signin_SignUp.php:652
@@ -6536,7 +6536,7 @@ msgstr ""
 #: inc/Widget_Controls/User_Style.php:2520
 #: inc/Widgets/area_title/Element_Ready_Area_Title_Widget.php:816
 #: inc/Widgets/area_title/Element_Ready_Area_Title_Widget.php:1216
-#: inc/Widgets/area_title/Element_Ready_Area_Title_Widget.php:2702
+#: inc/Widgets/area_title/Element_Ready_Area_Title_Widget.php:2721
 #: inc/Widgets/box/Element_Ready_Box_Widget.php:868
 #: inc/Widgets/box/Element_Ready_Box_Widget.php:1093
 #: inc/Widgets/box/Element_Ready_Box_Widget.php:1343
@@ -6579,11 +6579,11 @@ msgstr ""
 #: inc/Widgets/teams/Element_Ready_Teams_Widget.php:2704
 #: inc/Widgets/teams/Element_Ready_Teams_Widget.php:3710
 #: inc/Widgets/teams/Element_Ready_Teams_Widget.php:4216
-#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:1328
-#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:2600
-#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:3108
-#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:3238
-#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:5462
+#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:1329
+#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:2601
+#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:3109
+#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:3239
+#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:5463
 #: inc/Widgets/themes/Element_Ready_Theme_News_Ticker_Widget.php:347
 #: inc/Widgets/video/Element_Ready_Widget_Video.php:891
 #: inc/Widgets/woocommerce/WooCommerce_Free_Download.php:1022
@@ -7162,11 +7162,11 @@ msgstr ""
 #: inc/Widget_Controls/User_Style.php:2584
 #: inc/Widgets/area_title/Element_Ready_Area_Title_Widget.php:574
 #: inc/Widgets/area_title/Element_Ready_Area_Title_Widget.php:1156
-#: inc/Widgets/area_title/Element_Ready_Area_Title_Widget.php:1278
-#: inc/Widgets/area_title/Element_Ready_Area_Title_Widget.php:1563
-#: inc/Widgets/area_title/Element_Ready_Area_Title_Widget.php:1878
-#: inc/Widgets/area_title/Element_Ready_Area_Title_Widget.php:1983
-#: inc/Widgets/area_title/Element_Ready_Area_Title_Widget.php:2268
+#: inc/Widgets/area_title/Element_Ready_Area_Title_Widget.php:1297
+#: inc/Widgets/area_title/Element_Ready_Area_Title_Widget.php:1582
+#: inc/Widgets/area_title/Element_Ready_Area_Title_Widget.php:1897
+#: inc/Widgets/area_title/Element_Ready_Area_Title_Widget.php:2002
+#: inc/Widgets/area_title/Element_Ready_Area_Title_Widget.php:2287
 #: inc/Widgets/box/Element_Ready_Box_Widget.php:641
 #: inc/Widgets/forms/Element_Ready_Contact_Form_Seven_Widget.php:657
 #: inc/Widgets/forms/Element_Ready_WP_Form_Widget.php:658
@@ -7204,20 +7204,20 @@ msgstr ""
 #: inc/Widgets/teams/Element_Ready_Teams_Widget.php:4282
 #: inc/Widgets/teams/Element_Ready_Teams_Widget.php:4537
 #: inc/Widgets/teams/Element_Ready_Teams_Widget.php:4869
-#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:954
-#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:1450
-#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:2107
-#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:2359
-#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:2865
-#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:3611
-#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:3891
-#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:4414
-#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:4711
-#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:5102
-#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:5175
-#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:5229
-#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:5546
-#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:5842
+#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:955
+#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:1451
+#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:2108
+#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:2360
+#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:2866
+#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:3612
+#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:3892
+#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:4415
+#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:4712
+#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:5103
+#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:5176
+#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:5230
+#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:5547
+#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:5843
 #: inc/Widgets/woocommerce/WooCommerce_Free_Download.php:757
 #: inc/Widgets/woocommerce/WooCommerce_Free_Download.php:1133
 #: inc/Widgets/woocommerce/WooCommerce_Free_Download.php:1224
@@ -7250,11 +7250,11 @@ msgstr ""
 #: inc/Widget_Controls/User_Style.php:2588
 #: inc/Widgets/area_title/Element_Ready_Area_Title_Widget.php:582
 #: inc/Widgets/area_title/Element_Ready_Area_Title_Widget.php:1162
-#: inc/Widgets/area_title/Element_Ready_Area_Title_Widget.php:1285
-#: inc/Widgets/area_title/Element_Ready_Area_Title_Widget.php:1570
-#: inc/Widgets/area_title/Element_Ready_Area_Title_Widget.php:1886
-#: inc/Widgets/area_title/Element_Ready_Area_Title_Widget.php:1990
-#: inc/Widgets/area_title/Element_Ready_Area_Title_Widget.php:2275
+#: inc/Widgets/area_title/Element_Ready_Area_Title_Widget.php:1304
+#: inc/Widgets/area_title/Element_Ready_Area_Title_Widget.php:1589
+#: inc/Widgets/area_title/Element_Ready_Area_Title_Widget.php:1905
+#: inc/Widgets/area_title/Element_Ready_Area_Title_Widget.php:2009
+#: inc/Widgets/area_title/Element_Ready_Area_Title_Widget.php:2294
 #: inc/Widgets/box/Element_Ready_Box_Widget.php:645
 #: inc/Widgets/forms/Element_Ready_Contact_Form_Seven_Widget.php:665
 #: inc/Widgets/forms/Element_Ready_WP_Form_Widget.php:666
@@ -7293,20 +7293,20 @@ msgstr ""
 #: inc/Widgets/teams/Element_Ready_Teams_Widget.php:4290
 #: inc/Widgets/teams/Element_Ready_Teams_Widget.php:4544
 #: inc/Widgets/teams/Element_Ready_Teams_Widget.php:4876
-#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:961
-#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:1457
-#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:2114
-#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:2366
-#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:2872
-#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:3618
-#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:3898
-#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:4421
-#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:4718
-#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:5109
-#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:5182
-#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:5235
-#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:5553
-#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:5849
+#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:962
+#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:1458
+#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:2115
+#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:2367
+#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:2873
+#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:3619
+#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:3899
+#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:4422
+#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:4719
+#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:5110
+#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:5183
+#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:5236
+#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:5554
+#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:5850
 #: inc/Widgets/woocommerce/WooCommerce_Free_Download.php:763
 #: inc/Widgets/woocommerce/WooCommerce_Free_Download.php:1139
 #: inc/Widgets/woocommerce/WooCommerce_Free_Download.php:1231
@@ -7337,11 +7337,11 @@ msgstr ""
 #: inc/Widget_Controls/User_Style.php:2589
 #: inc/Widgets/area_title/Element_Ready_Area_Title_Widget.php:580
 #: inc/Widgets/area_title/Element_Ready_Area_Title_Widget.php:1160
-#: inc/Widgets/area_title/Element_Ready_Area_Title_Widget.php:1283
-#: inc/Widgets/area_title/Element_Ready_Area_Title_Widget.php:1568
-#: inc/Widgets/area_title/Element_Ready_Area_Title_Widget.php:1884
-#: inc/Widgets/area_title/Element_Ready_Area_Title_Widget.php:1988
-#: inc/Widgets/area_title/Element_Ready_Area_Title_Widget.php:2273
+#: inc/Widgets/area_title/Element_Ready_Area_Title_Widget.php:1302
+#: inc/Widgets/area_title/Element_Ready_Area_Title_Widget.php:1587
+#: inc/Widgets/area_title/Element_Ready_Area_Title_Widget.php:1903
+#: inc/Widgets/area_title/Element_Ready_Area_Title_Widget.php:2007
+#: inc/Widgets/area_title/Element_Ready_Area_Title_Widget.php:2292
 #: inc/Widgets/box/Element_Ready_Box_Widget.php:647
 #: inc/Widgets/forms/Element_Ready_Contact_Form_Seven_Widget.php:663
 #: inc/Widgets/forms/Element_Ready_WP_Form_Widget.php:664
@@ -7381,20 +7381,20 @@ msgstr ""
 #: inc/Widgets/teams/Element_Ready_Teams_Widget.php:4288
 #: inc/Widgets/teams/Element_Ready_Teams_Widget.php:4542
 #: inc/Widgets/teams/Element_Ready_Teams_Widget.php:4874
-#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:959
-#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:1455
-#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:2112
-#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:2364
-#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:2870
-#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:3616
-#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:3896
-#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:4419
-#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:4716
-#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:5107
-#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:5180
-#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:5233
-#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:5551
-#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:5847
+#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:960
+#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:1456
+#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:2113
+#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:2365
+#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:2871
+#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:3617
+#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:3897
+#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:4420
+#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:4717
+#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:5108
+#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:5181
+#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:5234
+#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:5552
+#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:5848
 #: inc/Widgets/woocommerce/WooCommerce_Free_Download.php:761
 #: inc/Widgets/woocommerce/WooCommerce_Free_Download.php:1137
 #: inc/Widgets/woocommerce/WooCommerce_Free_Download.php:1229
@@ -7424,11 +7424,11 @@ msgstr ""
 #: inc/Widget_Controls/User_Style.php:2590
 #: inc/Widgets/area_title/Element_Ready_Area_Title_Widget.php:581
 #: inc/Widgets/area_title/Element_Ready_Area_Title_Widget.php:1161
-#: inc/Widgets/area_title/Element_Ready_Area_Title_Widget.php:1284
-#: inc/Widgets/area_title/Element_Ready_Area_Title_Widget.php:1569
-#: inc/Widgets/area_title/Element_Ready_Area_Title_Widget.php:1885
-#: inc/Widgets/area_title/Element_Ready_Area_Title_Widget.php:1989
-#: inc/Widgets/area_title/Element_Ready_Area_Title_Widget.php:2274
+#: inc/Widgets/area_title/Element_Ready_Area_Title_Widget.php:1303
+#: inc/Widgets/area_title/Element_Ready_Area_Title_Widget.php:1588
+#: inc/Widgets/area_title/Element_Ready_Area_Title_Widget.php:1904
+#: inc/Widgets/area_title/Element_Ready_Area_Title_Widget.php:2008
+#: inc/Widgets/area_title/Element_Ready_Area_Title_Widget.php:2293
 #: inc/Widgets/forms/Element_Ready_Contact_Form_Seven_Widget.php:664
 #: inc/Widgets/forms/Element_Ready_WP_Form_Widget.php:665
 #: inc/Widgets/forms/Element_Ready_WeForms_Widget.php:665
@@ -7467,20 +7467,20 @@ msgstr ""
 #: inc/Widgets/teams/Element_Ready_Teams_Widget.php:4289
 #: inc/Widgets/teams/Element_Ready_Teams_Widget.php:4543
 #: inc/Widgets/teams/Element_Ready_Teams_Widget.php:4875
-#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:960
-#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:1456
-#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:2113
-#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:2365
-#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:2871
-#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:3617
-#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:3897
-#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:4420
-#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:4717
-#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:5108
-#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:5181
-#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:5234
-#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:5552
-#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:5848
+#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:961
+#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:1457
+#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:2114
+#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:2366
+#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:2872
+#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:3618
+#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:3898
+#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:4421
+#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:4718
+#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:5109
+#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:5182
+#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:5235
+#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:5553
+#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:5849
 #: inc/Widgets/woocommerce/WooCommerce_Free_Download.php:762
 #: inc/Widgets/woocommerce/WooCommerce_Free_Download.php:1138
 #: inc/Widgets/woocommerce/WooCommerce_Free_Download.php:1230
@@ -7547,7 +7547,7 @@ msgstr ""
 #: inc/Widgets/price_table/Elements_Raedy_Template_Tabs.php:634
 #: inc/Widgets/teams/Element_Ready_Teams_Widget.php:3335
 #: inc/Widgets/teams/Element_Ready_Teams_Widget.php:4329
-#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:3298
+#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:3299
 #: inc/Widgets/themes/Elements_Ready_Heading_Weather.php:278
 #: inc/Widgets/themes/Elements_Ready_Heading_Weather.php:338
 #: inc/Widgets/themes/Elements_Ready_Theme_Today_Date.php:358
@@ -7839,7 +7839,7 @@ msgstr ""
 #: inc/Widgets/box/Element_Ready_Box_Widget.php:296
 #: inc/Widgets/counter/Element_Ready_Counter_Widget.php:162
 #: inc/Widgets/mailchimp/Element_Ready_Subscriber_Widget.php:97
-#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:132
+#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:133
 #: inc/Widgets/woocommerce/WooCommerce_Free_Download.php:333
 msgid "Icon Type"
 msgstr ""
@@ -7851,8 +7851,8 @@ msgstr ""
 #: inc/Widgets/counter/Element_Ready_Counter_Widget.php:206
 #: inc/Widgets/price_table/Element_Ready_Pricing_Table.php:655
 #: inc/Widgets/price_table/Element_Ready_Pricing_Table.php:666
-#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:136
-#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:201
+#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:137
+#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:202
 #: inc/Widgets/video/Element_Ready_Widget_Video.php:616
 #: inc/Widgets/woocommerce/WooCommerce_Free_Download.php:337
 msgid "SVG / Font Icon"
@@ -7870,17 +7870,17 @@ msgstr ""
 #: inc/Widgets/mailchimp/Element_Ready_Subscriber_Widget.php:102
 #: inc/Widgets/mailchimp/Element_Ready_Subscriber_Widget.php:129
 #: inc/Widgets/price_table/Element_Ready_Pricing_Table.php:651
-#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:137
-#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:167
-#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:202
-#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:232
+#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:138
+#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:168
+#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:203
+#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:233
 #: inc/Widgets/woocommerce/WooCommerce_Free_Download.php:338
 #: inc/Widgets/woocommerce/WooCommerce_Free_Download.php:364
 msgid "Image Icon"
 msgstr ""
 
 #: inc/Widgets/area_title/Element_Ready_Area_Title_Widget.php:114
-#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:149
+#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:150
 #: inc/Widgets/woocommerce/WooCommerce_Free_Download.php:348
 #: inc/Widgets/working_process/Element_Ready_Working_Process_Widget.php:100
 #: inc/Widgets/working_process/Element_Ready_Working_Process_Widget.php:390
@@ -7941,9 +7941,9 @@ msgstr ""
 #: inc/Widgets/shortcode/Element_Ready_Shortcode_Widget.php:141
 #: inc/Widgets/slider/Element_Ready_Content_Slider_Widget.php:97
 #: inc/Widgets/socials/Element_Ready_Social_Widget.php:131
-#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:266
-#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:268
-#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:3194
+#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:267
+#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:269
+#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:3195
 #: inc/Widgets/themes/Elements_Ready_Drop_Down_Select_Box.php:85
 #: inc/Widgets/user/Signin.php:306 inc/Widgets/user/Signin.php:338
 #: inc/Widgets/user/Signin_SignUp.php:407
@@ -7959,13 +7959,13 @@ msgstr ""
 #: inc/Widgets/area_title/Element_Ready_Area_Title_Widget.php:236
 #: inc/Widgets/box/Element_Ready_Box_Widget.php:359
 #: inc/Widgets/mailchimp/Element_Ready_Subscriber_Widget.php:155
-#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:276
+#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:277
 msgid "Title HTML Tag"
 msgstr ""
 
 #: inc/Widgets/area_title/Element_Ready_Area_Title_Widget.php:260
 #: inc/Widgets/area_title/Element_Ready_Area_Title_Widget.php:262
-#: inc/Widgets/area_title/Element_Ready_Area_Title_Widget.php:1842
+#: inc/Widgets/area_title/Element_Ready_Area_Title_Widget.php:1861
 #: inc/Widgets/box/Element_Ready_Box_Widget.php:402
 #: inc/Widgets/box/Element_Ready_Box_Widget.php:404
 #: inc/Widgets/box/Element_Ready_Box_Widget.php:929
@@ -7975,8 +7975,8 @@ msgstr ""
 #: inc/Widgets/price_table/Element_Ready_Pricing_Table.php:270
 #: inc/Widgets/price_table/Element_Ready_Pricing_Table.php:272
 #: inc/Widgets/price_table/Element_Ready_Pricing_Table.php:1005
-#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:302
-#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:3466
+#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:303
+#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:3467
 msgid "Subtitle"
 msgstr ""
 
@@ -7984,7 +7984,7 @@ msgstr ""
 #: inc/Widgets/box/Element_Ready_Box_Widget.php:413
 #: inc/Widgets/mailchimp/Element_Ready_Subscriber_Widget.php:189
 #: inc/Widgets/price_table/Element_Ready_Pricing_Table.php:279
-#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:310
+#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:311
 msgid "Subtitle Position"
 msgstr ""
 
@@ -7992,7 +7992,7 @@ msgstr ""
 #: inc/Widgets/box/Element_Ready_Box_Widget.php:417
 #: inc/Widgets/mailchimp/Element_Ready_Subscriber_Widget.php:193
 #: inc/Widgets/price_table/Element_Ready_Pricing_Table.php:283
-#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:314
+#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:315
 msgid "Before title"
 msgstr ""
 
@@ -8000,7 +8000,7 @@ msgstr ""
 #: inc/Widgets/box/Element_Ready_Box_Widget.php:418
 #: inc/Widgets/mailchimp/Element_Ready_Subscriber_Widget.php:194
 #: inc/Widgets/price_table/Element_Ready_Pricing_Table.php:284
-#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:315
+#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:316
 msgid "After Title"
 msgstr ""
 
@@ -8012,8 +8012,8 @@ msgstr ""
 #: inc/Widgets/price_table/Element_Ready_Pricing_Table.php:594
 #: inc/Widgets/teams/Element_Ready_Teams_Widget.php:157
 #: inc/Widgets/teams/Element_Ready_Teams_Widget.php:3078
-#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:389
-#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:5002
+#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:390
+#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:5003
 msgid "Description"
 msgstr ""
 
@@ -8021,7 +8021,7 @@ msgstr ""
 #: inc/Widgets/box/Element_Ready_Box_Widget.php:432
 #: inc/Widgets/mailchimp/Element_Ready_Subscriber_Widget.php:208
 #: inc/Widgets/teams/Element_Ready_Teams_Widget.php:159
-#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:391
+#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:392
 msgid "Description."
 msgstr ""
 
@@ -8093,11 +8093,11 @@ msgstr ""
 
 #: inc/Widgets/area_title/Element_Ready_Area_Title_Widget.php:583
 #: inc/Widgets/area_title/Element_Ready_Area_Title_Widget.php:1163
-#: inc/Widgets/area_title/Element_Ready_Area_Title_Widget.php:1286
-#: inc/Widgets/area_title/Element_Ready_Area_Title_Widget.php:1571
-#: inc/Widgets/area_title/Element_Ready_Area_Title_Widget.php:1887
-#: inc/Widgets/area_title/Element_Ready_Area_Title_Widget.php:1991
-#: inc/Widgets/area_title/Element_Ready_Area_Title_Widget.php:2276
+#: inc/Widgets/area_title/Element_Ready_Area_Title_Widget.php:1305
+#: inc/Widgets/area_title/Element_Ready_Area_Title_Widget.php:1590
+#: inc/Widgets/area_title/Element_Ready_Area_Title_Widget.php:1906
+#: inc/Widgets/area_title/Element_Ready_Area_Title_Widget.php:2010
+#: inc/Widgets/area_title/Element_Ready_Area_Title_Widget.php:2295
 #: inc/Widgets/box/Element_Ready_Box_Widget.php:646
 #: inc/Widgets/forms/Element_Ready_Contact_Form_Seven_Widget.php:666
 #: inc/Widgets/forms/Element_Ready_WP_Form_Widget.php:667
@@ -8134,20 +8134,20 @@ msgstr ""
 #: inc/Widgets/teams/Element_Ready_Teams_Widget.php:4291
 #: inc/Widgets/teams/Element_Ready_Teams_Widget.php:4545
 #: inc/Widgets/teams/Element_Ready_Teams_Widget.php:4877
-#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:962
-#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:1458
-#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:2115
-#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:2367
-#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:2873
-#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:3619
-#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:3899
-#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:4422
-#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:4719
-#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:5110
-#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:5183
-#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:5236
-#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:5554
-#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:5850
+#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:963
+#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:1459
+#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:2116
+#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:2368
+#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:2874
+#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:3620
+#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:3900
+#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:4423
+#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:4720
+#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:5111
+#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:5184
+#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:5237
+#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:5555
+#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:5851
 #: inc/Widgets/woocommerce/WooCommerce_Free_Download.php:764
 #: inc/Widgets/woocommerce/WooCommerce_Free_Download.php:1140
 #: inc/Widgets/woocommerce/WooCommerce_Free_Download.php:1232
@@ -8163,11 +8163,11 @@ msgid "Inline Flex"
 msgstr ""
 
 #: inc/Widgets/area_title/Element_Ready_Area_Title_Widget.php:610
-#: inc/Widgets/area_title/Element_Ready_Area_Title_Widget.php:1443
-#: inc/Widgets/area_title/Element_Ready_Area_Title_Widget.php:1728
-#: inc/Widgets/area_title/Element_Ready_Area_Title_Widget.php:2148
-#: inc/Widgets/area_title/Element_Ready_Area_Title_Widget.php:2433
-#: inc/Widgets/area_title/Element_Ready_Area_Title_Widget.php:2821
+#: inc/Widgets/area_title/Element_Ready_Area_Title_Widget.php:1462
+#: inc/Widgets/area_title/Element_Ready_Area_Title_Widget.php:1747
+#: inc/Widgets/area_title/Element_Ready_Area_Title_Widget.php:2167
+#: inc/Widgets/area_title/Element_Ready_Area_Title_Widget.php:2452
+#: inc/Widgets/area_title/Element_Ready_Area_Title_Widget.php:2840
 #: inc/Widgets/box/Element_Ready_Box_Widget.php:1221
 #: inc/Widgets/mailchimp/Element_Ready_Subscriber_Widget.php:678
 #: inc/Widgets/mailchimp/Element_Ready_Subscriber_Widget.php:1213
@@ -8191,17 +8191,17 @@ msgstr ""
 #: inc/Widgets/teams/Element_Ready_Teams_Widget.php:4420
 #: inc/Widgets/teams/Element_Ready_Teams_Widget.php:4713
 #: inc/Widgets/teams/Element_Ready_Teams_Widget.php:5046
-#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:1119
-#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:1485
-#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:1849
-#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:2164
-#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:2394
-#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:2900
-#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:4579
-#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:4876
-#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:5387
-#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:5711
-#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:6007
+#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:1120
+#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:1486
+#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:1850
+#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:2165
+#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:2395
+#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:2901
+#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:4580
+#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:4877
+#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:5388
+#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:5712
+#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:6008
 #: inc/Widgets/woocommerce/WooCommerce_Free_Download.php:793
 #: inc/Widgets/woocommerce/WooCommerce_Free_Download.php:1316
 #: inc/Widgets/woocommerce/WooCommerce_Free_Download.php:1731
@@ -8215,10 +8215,10 @@ msgid "Justify"
 msgstr ""
 
 #: inc/Widgets/area_title/Element_Ready_Area_Title_Widget.php:647
-#: inc/Widgets/area_title/Element_Ready_Area_Title_Widget.php:1315
-#: inc/Widgets/area_title/Element_Ready_Area_Title_Widget.php:1600
-#: inc/Widgets/area_title/Element_Ready_Area_Title_Widget.php:2020
-#: inc/Widgets/area_title/Element_Ready_Area_Title_Widget.php:2305
+#: inc/Widgets/area_title/Element_Ready_Area_Title_Widget.php:1334
+#: inc/Widgets/area_title/Element_Ready_Area_Title_Widget.php:1619
+#: inc/Widgets/area_title/Element_Ready_Area_Title_Widget.php:2039
+#: inc/Widgets/area_title/Element_Ready_Area_Title_Widget.php:2324
 #: inc/Widgets/box/Element_Ready_Box_Widget.php:1492
 #: inc/Widgets/mailchimp/Element_Ready_Subscriber_Widget.php:721
 #: inc/Widgets/mailchimp/Element_Ready_Subscriber_Widget.php:1077
@@ -8237,18 +8237,18 @@ msgstr ""
 #: inc/Widgets/teams/Element_Ready_Teams_Widget.php:3942
 #: inc/Widgets/teams/Element_Ready_Teams_Widget.php:4577
 #: inc/Widgets/teams/Element_Ready_Teams_Widget.php:4910
-#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:991
-#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:1528
-#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:2430
-#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:2936
-#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:3400
-#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:3648
-#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:3928
-#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:4262
-#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:4451
-#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:4748
-#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:5583
-#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:5879
+#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:992
+#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:1529
+#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:2431
+#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:2937
+#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:3401
+#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:3649
+#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:3929
+#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:4263
+#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:4452
+#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:4749
+#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:5584
+#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:5880
 #: inc/Widgets/woocommerce/WooCommerce_Free_Download.php:834
 #: inc/Widgets/woocommerce/WooCommerce_Free_Download.php:1595
 #: inc/Widgets/woocommerce/WooCommerce_Free_Download.php:2168
@@ -8256,10 +8256,10 @@ msgid "From Left"
 msgstr ""
 
 #: inc/Widgets/area_title/Element_Ready_Area_Title_Widget.php:675
-#: inc/Widgets/area_title/Element_Ready_Area_Title_Widget.php:1343
-#: inc/Widgets/area_title/Element_Ready_Area_Title_Widget.php:1628
-#: inc/Widgets/area_title/Element_Ready_Area_Title_Widget.php:2048
-#: inc/Widgets/area_title/Element_Ready_Area_Title_Widget.php:2333
+#: inc/Widgets/area_title/Element_Ready_Area_Title_Widget.php:1362
+#: inc/Widgets/area_title/Element_Ready_Area_Title_Widget.php:1647
+#: inc/Widgets/area_title/Element_Ready_Area_Title_Widget.php:2067
+#: inc/Widgets/area_title/Element_Ready_Area_Title_Widget.php:2352
 #: inc/Widgets/box/Element_Ready_Box_Widget.php:1518
 #: inc/Widgets/mailchimp/Element_Ready_Subscriber_Widget.php:751
 #: inc/Widgets/mailchimp/Element_Ready_Subscriber_Widget.php:1107
@@ -8278,17 +8278,17 @@ msgstr ""
 #: inc/Widgets/teams/Element_Ready_Teams_Widget.php:3972
 #: inc/Widgets/teams/Element_Ready_Teams_Widget.php:4607
 #: inc/Widgets/teams/Element_Ready_Teams_Widget.php:4940
-#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:1019
-#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:1604
-#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:2458
-#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:2964
-#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:3676
-#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:3956
-#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:4292
-#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:4479
-#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:4776
-#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:5611
-#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:5907
+#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:1020
+#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:1605
+#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:2459
+#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:2965
+#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:3677
+#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:3957
+#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:4293
+#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:4480
+#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:4777
+#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:5612
+#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:5908
 #: inc/Widgets/woocommerce/WooCommerce_Free_Download.php:864
 #: inc/Widgets/woocommerce/WooCommerce_Free_Download.php:1625
 #: inc/Widgets/woocommerce/WooCommerce_Free_Download.php:2198
@@ -8296,10 +8296,10 @@ msgid "From Right"
 msgstr ""
 
 #: inc/Widgets/area_title/Element_Ready_Area_Title_Widget.php:703
-#: inc/Widgets/area_title/Element_Ready_Area_Title_Widget.php:1371
-#: inc/Widgets/area_title/Element_Ready_Area_Title_Widget.php:1656
-#: inc/Widgets/area_title/Element_Ready_Area_Title_Widget.php:2076
-#: inc/Widgets/area_title/Element_Ready_Area_Title_Widget.php:2361
+#: inc/Widgets/area_title/Element_Ready_Area_Title_Widget.php:1390
+#: inc/Widgets/area_title/Element_Ready_Area_Title_Widget.php:1675
+#: inc/Widgets/area_title/Element_Ready_Area_Title_Widget.php:2095
+#: inc/Widgets/area_title/Element_Ready_Area_Title_Widget.php:2380
 #: inc/Widgets/box/Element_Ready_Box_Widget.php:1544
 #: inc/Widgets/mailchimp/Element_Ready_Subscriber_Widget.php:781
 #: inc/Widgets/mailchimp/Element_Ready_Subscriber_Widget.php:1137
@@ -8319,19 +8319,19 @@ msgstr ""
 #: inc/Widgets/teams/Element_Ready_Teams_Widget.php:4002
 #: inc/Widgets/teams/Element_Ready_Teams_Widget.php:4637
 #: inc/Widgets/teams/Element_Ready_Teams_Widget.php:4970
-#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:1047
-#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:1557
-#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:1633
-#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:2486
-#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:2992
-#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:3427
-#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:3704
-#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:3984
-#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:4322
-#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:4507
-#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:4804
-#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:5639
-#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:5935
+#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:1048
+#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:1558
+#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:1634
+#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:2487
+#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:2993
+#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:3428
+#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:3705
+#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:3985
+#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:4323
+#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:4508
+#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:4805
+#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:5640
+#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:5936
 #: inc/Widgets/woocommerce/WooCommerce_Free_Download.php:894
 #: inc/Widgets/woocommerce/WooCommerce_Free_Download.php:1655
 #: inc/Widgets/woocommerce/WooCommerce_Free_Download.php:2228
@@ -8339,10 +8339,10 @@ msgid "From Top"
 msgstr ""
 
 #: inc/Widgets/area_title/Element_Ready_Area_Title_Widget.php:731
-#: inc/Widgets/area_title/Element_Ready_Area_Title_Widget.php:1399
-#: inc/Widgets/area_title/Element_Ready_Area_Title_Widget.php:1684
-#: inc/Widgets/area_title/Element_Ready_Area_Title_Widget.php:2104
-#: inc/Widgets/area_title/Element_Ready_Area_Title_Widget.php:2389
+#: inc/Widgets/area_title/Element_Ready_Area_Title_Widget.php:1418
+#: inc/Widgets/area_title/Element_Ready_Area_Title_Widget.php:1703
+#: inc/Widgets/area_title/Element_Ready_Area_Title_Widget.php:2123
+#: inc/Widgets/area_title/Element_Ready_Area_Title_Widget.php:2408
 #: inc/Widgets/box/Element_Ready_Box_Widget.php:1570
 #: inc/Widgets/mailchimp/Element_Ready_Subscriber_Widget.php:811
 #: inc/Widgets/mailchimp/Element_Ready_Subscriber_Widget.php:1167
@@ -8360,16 +8360,16 @@ msgstr ""
 #: inc/Widgets/teams/Element_Ready_Teams_Widget.php:4032
 #: inc/Widgets/teams/Element_Ready_Teams_Widget.php:4667
 #: inc/Widgets/teams/Element_Ready_Teams_Widget.php:5000
-#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:1075
-#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:2514
-#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:3020
-#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:3732
-#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:4012
-#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:4352
-#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:4535
-#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:4832
-#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:5667
-#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:5963
+#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:1076
+#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:2515
+#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:3021
+#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:3733
+#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:4013
+#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:4353
+#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:4536
+#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:4833
+#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:5668
+#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:5964
 #: inc/Widgets/woocommerce/WooCommerce_Free_Download.php:924
 #: inc/Widgets/woocommerce/WooCommerce_Free_Download.php:1685
 #: inc/Widgets/woocommerce/WooCommerce_Free_Download.php:2258
@@ -8377,7 +8377,7 @@ msgid "From Bottom"
 msgstr ""
 
 #: inc/Widgets/area_title/Element_Ready_Area_Title_Widget.php:759
-#: inc/Widgets/area_title/Element_Ready_Area_Title_Widget.php:2834
+#: inc/Widgets/area_title/Element_Ready_Area_Title_Widget.php:2853
 #: inc/Widgets/box/Element_Ready_Box_Widget.php:1128
 #: inc/Widgets/box/Element_Ready_Box_Widget.php:1259
 #: inc/Widgets/forms/Element_Ready_Contact_Form_Seven_Widget.php:533
@@ -8408,11 +8408,11 @@ msgstr ""
 #: inc/Widgets/teams/Element_Ready_Teams_Widget.php:2103
 #: inc/Widgets/teams/Element_Ready_Teams_Widget.php:4062
 #: inc/Widgets/teams/Element_Ready_Teams_Widget.php:4435
-#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:1681
-#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:1862
-#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:2542
-#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:3048
-#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:5400
+#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:1682
+#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:1863
+#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:2543
+#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:3049
+#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:5401
 #: inc/Widgets/user/SignUp.php:869 inc/Widgets/user/Signin.php:669
 #: inc/Widgets/user/Signin_SignUp.php:832
 #: inc/Widgets/woocommerce/WooCommerce_Free_Download.php:954
@@ -8424,14 +8424,14 @@ msgid "Transition"
 msgstr ""
 
 #: inc/Widgets/area_title/Element_Ready_Area_Title_Widget.php:883
-#: inc/Widgets/area_title/Element_Ready_Area_Title_Widget.php:2753
+#: inc/Widgets/area_title/Element_Ready_Area_Title_Widget.php:2772
 #: inc/Widgets/mailchimp/Element_Ready_Subscriber_Widget.php:556
 #: inc/Widgets/mailchimp/Element_Ready_Subscriber_Widget.php:1917
 #: inc/Widgets/mailchimp/Element_Ready_Subscriber_Widget.php:2222
 #: inc/Widgets/scroll_button/Element_Ready_Scroll_Button.php:996
 #: inc/Widgets/teams/Element_Ready_Teams_Widget.php:3781
-#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:2667
-#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:3175
+#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:2668
+#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:3176
 #: inc/Widgets/woocommerce/WooCommerce_Free_Download.php:1510
 msgid "Hover Animation"
 msgstr ""
@@ -8442,10 +8442,10 @@ msgstr ""
 
 #: inc/Widgets/area_title/Element_Ready_Area_Title_Widget.php:983
 #: inc/Widgets/area_title/Element_Ready_Area_Title_Widget.php:1087
-#: inc/Widgets/area_title/Element_Ready_Area_Title_Widget.php:1506
-#: inc/Widgets/area_title/Element_Ready_Area_Title_Widget.php:1791
-#: inc/Widgets/area_title/Element_Ready_Area_Title_Widget.php:2211
-#: inc/Widgets/area_title/Element_Ready_Area_Title_Widget.php:2496
+#: inc/Widgets/area_title/Element_Ready_Area_Title_Widget.php:1525
+#: inc/Widgets/area_title/Element_Ready_Area_Title_Widget.php:1810
+#: inc/Widgets/area_title/Element_Ready_Area_Title_Widget.php:2230
+#: inc/Widgets/area_title/Element_Ready_Area_Title_Widget.php:2515
 #: inc/Widgets/mailchimp/Element_Ready_Subscriber_Widget.php:1282
 #: inc/Widgets/mailchimp/Element_Ready_Subscriber_Widget.php:1594
 #: inc/Widgets/posts/Element_Ready_Portfolio.php:3628
@@ -8460,12 +8460,12 @@ msgstr ""
 #: inc/Widgets/teams/Element_Ready_Teams_Widget.php:1203
 #: inc/Widgets/teams/Element_Ready_Teams_Widget.php:4782
 #: inc/Widgets/teams/Element_Ready_Teams_Widget.php:5115
-#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:1182
-#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:4186
-#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:4642
-#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:4939
-#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:5774
-#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:6070
+#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:1183
+#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:4187
+#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:4643
+#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:4940
+#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:5775
+#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:6071
 #: inc/Widgets/woocommerce/WooCommerce_Free_Download.php:1800
 #: inc/Widgets/woocommerce/WooCommerce_Free_Download.php:2030
 #: inc/Widgets/woocommerce/WooCommerce_Free_Download.php:2373
@@ -8484,54 +8484,37 @@ msgstr ""
 #: inc/Widgets/box/Element_Ready_Box_Widget.php:875
 #: inc/Widgets/mailchimp/Element_Ready_Subscriber_Widget.php:961
 #: inc/Widgets/price_table/Element_Ready_Pricing_Table.php:2047
-#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:3244
+#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:3245
 #: inc/Widgets/user/SignUp.php:1001 inc/Widgets/user/Signin.php:925
 #: inc/Widgets/user/Signin_SignUp.php:964
 msgid "Link Color"
 msgstr ""
 
-#: inc/Widgets/area_title/Element_Ready_Area_Title_Widget.php:1232
-#: inc/Widgets/area_title/Element_Ready_Area_Title_Widget.php:1917
-#: inc/Widgets/area_title/Element_Ready_Area_Title_Widget.php:2795
-#: inc/Widgets/box/Element_Ready_Box_Widget.php:887
-#: inc/Widgets/box/Element_Ready_Box_Widget.php:961
-#: inc/Widgets/mailchimp/Element_Ready_Subscriber_Widget.php:973
-#: inc/Widgets/mailchimp/Element_Ready_Subscriber_Widget.php:1681
-#: inc/Widgets/mailchimp/Element_Ready_Subscriber_Widget.php:2367
-#: inc/Widgets/scroll_button/Element_Ready_Scroll_Button.php:700
-#: inc/Widgets/teams/Element_Ready_Teams_Widget.php:2984
-#: inc/Widgets/teams/Element_Ready_Teams_Widget.php:3046
-#: inc/Widgets/teams/Element_Ready_Teams_Widget.php:3108
-#: inc/Widgets/teams/Element_Ready_Teams_Widget.php:4224
-#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:3254
-#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:3490
-#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:5037
-#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:5092
-#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:5164
-#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:5468
-#: inc/Widgets/woocommerce/WooCommerce_Free_Download.php:1166
-msgid "Box Hover Color"
+#: inc/Widgets/area_title/Element_Ready_Area_Title_Widget.php:1241
+#: inc/Widgets/counter/Element_Ready_Counter_Widget.php:697
+#: inc/Widgets/posts/Element_Ready_Portfolio.php:2242
+msgid "Title Hover Color"
 msgstr ""
 
-#: inc/Widgets/area_title/Element_Ready_Area_Title_Widget.php:1252
+#: inc/Widgets/area_title/Element_Ready_Area_Title_Widget.php:1271
 msgid "Title Before / After"
 msgstr ""
 
-#: inc/Widgets/area_title/Element_Ready_Area_Title_Widget.php:1263
-#: inc/Widgets/area_title/Element_Ready_Area_Title_Widget.php:1968
+#: inc/Widgets/area_title/Element_Ready_Area_Title_Widget.php:1282
+#: inc/Widgets/area_title/Element_Ready_Area_Title_Widget.php:1987
 #: inc/Widgets/mailchimp/Element_Ready_Subscriber_Widget.php:1017
 #: inc/Widgets/price_table/Element_Ready_Pricing_Table.php:3053
 #: inc/Widgets/teams/Element_Ready_Teams_Widget.php:4518
-#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:4397
-#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:5531
+#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:4398
+#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:5532
 #: inc/Widgets/woocommerce/WooCommerce_Free_Download.php:1537
 msgid "BEFORE"
 msgstr ""
 
-#: inc/Widgets/area_title/Element_Ready_Area_Title_Widget.php:1523
-#: inc/Widgets/area_title/Element_Ready_Area_Title_Widget.php:1808
-#: inc/Widgets/area_title/Element_Ready_Area_Title_Widget.php:2228
-#: inc/Widgets/area_title/Element_Ready_Area_Title_Widget.php:2513
+#: inc/Widgets/area_title/Element_Ready_Area_Title_Widget.php:1542
+#: inc/Widgets/area_title/Element_Ready_Area_Title_Widget.php:1827
+#: inc/Widgets/area_title/Element_Ready_Area_Title_Widget.php:2247
+#: inc/Widgets/area_title/Element_Ready_Area_Title_Widget.php:2532
 #: inc/Widgets/mailchimp/Element_Ready_Subscriber_Widget.php:1301
 #: inc/Widgets/mailchimp/Element_Ready_Subscriber_Widget.php:1613
 #: inc/Widgets/posts/Element_Ready_Portfolio.php:3647
@@ -8543,32 +8526,54 @@ msgstr ""
 #: inc/Widgets/teams/Element_Ready_Teams_Widget.php:1222
 #: inc/Widgets/teams/Element_Ready_Teams_Widget.php:4822
 #: inc/Widgets/teams/Element_Ready_Teams_Widget.php:5134
-#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:1199
-#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:4659
-#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:4956
-#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:5791
-#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:6087
+#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:1200
+#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:4660
+#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:4957
+#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:5792
+#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:6088
 #: inc/Widgets/woocommerce/WooCommerce_Free_Download.php:1847
 #: inc/Widgets/woocommerce/WooCommerce_Free_Download.php:2421
 msgid "Z-Index"
 msgstr ""
 
-#: inc/Widgets/area_title/Element_Ready_Area_Title_Widget.php:1548
-#: inc/Widgets/area_title/Element_Ready_Area_Title_Widget.php:2253
+#: inc/Widgets/area_title/Element_Ready_Area_Title_Widget.php:1567
+#: inc/Widgets/area_title/Element_Ready_Area_Title_Widget.php:2272
 #: inc/Widgets/mailchimp/Element_Ready_Subscriber_Widget.php:1329
 #: inc/Widgets/price_table/Element_Ready_Pricing_Table.php:3647
 #: inc/Widgets/teams/Element_Ready_Teams_Widget.php:4850
-#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:4695
-#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:5827
+#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:4696
+#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:5828
 #: inc/Widgets/woocommerce/WooCommerce_Free_Download.php:2110
 msgid "AFTER"
 msgstr ""
 
-#: inc/Widgets/area_title/Element_Ready_Area_Title_Widget.php:1957
+#: inc/Widgets/area_title/Element_Ready_Area_Title_Widget.php:1936
+#: inc/Widgets/area_title/Element_Ready_Area_Title_Widget.php:2814
+#: inc/Widgets/box/Element_Ready_Box_Widget.php:887
+#: inc/Widgets/box/Element_Ready_Box_Widget.php:961
+#: inc/Widgets/mailchimp/Element_Ready_Subscriber_Widget.php:973
+#: inc/Widgets/mailchimp/Element_Ready_Subscriber_Widget.php:1681
+#: inc/Widgets/mailchimp/Element_Ready_Subscriber_Widget.php:2367
+#: inc/Widgets/scroll_button/Element_Ready_Scroll_Button.php:700
+#: inc/Widgets/teams/Element_Ready_Teams_Widget.php:2984
+#: inc/Widgets/teams/Element_Ready_Teams_Widget.php:3046
+#: inc/Widgets/teams/Element_Ready_Teams_Widget.php:3108
+#: inc/Widgets/teams/Element_Ready_Teams_Widget.php:4224
+#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:3255
+#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:3491
+#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:5038
+#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:5093
+#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:5165
+#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:5469
+#: inc/Widgets/woocommerce/WooCommerce_Free_Download.php:1166
+msgid "Box Hover Color"
+msgstr ""
+
+#: inc/Widgets/area_title/Element_Ready_Area_Title_Widget.php:1976
 msgid "Subtitle Before / After"
 msgstr ""
 
-#: inc/Widgets/area_title/Element_Ready_Area_Title_Widget.php:2547
+#: inc/Widgets/area_title/Element_Ready_Area_Title_Widget.php:2566
 #: inc/Widgets/box/Element_Ready_Box_Widget.php:992
 #: inc/Widgets/edd/Element_Ready_Easy_Digital_Download.php:548
 #: inc/Widgets/forms/Element_Ready_Contact_Form_Seven_Widget.php:1335
@@ -8583,7 +8588,7 @@ msgstr ""
 msgid "Button"
 msgstr ""
 
-#: inc/Widgets/area_title/Element_Ready_Area_Title_Widget.php:2771
+#: inc/Widgets/area_title/Element_Ready_Area_Title_Widget.php:2790
 #: inc/Widgets/box/Element_Ready_Box_Widget.php:1162
 #: inc/Widgets/copyright_text/Element_Ready_Copyright_Text.php:129
 #: inc/Widgets/counter/Element_Ready_Counter_Widget.php:742
@@ -8593,7 +8598,7 @@ msgstr ""
 #: inc/Widgets/posts/Element_Ready_Post_Group_Two.php:448
 #: inc/Widgets/price_table/Element_Ready_Pricing_Table.php:2781
 #: inc/Widgets/teams/Element_Ready_Teams_Widget.php:4135
-#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:5214
+#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:5215
 msgid "Box"
 msgstr ""
 
@@ -8846,7 +8851,7 @@ msgstr ""
 #: inc/Widgets/teams/Element_Ready_Teams_Widget.php:3271
 #: inc/Widgets/teams/Element_Ready_Teams_Widget.php:4305
 #: inc/Widgets/teams/Element_Ready_Teams_Widget.php:4363
-#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:5252
+#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:5253
 #: inc/Widgets/themes/Elements_Ready_Heading_Weather.php:314
 #: inc/Widgets/themes/Elements_Ready_Heading_Weather.php:425
 #: inc/Widgets/user/Signin_SignUp.php:190
@@ -8865,7 +8870,7 @@ msgstr ""
 #: inc/Widgets/price_table/Element_Ready_Pricing_Table.php:2120
 #: inc/Widgets/teams/Element_Ready_Teams_Widget.php:3273
 #: inc/Widgets/teams/Element_Ready_Teams_Widget.php:4365
-#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:5254
+#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:5255
 #: inc/Widgets/themes/Elements_Ready_Heading_Weather.php:315
 #: inc/Widgets/themes/Elements_Ready_Heading_Weather.php:426
 #: inc/Widgets/user/Signin_SignUp.php:272
@@ -8884,7 +8889,7 @@ msgstr ""
 #: inc/Widgets/table/Element_Ready_Data_Table_Widget.php:233
 #: inc/Widgets/teams/Element_Ready_Teams_Widget.php:3272
 #: inc/Widgets/teams/Element_Ready_Teams_Widget.php:4364
-#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:5253
+#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:5254
 #: inc/Widgets/themes/Elements_Ready_Heading_Weather.php:312
 #: inc/Widgets/themes/Elements_Ready_Heading_Weather.php:423
 #: inc/Widgets/user/Signin_SignUp.php:273
@@ -8900,7 +8905,7 @@ msgstr ""
 #: inc/Widgets/price_table/Elements_Raedy_Template_Tabs.php:540
 #: inc/Widgets/price_table/Elements_Raedy_Template_Tabs.php:580
 #: inc/Widgets/teams/Element_Ready_Teams_Widget.php:4366
-#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:5255
+#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:5256
 #: inc/Widgets/themes/Elements_Ready_Heading_Weather.php:313
 #: inc/Widgets/themes/Elements_Ready_Heading_Weather.php:424
 #: inc/Widgets/user/Signin_SignUp.php:271
@@ -9267,11 +9272,6 @@ msgstr ""
 msgid "Counter Hover Color"
 msgstr ""
 
-#: inc/Widgets/counter/Element_Ready_Counter_Widget.php:697
-#: inc/Widgets/posts/Element_Ready_Portfolio.php:2242
-msgid "Title Hover Color"
-msgstr ""
-
 #: inc/Widgets/dual_text/Element_Ready_Dual_Text.php:35
 msgid "ER Dual Text"
 msgstr ""
@@ -9371,7 +9371,7 @@ msgstr ""
 #: inc/Widgets/posts/Element_Ready_Post_Group_Two.php:240
 #: inc/Widgets/table/Element_Ready_Data_Table_Widget.php:198
 #: inc/Widgets/teams/Element_Ready_Teams_Widget.php:2954
-#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:5068
+#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:5069
 msgid "Name"
 msgstr ""
 
@@ -9712,7 +9712,7 @@ msgstr ""
 #: inc/Widgets/mailchimp/Element_Ready_Subscriber_Widget.php:1008
 #: inc/Widgets/price_table/Element_Ready_Pricing_Table.php:3045
 #: inc/Widgets/teams/Element_Ready_Teams_Widget.php:4509
-#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:5523
+#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:5524
 #: inc/Widgets/woocommerce/WooCommerce_Free_Download.php:1528
 msgid "Before / After"
 msgstr ""
@@ -10344,7 +10344,7 @@ msgstr ""
 #: inc/Widgets/posts/Element_Ready_Portfolio.php:813
 #: inc/Widgets/slider/Element_Ready_Content_Slider_Widget.php:233
 #: inc/Widgets/teams/Element_Ready_Teams_Widget.php:783
-#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:806
+#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:807
 #: inc/content_controls/common.php:247
 msgid "Inside Vertical Center"
 msgstr ""
@@ -10352,7 +10352,7 @@ msgstr ""
 #: inc/Widgets/posts/Element_Ready_Portfolio.php:814
 #: inc/Widgets/slider/Element_Ready_Content_Slider_Widget.php:235
 #: inc/Widgets/teams/Element_Ready_Teams_Widget.php:784
-#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:807
+#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:808
 #: inc/content_controls/common.php:248
 msgid "Outside Vertical Center"
 msgstr ""
@@ -10365,7 +10365,7 @@ msgstr ""
 #: inc/Widgets/posts/Element_Ready_Portfolio.php:816
 #: inc/Widgets/slider/Element_Ready_Content_Slider_Widget.php:236
 #: inc/Widgets/teams/Element_Ready_Teams_Widget.php:786
-#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:808
+#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:809
 #: inc/content_controls/common.php:249
 #: inc/section_control/element_ready_section.php:641
 msgid "Top Left"
@@ -10374,7 +10374,7 @@ msgstr ""
 #: inc/Widgets/posts/Element_Ready_Portfolio.php:817
 #: inc/Widgets/slider/Element_Ready_Content_Slider_Widget.php:237
 #: inc/Widgets/teams/Element_Ready_Teams_Widget.php:787
-#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:809
+#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:810
 #: inc/content_controls/common.php:250
 msgid "Top Center"
 msgstr ""
@@ -10382,8 +10382,8 @@ msgstr ""
 #: inc/Widgets/posts/Element_Ready_Portfolio.php:818
 #: inc/Widgets/slider/Element_Ready_Content_Slider_Widget.php:238
 #: inc/Widgets/teams/Element_Ready_Teams_Widget.php:788
-#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:251
-#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:810
+#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:252
+#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:811
 #: inc/content_controls/common.php:251
 #: inc/section_control/element_ready_section.php:635
 msgid "Top Right"
@@ -10392,7 +10392,7 @@ msgstr ""
 #: inc/Widgets/posts/Element_Ready_Portfolio.php:819
 #: inc/Widgets/slider/Element_Ready_Content_Slider_Widget.php:239
 #: inc/Widgets/teams/Element_Ready_Teams_Widget.php:789
-#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:811
+#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:812
 #: inc/content_controls/common.php:252
 #: inc/section_control/element_ready_section.php:639
 msgid "Bottom Left"
@@ -10401,7 +10401,7 @@ msgstr ""
 #: inc/Widgets/posts/Element_Ready_Portfolio.php:820
 #: inc/Widgets/slider/Element_Ready_Content_Slider_Widget.php:240
 #: inc/Widgets/teams/Element_Ready_Teams_Widget.php:790
-#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:812
+#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:813
 #: inc/content_controls/common.php:253
 msgid "Bottom Center"
 msgstr ""
@@ -10409,7 +10409,7 @@ msgstr ""
 #: inc/Widgets/posts/Element_Ready_Portfolio.php:821
 #: inc/Widgets/slider/Element_Ready_Content_Slider_Widget.php:241
 #: inc/Widgets/teams/Element_Ready_Teams_Widget.php:791
-#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:813
+#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:814
 #: inc/content_controls/common.php:254
 #: inc/section_control/element_ready_section.php:637
 msgid "Bottom Right"
@@ -10626,7 +10626,7 @@ msgstr ""
 
 #: inc/Widgets/posts/Element_Ready_Portfolio.php:2458
 #: inc/Widgets/teams/Element_Ready_Teams_Widget.php:3295
-#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:5279
+#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:5280
 #: inc/style_controls/box/box_style.php:371
 #: inc/style_controls/box/box_style.php:868
 #: inc/style_controls/common/common.php:1078
@@ -11237,7 +11237,7 @@ msgstr ""
 
 #: inc/Widgets/price_table/Elements_Raedy_Template_Tabs.php:397
 #: inc/Widgets/price_table/Elements_Raedy_Template_Tabs.php:613
-#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:3330
+#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:3331
 msgid "Active Color"
 msgstr ""
 
@@ -11548,7 +11548,7 @@ msgstr ""
 
 #: inc/Widgets/table/Element_Ready_Data_Table_Widget.php:202
 #: inc/Widgets/teams/Element_Ready_Teams_Widget.php:147
-#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:357
+#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:358
 msgid "Designation"
 msgstr ""
 
@@ -11679,14 +11679,14 @@ msgstr ""
 
 #: inc/Widgets/teams/Element_Ready_Teams_Widget.php:137
 #: inc/Widgets/teams/Element_Ready_Teams_Widget.php:139
-#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:349
+#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:350
 msgid "Member Name"
 msgstr ""
 
 #: inc/Widgets/teams/Element_Ready_Teams_Widget.php:149
 #: inc/Widgets/teams/Element_Ready_Teams_Widget.php:3016
-#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:359
-#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:5140
+#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:360
+#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:5141
 msgid "Designation Or Company"
 msgstr ""
 
@@ -11759,9 +11759,9 @@ msgstr ""
 
 #: inc/Widgets/teams/Element_Ready_Teams_Widget.php:338
 #: inc/Widgets/teams/Element_Ready_Teams_Widget.php:342
-#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:404
-#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:410
-#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:416
+#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:405
+#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:411
+#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:417
 msgid "Web Developer"
 msgstr ""
 
@@ -11786,279 +11786,279 @@ msgid "Slider On ?"
 msgstr ""
 
 #: inc/Widgets/teams/Element_Ready_Teams_Widget.php:379
-#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:433
+#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:434
 msgid "Slider Options"
 msgstr ""
 
 #: inc/Widgets/teams/Element_Ready_Teams_Widget.php:391
-#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:440
+#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:441
 msgid "Item In large Device"
 msgstr ""
 
 #: inc/Widgets/teams/Element_Ready_Teams_Widget.php:411
-#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:458
+#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:459
 msgid "Item In Medium Device"
 msgstr ""
 
 #: inc/Widgets/teams/Element_Ready_Teams_Widget.php:431
-#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:476
+#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:477
 msgid "Item In Tablet Device"
 msgstr ""
 
 #: inc/Widgets/teams/Element_Ready_Teams_Widget.php:451
-#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:494
+#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:495
 msgid "Item In Mobile Device"
 msgstr ""
 
 #: inc/Widgets/teams/Element_Ready_Teams_Widget.php:471
-#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:512
+#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:513
 msgid "Stage Padding"
 msgstr ""
 
 #: inc/Widgets/teams/Element_Ready_Teams_Widget.php:491
-#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:530
+#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:531
 msgid "Item Margin"
 msgstr ""
 
 #: inc/Widgets/teams/Element_Ready_Teams_Widget.php:511
-#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:548
+#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:549
 msgid "Slide Autoplay"
 msgstr ""
 
 #: inc/Widgets/teams/Element_Ready_Teams_Widget.php:525
-#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:560
+#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:561
 msgid "Autoplay Timeout"
 msgstr ""
 
 #: inc/Widgets/teams/Element_Ready_Teams_Widget.php:545
-#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:578
+#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:579
 msgid "Slide Speed"
 msgstr ""
 
 #: inc/Widgets/teams/Element_Ready_Teams_Widget.php:565
-#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:596
+#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:597
 msgid "Slide Animation"
 msgstr ""
 
 #: inc/Widgets/teams/Element_Ready_Teams_Widget.php:579
-#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:608
+#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:609
 msgid "Slide Animate In"
 msgstr ""
 
 #: inc/Widgets/teams/Element_Ready_Teams_Widget.php:583
 #: inc/Widgets/teams/Element_Ready_Teams_Widget.php:676
-#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:612
-#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:703
+#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:613
+#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:704
 msgid "bounce"
 msgstr ""
 
 #: inc/Widgets/teams/Element_Ready_Teams_Widget.php:584
 #: inc/Widgets/teams/Element_Ready_Teams_Widget.php:677
-#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:613
-#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:704
+#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:614
+#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:705
 msgid "flash"
 msgstr ""
 
 #: inc/Widgets/teams/Element_Ready_Teams_Widget.php:585
 #: inc/Widgets/teams/Element_Ready_Teams_Widget.php:678
-#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:614
-#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:705
+#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:615
+#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:706
 msgid "pulse"
 msgstr ""
 
 #: inc/Widgets/teams/Element_Ready_Teams_Widget.php:586
 #: inc/Widgets/teams/Element_Ready_Teams_Widget.php:679
-#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:615
-#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:706
+#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:616
+#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:707
 msgid "rubberBand"
 msgstr ""
 
 #: inc/Widgets/teams/Element_Ready_Teams_Widget.php:587
 #: inc/Widgets/teams/Element_Ready_Teams_Widget.php:680
-#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:616
-#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:707
+#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:617
+#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:708
 msgid "shake"
 msgstr ""
 
 #: inc/Widgets/teams/Element_Ready_Teams_Widget.php:588
 #: inc/Widgets/teams/Element_Ready_Teams_Widget.php:681
-#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:617
-#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:708
+#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:618
+#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:709
 msgid "headShake"
 msgstr ""
 
 #: inc/Widgets/teams/Element_Ready_Teams_Widget.php:589
 #: inc/Widgets/teams/Element_Ready_Teams_Widget.php:682
-#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:618
-#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:709
+#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:619
+#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:710
 msgid "swing"
 msgstr ""
 
 #: inc/Widgets/teams/Element_Ready_Teams_Widget.php:590
 #: inc/Widgets/teams/Element_Ready_Teams_Widget.php:683
-#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:619
-#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:710
+#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:620
+#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:711
 msgid "tada"
 msgstr ""
 
 #: inc/Widgets/teams/Element_Ready_Teams_Widget.php:591
 #: inc/Widgets/teams/Element_Ready_Teams_Widget.php:684
-#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:620
-#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:711
+#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:621
+#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:712
 msgid "wobble"
 msgstr ""
 
 #: inc/Widgets/teams/Element_Ready_Teams_Widget.php:592
 #: inc/Widgets/teams/Element_Ready_Teams_Widget.php:685
-#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:621
-#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:712
+#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:622
+#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:713
 msgid "jello"
 msgstr ""
 
 #: inc/Widgets/teams/Element_Ready_Teams_Widget.php:593
 #: inc/Widgets/teams/Element_Ready_Teams_Widget.php:686
-#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:622
-#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:713
+#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:623
+#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:714
 msgid "heartBeat"
 msgstr ""
 
 #: inc/Widgets/teams/Element_Ready_Teams_Widget.php:594
 #: inc/Widgets/teams/Element_Ready_Teams_Widget.php:687
-#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:623
-#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:714
+#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:624
+#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:715
 msgid "bounceIn"
 msgstr ""
 
 #: inc/Widgets/teams/Element_Ready_Teams_Widget.php:595
 #: inc/Widgets/teams/Element_Ready_Teams_Widget.php:688
-#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:624
-#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:715
+#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:625
+#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:716
 msgid "bounceInDown"
 msgstr ""
 
 #: inc/Widgets/teams/Element_Ready_Teams_Widget.php:596
 #: inc/Widgets/teams/Element_Ready_Teams_Widget.php:689
-#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:625
-#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:716
+#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:626
+#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:717
 msgid "bounceInLeft"
 msgstr ""
 
 #: inc/Widgets/teams/Element_Ready_Teams_Widget.php:597
 #: inc/Widgets/teams/Element_Ready_Teams_Widget.php:690
-#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:626
-#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:717
+#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:627
+#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:718
 msgid "bounceInRight"
 msgstr ""
 
 #: inc/Widgets/teams/Element_Ready_Teams_Widget.php:598
 #: inc/Widgets/teams/Element_Ready_Teams_Widget.php:691
-#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:627
-#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:718
+#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:628
+#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:719
 msgid "bounceInUp"
 msgstr ""
 
 #: inc/Widgets/teams/Element_Ready_Teams_Widget.php:599
 #: inc/Widgets/teams/Element_Ready_Teams_Widget.php:692
-#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:628
-#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:719
+#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:629
+#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:720
 msgid "bounceOut"
 msgstr ""
 
 #: inc/Widgets/teams/Element_Ready_Teams_Widget.php:600
 #: inc/Widgets/teams/Element_Ready_Teams_Widget.php:693
-#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:629
-#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:720
+#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:630
+#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:721
 msgid "bounceOutDown"
 msgstr ""
 
 #: inc/Widgets/teams/Element_Ready_Teams_Widget.php:601
 #: inc/Widgets/teams/Element_Ready_Teams_Widget.php:694
-#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:630
-#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:721
+#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:631
+#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:722
 msgid "bounceOutLeft"
 msgstr ""
 
 #: inc/Widgets/teams/Element_Ready_Teams_Widget.php:602
 #: inc/Widgets/teams/Element_Ready_Teams_Widget.php:695
-#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:631
-#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:722
+#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:632
+#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:723
 msgid "bounceOutRight"
 msgstr ""
 
 #: inc/Widgets/teams/Element_Ready_Teams_Widget.php:603
 #: inc/Widgets/teams/Element_Ready_Teams_Widget.php:696
-#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:632
-#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:723
+#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:633
+#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:724
 msgid "bounceOutUp"
 msgstr ""
 
 #: inc/Widgets/teams/Element_Ready_Teams_Widget.php:604
 #: inc/Widgets/teams/Element_Ready_Teams_Widget.php:697
-#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:633
-#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:724
+#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:634
+#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:725
 msgid "fadeIn"
 msgstr ""
 
 #: inc/Widgets/teams/Element_Ready_Teams_Widget.php:605
 #: inc/Widgets/teams/Element_Ready_Teams_Widget.php:698
-#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:634
-#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:725
+#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:635
+#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:726
 msgid "fadeInDown"
 msgstr ""
 
 #: inc/Widgets/teams/Element_Ready_Teams_Widget.php:606
 #: inc/Widgets/teams/Element_Ready_Teams_Widget.php:699
-#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:635
-#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:726
+#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:636
+#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:727
 msgid "fadeInDownBig"
 msgstr ""
 
 #: inc/Widgets/teams/Element_Ready_Teams_Widget.php:607
 #: inc/Widgets/teams/Element_Ready_Teams_Widget.php:700
-#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:636
-#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:727
+#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:637
+#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:728
 msgid "fadeInLeft"
 msgstr ""
 
 #: inc/Widgets/teams/Element_Ready_Teams_Widget.php:608
 #: inc/Widgets/teams/Element_Ready_Teams_Widget.php:701
-#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:637
-#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:728
+#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:638
+#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:729
 msgid "fadeInLeftBig"
 msgstr ""
 
 #: inc/Widgets/teams/Element_Ready_Teams_Widget.php:609
 #: inc/Widgets/teams/Element_Ready_Teams_Widget.php:702
-#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:638
-#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:729
+#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:639
+#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:730
 msgid "fadeInRight"
 msgstr ""
 
 #: inc/Widgets/teams/Element_Ready_Teams_Widget.php:610
 #: inc/Widgets/teams/Element_Ready_Teams_Widget.php:703
-#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:639
-#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:730
+#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:640
+#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:731
 msgid "fadeInRightBig"
 msgstr ""
 
 #: inc/Widgets/teams/Element_Ready_Teams_Widget.php:611
 #: inc/Widgets/teams/Element_Ready_Teams_Widget.php:704
-#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:640
-#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:731
+#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:641
+#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:732
 msgid "fadeInUp"
 msgstr ""
 
 #: inc/Widgets/teams/Element_Ready_Teams_Widget.php:612
 #: inc/Widgets/teams/Element_Ready_Teams_Widget.php:705
-#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:641
-#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:732
+#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:642
+#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:733
 msgid "fadeInUpBig"
 msgstr ""
 
 #: inc/Widgets/teams/Element_Ready_Teams_Widget.php:613
 #: inc/Widgets/teams/Element_Ready_Teams_Widget.php:706
-#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:642
-#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:733
+#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:643
+#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:734
 #: inc/section_control/Element_Raedy_Section_Dismiss.php:53
 #: inc/section_control/Element_Ready_Section_Dismiss.php:53
 msgid "fadeOut"
@@ -12066,380 +12066,380 @@ msgstr ""
 
 #: inc/Widgets/teams/Element_Ready_Teams_Widget.php:614
 #: inc/Widgets/teams/Element_Ready_Teams_Widget.php:707
-#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:643
-#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:734
+#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:644
+#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:735
 msgid "fadeOutDown"
 msgstr ""
 
 #: inc/Widgets/teams/Element_Ready_Teams_Widget.php:615
 #: inc/Widgets/teams/Element_Ready_Teams_Widget.php:708
-#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:644
-#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:735
+#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:645
+#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:736
 msgid "fadeOutDownBig"
 msgstr ""
 
 #: inc/Widgets/teams/Element_Ready_Teams_Widget.php:616
 #: inc/Widgets/teams/Element_Ready_Teams_Widget.php:709
-#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:645
-#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:736
+#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:646
+#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:737
 msgid "fadeOutLeft"
 msgstr ""
 
 #: inc/Widgets/teams/Element_Ready_Teams_Widget.php:617
 #: inc/Widgets/teams/Element_Ready_Teams_Widget.php:710
-#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:646
-#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:737
+#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:647
+#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:738
 msgid "fadeOutLeftBig"
 msgstr ""
 
 #: inc/Widgets/teams/Element_Ready_Teams_Widget.php:618
 #: inc/Widgets/teams/Element_Ready_Teams_Widget.php:711
-#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:647
-#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:738
+#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:648
+#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:739
 msgid "fadeOutRight"
 msgstr ""
 
 #: inc/Widgets/teams/Element_Ready_Teams_Widget.php:619
 #: inc/Widgets/teams/Element_Ready_Teams_Widget.php:712
-#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:648
-#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:739
+#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:649
+#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:740
 msgid "fadeOutRightBig"
 msgstr ""
 
 #: inc/Widgets/teams/Element_Ready_Teams_Widget.php:620
 #: inc/Widgets/teams/Element_Ready_Teams_Widget.php:713
-#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:649
-#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:740
+#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:650
+#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:741
 msgid "fadeOutUp"
 msgstr ""
 
 #: inc/Widgets/teams/Element_Ready_Teams_Widget.php:621
 #: inc/Widgets/teams/Element_Ready_Teams_Widget.php:714
-#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:650
-#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:741
+#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:651
+#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:742
 msgid "fadeOutUpBig"
 msgstr ""
 
 #: inc/Widgets/teams/Element_Ready_Teams_Widget.php:622
 #: inc/Widgets/teams/Element_Ready_Teams_Widget.php:715
-#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:651
-#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:742
+#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:652
+#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:743
 msgid "flip"
 msgstr ""
 
 #: inc/Widgets/teams/Element_Ready_Teams_Widget.php:623
 #: inc/Widgets/teams/Element_Ready_Teams_Widget.php:716
-#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:652
-#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:743
+#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:653
+#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:744
 msgid "flipInX"
 msgstr ""
 
 #: inc/Widgets/teams/Element_Ready_Teams_Widget.php:624
 #: inc/Widgets/teams/Element_Ready_Teams_Widget.php:717
-#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:653
-#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:744
+#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:654
+#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:745
 msgid "flipInY"
 msgstr ""
 
 #: inc/Widgets/teams/Element_Ready_Teams_Widget.php:625
 #: inc/Widgets/teams/Element_Ready_Teams_Widget.php:718
-#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:654
-#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:745
+#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:655
+#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:746
 msgid "flipOutX"
 msgstr ""
 
 #: inc/Widgets/teams/Element_Ready_Teams_Widget.php:626
 #: inc/Widgets/teams/Element_Ready_Teams_Widget.php:719
-#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:655
-#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:746
+#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:656
+#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:747
 msgid "flipOutY"
 msgstr ""
 
 #: inc/Widgets/teams/Element_Ready_Teams_Widget.php:627
 #: inc/Widgets/teams/Element_Ready_Teams_Widget.php:720
-#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:656
-#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:747
+#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:657
+#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:748
 msgid "lightSpeedIn"
 msgstr ""
 
 #: inc/Widgets/teams/Element_Ready_Teams_Widget.php:628
 #: inc/Widgets/teams/Element_Ready_Teams_Widget.php:721
-#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:657
-#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:748
+#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:658
+#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:749
 msgid "lightSpeedOut"
 msgstr ""
 
 #: inc/Widgets/teams/Element_Ready_Teams_Widget.php:629
 #: inc/Widgets/teams/Element_Ready_Teams_Widget.php:722
-#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:658
-#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:749
+#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:659
+#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:750
 msgid "rotateIn"
 msgstr ""
 
 #: inc/Widgets/teams/Element_Ready_Teams_Widget.php:630
 #: inc/Widgets/teams/Element_Ready_Teams_Widget.php:723
-#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:659
-#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:750
+#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:660
+#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:751
 msgid "rotateInDownLeft"
 msgstr ""
 
 #: inc/Widgets/teams/Element_Ready_Teams_Widget.php:631
 #: inc/Widgets/teams/Element_Ready_Teams_Widget.php:724
-#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:660
-#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:751
+#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:661
+#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:752
 msgid "rotateInDownRight"
 msgstr ""
 
 #: inc/Widgets/teams/Element_Ready_Teams_Widget.php:632
 #: inc/Widgets/teams/Element_Ready_Teams_Widget.php:725
-#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:661
-#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:752
+#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:662
+#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:753
 msgid "rotateInUpLeft"
 msgstr ""
 
 #: inc/Widgets/teams/Element_Ready_Teams_Widget.php:633
 #: inc/Widgets/teams/Element_Ready_Teams_Widget.php:726
-#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:662
-#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:753
+#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:663
+#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:754
 msgid "rotateInUpRight"
 msgstr ""
 
 #: inc/Widgets/teams/Element_Ready_Teams_Widget.php:634
 #: inc/Widgets/teams/Element_Ready_Teams_Widget.php:727
-#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:663
-#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:754
+#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:664
+#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:755
 msgid "rotateOut"
 msgstr ""
 
 #: inc/Widgets/teams/Element_Ready_Teams_Widget.php:635
 #: inc/Widgets/teams/Element_Ready_Teams_Widget.php:728
-#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:664
-#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:755
+#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:665
+#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:756
 msgid "rotateOutDownLeft"
 msgstr ""
 
 #: inc/Widgets/teams/Element_Ready_Teams_Widget.php:636
 #: inc/Widgets/teams/Element_Ready_Teams_Widget.php:729
-#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:665
-#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:756
+#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:666
+#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:757
 msgid "rotateOutDownRight"
 msgstr ""
 
 #: inc/Widgets/teams/Element_Ready_Teams_Widget.php:637
 #: inc/Widgets/teams/Element_Ready_Teams_Widget.php:730
-#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:666
-#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:757
+#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:667
+#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:758
 msgid "rotateOutUpLeft"
 msgstr ""
 
 #: inc/Widgets/teams/Element_Ready_Teams_Widget.php:638
 #: inc/Widgets/teams/Element_Ready_Teams_Widget.php:731
-#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:667
-#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:758
+#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:668
+#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:759
 msgid "rotateOutUpRight"
 msgstr ""
 
 #: inc/Widgets/teams/Element_Ready_Teams_Widget.php:639
 #: inc/Widgets/teams/Element_Ready_Teams_Widget.php:732
-#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:668
-#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:759
+#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:669
+#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:760
 msgid "hinge"
 msgstr ""
 
 #: inc/Widgets/teams/Element_Ready_Teams_Widget.php:640
 #: inc/Widgets/teams/Element_Ready_Teams_Widget.php:733
-#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:669
-#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:760
+#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:670
+#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:761
 msgid "jackInTheBox"
 msgstr ""
 
 #: inc/Widgets/teams/Element_Ready_Teams_Widget.php:641
 #: inc/Widgets/teams/Element_Ready_Teams_Widget.php:734
-#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:670
-#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:761
+#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:671
+#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:762
 msgid "rollIn"
 msgstr ""
 
 #: inc/Widgets/teams/Element_Ready_Teams_Widget.php:642
 #: inc/Widgets/teams/Element_Ready_Teams_Widget.php:735
-#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:671
-#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:762
+#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:672
+#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:763
 msgid "rollOut"
 msgstr ""
 
 #: inc/Widgets/teams/Element_Ready_Teams_Widget.php:643
 #: inc/Widgets/teams/Element_Ready_Teams_Widget.php:736
-#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:672
-#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:763
+#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:673
+#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:764
 msgid "zoomIn"
 msgstr ""
 
 #: inc/Widgets/teams/Element_Ready_Teams_Widget.php:644
 #: inc/Widgets/teams/Element_Ready_Teams_Widget.php:737
-#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:673
-#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:764
+#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:674
+#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:765
 msgid "zoomInDown"
 msgstr ""
 
 #: inc/Widgets/teams/Element_Ready_Teams_Widget.php:645
 #: inc/Widgets/teams/Element_Ready_Teams_Widget.php:738
-#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:674
-#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:765
+#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:675
+#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:766
 msgid "zoomInLeft"
 msgstr ""
 
 #: inc/Widgets/teams/Element_Ready_Teams_Widget.php:646
 #: inc/Widgets/teams/Element_Ready_Teams_Widget.php:739
-#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:675
-#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:766
+#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:676
+#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:767
 msgid "zoomInRight"
 msgstr ""
 
 #: inc/Widgets/teams/Element_Ready_Teams_Widget.php:647
 #: inc/Widgets/teams/Element_Ready_Teams_Widget.php:740
-#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:676
-#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:767
+#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:677
+#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:768
 msgid "zoomInUp"
 msgstr ""
 
 #: inc/Widgets/teams/Element_Ready_Teams_Widget.php:648
 #: inc/Widgets/teams/Element_Ready_Teams_Widget.php:741
-#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:677
-#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:768
+#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:678
+#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:769
 msgid "zoomOut"
 msgstr ""
 
 #: inc/Widgets/teams/Element_Ready_Teams_Widget.php:649
 #: inc/Widgets/teams/Element_Ready_Teams_Widget.php:742
-#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:678
-#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:769
+#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:679
+#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:770
 msgid "zoomOutDown"
 msgstr ""
 
 #: inc/Widgets/teams/Element_Ready_Teams_Widget.php:650
 #: inc/Widgets/teams/Element_Ready_Teams_Widget.php:743
-#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:679
-#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:770
+#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:680
+#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:771
 msgid "zoomOutLeft"
 msgstr ""
 
 #: inc/Widgets/teams/Element_Ready_Teams_Widget.php:651
 #: inc/Widgets/teams/Element_Ready_Teams_Widget.php:744
-#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:680
-#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:771
+#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:681
+#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:772
 msgid "zoomOutRight"
 msgstr ""
 
 #: inc/Widgets/teams/Element_Ready_Teams_Widget.php:652
 #: inc/Widgets/teams/Element_Ready_Teams_Widget.php:745
-#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:681
-#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:772
+#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:682
+#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:773
 msgid "zoomOutUp"
 msgstr ""
 
 #: inc/Widgets/teams/Element_Ready_Teams_Widget.php:653
 #: inc/Widgets/teams/Element_Ready_Teams_Widget.php:746
-#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:682
-#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:773
+#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:683
+#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:774
 msgid "slideInDown"
 msgstr ""
 
 #: inc/Widgets/teams/Element_Ready_Teams_Widget.php:654
 #: inc/Widgets/teams/Element_Ready_Teams_Widget.php:747
-#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:683
-#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:774
+#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:684
+#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:775
 msgid "slideInLeft"
 msgstr ""
 
 #: inc/Widgets/teams/Element_Ready_Teams_Widget.php:655
 #: inc/Widgets/teams/Element_Ready_Teams_Widget.php:748
-#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:684
-#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:775
+#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:685
+#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:776
 msgid "slideInRight"
 msgstr ""
 
 #: inc/Widgets/teams/Element_Ready_Teams_Widget.php:656
 #: inc/Widgets/teams/Element_Ready_Teams_Widget.php:749
-#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:685
-#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:776
+#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:686
+#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:777
 msgid "slideInUp"
 msgstr ""
 
 #: inc/Widgets/teams/Element_Ready_Teams_Widget.php:657
 #: inc/Widgets/teams/Element_Ready_Teams_Widget.php:750
-#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:686
-#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:777
+#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:687
+#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:778
 msgid "slideOutDown"
 msgstr ""
 
 #: inc/Widgets/teams/Element_Ready_Teams_Widget.php:658
 #: inc/Widgets/teams/Element_Ready_Teams_Widget.php:751
-#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:687
-#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:778
+#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:688
+#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:779
 msgid "slideOutLeft"
 msgstr ""
 
 #: inc/Widgets/teams/Element_Ready_Teams_Widget.php:659
 #: inc/Widgets/teams/Element_Ready_Teams_Widget.php:752
-#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:688
-#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:779
+#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:689
+#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:780
 msgid "slideOutRight"
 msgstr ""
 
 #: inc/Widgets/teams/Element_Ready_Teams_Widget.php:660
 #: inc/Widgets/teams/Element_Ready_Teams_Widget.php:753
-#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:689
-#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:780
+#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:690
+#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:781
 msgid "slideOutUp"
 msgstr ""
 
 #: inc/Widgets/teams/Element_Ready_Teams_Widget.php:672
-#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:699
+#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:700
 msgid "Slide Animate Out"
 msgstr ""
 
 #: inc/Widgets/teams/Element_Ready_Teams_Widget.php:765
-#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:790
+#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:791
 msgid "Show Navigation"
 msgstr ""
 
 #: inc/Widgets/teams/Element_Ready_Teams_Widget.php:779
-#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:802
+#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:803
 msgid "Navigation Position"
 msgstr ""
 
 #: inc/Widgets/teams/Element_Ready_Teams_Widget.php:803
-#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:823
+#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:824
 msgid "Nav Next Icon"
 msgstr ""
 
 #: inc/Widgets/teams/Element_Ready_Teams_Widget.php:817
-#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:835
+#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:836
 msgid "Nav Prev Icon"
 msgstr ""
 
 #: inc/Widgets/teams/Element_Ready_Teams_Widget.php:831
-#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:847
+#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:848
 msgid "Slide Dots"
 msgstr ""
 
 #: inc/Widgets/teams/Element_Ready_Teams_Widget.php:845
-#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:859
+#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:860
 msgid "Slide Loop"
 msgstr ""
 
 #: inc/Widgets/teams/Element_Ready_Teams_Widget.php:859
-#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:871
+#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:872
 msgid "Pause On Hover"
 msgstr ""
 
 #: inc/Widgets/teams/Element_Ready_Teams_Widget.php:873
-#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:883
+#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:884
 msgid "Slide Center Mode"
 msgstr ""
 
 #: inc/Widgets/teams/Element_Ready_Teams_Widget.php:887
-#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:895
+#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:896
 msgid "Direction RTL"
 msgstr ""
 
@@ -12452,52 +12452,52 @@ msgid "Slider Nav Button Style"
 msgstr ""
 
 #: inc/Widgets/teams/Element_Ready_Teams_Widget.php:1614
-#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:1522
+#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:1523
 msgid "Left Button"
 msgstr ""
 
 #: inc/Widgets/teams/Element_Ready_Teams_Widget.php:1682
-#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:1586
+#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:1587
 msgid "Margin Left Button"
 msgstr ""
 
 #: inc/Widgets/teams/Element_Ready_Teams_Widget.php:1695
-#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:1598
+#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:1599
 msgid "Right Button"
 msgstr ""
 
 #: inc/Widgets/teams/Element_Ready_Teams_Widget.php:1764
-#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:1662
+#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:1663
 msgid "Margin Right Button"
 msgstr ""
 
 #: inc/Widgets/teams/Element_Ready_Teams_Widget.php:1841
-#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:1728
+#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:1729
 msgid "Slide Dots Style"
 msgstr ""
 
 #: inc/Widgets/teams/Element_Ready_Teams_Widget.php:1956
-#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:1907
+#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:1908
 msgid "Hover & Active"
 msgstr ""
 
 #: inc/Widgets/teams/Element_Ready_Teams_Widget.php:2127
-#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:1884
+#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:1885
 msgid "Dot Item Margin"
 msgstr ""
 
 #: inc/Widgets/teams/Element_Ready_Teams_Widget.php:2140
-#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:1895
+#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:1896
 msgid "Dot Warp Margin"
 msgstr ""
 
 #: inc/Widgets/teams/Element_Ready_Teams_Widget.php:2164
-#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:3790
+#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:3791
 msgid "Author Thumb"
 msgstr ""
 
 #: inc/Widgets/teams/Element_Ready_Teams_Widget.php:2176
-#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:3800
+#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:3801
 msgid "Tumb Warp"
 msgstr ""
 
@@ -12507,7 +12507,7 @@ msgid "Hover Box Shadow"
 msgstr ""
 
 #: inc/Widgets/teams/Element_Ready_Teams_Widget.php:2477
-#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:4063
+#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:4064
 msgid "Thumb Image"
 msgstr ""
 
@@ -12520,12 +12520,12 @@ msgid "Social Warp"
 msgstr ""
 
 #: inc/Widgets/teams/Element_Ready_Teams_Widget.php:3286
-#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:3278
+#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:3279
 msgid "Hotizontal Align"
 msgstr ""
 
 #: inc/Widgets/teams/Element_Ready_Teams_Widget.php:3294
-#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:5278
+#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:5279
 #: inc/style_controls/box/box_style.php:370
 #: inc/style_controls/box/box_style.php:867
 #: inc/style_controls/common/common.php:1077
@@ -12534,7 +12534,7 @@ msgid "Space Around"
 msgstr ""
 
 #: inc/Widgets/teams/Element_Ready_Teams_Widget.php:3296
-#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:5280
+#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:5281
 #: inc/style_controls/box/box_style.php:372
 #: inc/style_controls/box/box_style.php:869
 #: inc/style_controls/common/common.php:1079
@@ -12547,7 +12547,7 @@ msgid "Verical Align"
 msgstr ""
 
 #: inc/Widgets/teams/Element_Ready_Teams_Widget.php:3319
-#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:5303
+#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:5304
 #: inc/style_controls/box/box_style.php:227
 #: inc/style_controls/box/box_style.php:395
 #: inc/style_controls/box/box_style.php:724
@@ -12625,121 +12625,121 @@ msgstr ""
 msgid "ER Testmonial"
 msgstr ""
 
-#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:108
+#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:109
 msgid "Testmonial Type"
 msgstr ""
 
-#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:119
+#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:120
 msgid "Show Quotation Icon ?"
 msgstr ""
 
-#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:184
+#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:185
 msgid "Show Right Quotation Icon ?"
 msgstr ""
 
-#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:197
+#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:198
 msgid "Right Icon Type"
 msgstr ""
 
-#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:214
+#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:215
 msgid "Right SVG / Font Icons"
 msgstr ""
 
-#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:247
+#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:248
 msgid "Rating Position"
 msgstr ""
 
-#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:252
+#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:253
 msgid "After Designation"
 msgstr ""
 
-#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:300
+#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:301
 msgid "Sub Title"
 msgstr ""
 
-#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:327
+#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:328
 msgid "Testmonial Author Thumb"
 msgstr ""
 
-#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:347
+#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:348
 msgid "Testmonial Author Name"
 msgstr ""
 
-#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:366
+#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:367
 msgid "Rating Count"
 msgstr ""
 
-#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:398
+#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:399
 msgid "Testmonial Items"
 msgstr ""
 
-#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:403
-#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:409
-#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:415
+#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:404
+#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:410
+#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:416
 msgid "M Hasan"
 msgstr ""
 
-#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:405
-#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:411
-#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:417
+#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:406
+#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:412
+#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:418
 msgid ""
 "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fuga quos pariatur "
 "tempore nihil quisquam tempora odio et mollitia. Ea facere expedita beatae "
 "nesciunt vero aliquam similique eius veritatis unde eligendi."
 msgstr ""
 
-#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:912
+#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:913
 msgid "Slider Nav Warp"
 msgstr ""
 
-#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:1242
+#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:1243
 msgid "Slider Nav Button"
 msgstr ""
 
-#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:2012
+#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:2013
 msgid "Thumbs Slider"
 msgstr ""
 
-#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:2185
+#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:2186
 msgid "Left Quote Icon"
 msgstr ""
 
-#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:2209
-#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:2715
+#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:2210
+#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:2716
 #: inc/Widgets/woocommerce/WooCommerce_Free_Download.php:583
 msgid "SVG / Image Icon Size"
 msgstr ""
 
-#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:2691
+#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:2692
 msgid "Right Quote Icon"
 msgstr ""
 
-#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:3268
+#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:3269
 msgid "Rating Icon"
 msgstr ""
 
-#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:3344
+#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:3345
 msgid "Normal Color"
 msgstr ""
 
-#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:3519
+#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:3520
 msgid "Thumb & Designation Warp"
 msgstr ""
 
-#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:4151
+#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:4152
 msgid "Testimonial Wrap"
 msgstr ""
 
-#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:4386
+#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:4387
 msgid "Testimonial Before / After"
 msgstr ""
 
-#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:4683
-#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:5815
+#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:4684
+#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:5816
 msgid "Border  Radius"
 msgstr ""
 
-#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:5248
+#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:5249
 #: inc/style_controls/box/box_style.php:318
 #: inc/style_controls/box/box_style.php:815
 #: inc/style_controls/common/common.php:1025
@@ -12747,7 +12747,7 @@ msgstr ""
 msgid "Flex Direction"
 msgstr ""
 
-#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:5295
+#: inc/Widgets/testimonial/Element_Ready_Testmonial_Widget.php:5296
 #: inc/style_controls/box/box_style.php:388
 #: inc/style_controls/box/box_style.php:884
 #: inc/style_controls/common/common.php:1094
@@ -14228,7 +14228,7 @@ msgstr ""
 msgid "Tags"
 msgstr ""
 
-#: inc/dashboard/Settings.php:22 inc/dashboard/page.php:482
+#: inc/dashboard/Settings.php:22 inc/dashboard/page.php:483
 #: inc/dashboard/views/dashboard.php:101
 msgid "Go Pro"
 msgstr ""
@@ -14913,49 +14913,49 @@ msgstr ""
 msgid "Column Wrapper Link"
 msgstr ""
 
-#: inc/dashboard/page.php:101
+#: inc/dashboard/page.php:102
 msgid ""
 "If you have a moment, please share why you are deactivating Element Ready "
 "Lite:"
 msgstr ""
 
-#: inc/dashboard/page.php:123
+#: inc/dashboard/page.php:124
 msgid "Others"
 msgstr ""
 
-#: inc/dashboard/page.php:131
+#: inc/dashboard/page.php:132
 msgid "Submit &amp; Deactivate"
 msgstr ""
 
-#: inc/dashboard/page.php:134
+#: inc/dashboard/page.php:135
 msgid "Skip & Deactivate"
 msgstr ""
 
-#: inc/dashboard/page.php:233 inc/dashboard/page.php:287
+#: inc/dashboard/page.php:234 inc/dashboard/page.php:288
 msgid "Error!"
 msgstr ""
 
-#: inc/dashboard/page.php:244 inc/dashboard/page.php:304
+#: inc/dashboard/page.php:245 inc/dashboard/page.php:305
 msgid "Saved!"
 msgstr ""
 
-#: inc/dashboard/page.php:293
+#: inc/dashboard/page.php:294
 msgid "Disable all Modules!"
 msgstr ""
 
-#: inc/dashboard/page.php:483
+#: inc/dashboard/page.php:484
 msgid "Go Pro 🔥"
 msgstr ""
 
-#: inc/dashboard/page.php:493 inc/dashboard/page.php:494
+#: inc/dashboard/page.php:494 inc/dashboard/page.php:495
 msgid "Support"
 msgstr ""
 
-#: inc/dashboard/page.php:503 inc/dashboard/page.php:504
+#: inc/dashboard/page.php:504 inc/dashboard/page.php:505
 msgid "Documentation"
 msgstr ""
 
-#: inc/dashboard/page.php:522 inc/dashboard/page.php:523
+#: inc/dashboard/page.php:523 inc/dashboard/page.php:524
 msgid "MyAccount"
 msgstr ""
 
@@ -16344,4 +16344,8 @@ msgstr ""
 
 #: templates/give/single-give-forms.php:47
 msgid "Placeholder"
+msgstr ""
+
+#: vendor/appsero/client/src/Insights.php:725
+msgid "Once Weekly"
 msgstr ""

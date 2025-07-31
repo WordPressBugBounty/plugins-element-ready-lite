@@ -1130,7 +1130,7 @@ class Element_Ready_Area_Title_Widget extends Widget_Base
 				'type'      => Controls_Manager::COLOR,
 				'default'   => '',
 				'selectors' => [
-					'{{WRAPPER}} .area__title, {{WRAPPER}} .area__title a' => 'color: {{VALUE}};',
+					'{{WRAPPER}} .area__title, {{WRAPPER}} .area__title a,{{WRAPPER}} .area__title h1,{{WRAPPER}} .area__title h2,{{WRAPPER}} .area__title h3,{{WRAPPER}} .area__title h4,{{WRAPPER}} .area__title h5,{{WRAPPER}} .area__title h6,{{WRAPPER}} .area__title p' => 'color: {{VALUE}};',
 				],
 			]
 		);
@@ -1138,7 +1138,7 @@ class Element_Ready_Area_Title_Widget extends Widget_Base
 			Group_Control_Typography::get_type(),
 			[
 				'name'     => 'title_typography',
-				'selector' => '{{WRAPPER}} .area__title',
+				'selector' => '{{WRAPPER}} .area__title, {{WRAPPER}} .area__title a,{{WRAPPER}} .area__title h1,{{WRAPPER}} .area__title h2,{{WRAPPER}} .area__title h3,{{WRAPPER}} .area__title h4,{{WRAPPER}} .area__title h5,{{WRAPPER}} .area__title h6,{{WRAPPER}} .area__title p',
 			]
 		);
 		$this->add_group_control(
@@ -1147,7 +1147,7 @@ class Element_Ready_Area_Title_Widget extends Widget_Base
 				'name'     => 'title_background',
 				'label'    => esc_html__('Background', 'element-ready-lite'),
 				'types'    => ['classic', 'gradient'],
-				'selector' => '{{WRAPPER}} .area__title',
+				'selector' => '{{WRAPPER}} .area__title, {{WRAPPER}} .area__title a,{{WRAPPER}} .area__title h1,{{WRAPPER}} .area__title h2,{{WRAPPER}} .area__title h3,{{WRAPPER}} .area__title h4,{{WRAPPER}} .area__title h5,{{WRAPPER}} .area__title h6,{{WRAPPER}} .area__title p',
 			]
 		);
 		$this->add_responsive_control(
@@ -1222,18 +1222,37 @@ class Element_Ready_Area_Title_Widget extends Widget_Base
 				'label'     => esc_html__('Link Color', 'element-ready-lite'),
 				'type'      => Controls_Manager::COLOR,
 				'selectors' => [
-					'{{WRAPPER}} .area__title a:hover, {{WRAPPER}} .area__title a:focus' => 'color: {{VALUE}};',
+					'{{WRAPPER}} .area__title:hover, 
+     {{WRAPPER}} .area__title a:hover, 
+     {{WRAPPER}} .area__title a:focus, 
+     {{WRAPPER}} .area__title h1:hover, 
+     {{WRAPPER}} .area__title h2:hover, 
+     {{WRAPPER}} .area__title h3:hover, 
+     {{WRAPPER}} .area__title h4:hover, 
+     {{WRAPPER}} .area__title h5:hover, 
+     {{WRAPPER}} .area__title h6:hover, 
+     {{WRAPPER}} .area__title p:hover' => 'color: {{VALUE}};',
 				],
 			]
 		);
 		$this->add_control(
 			'box_hover_title_color',
 			[
-				'label'     => esc_html__('Box Hover Color', 'element-ready-lite'),
+				'label'     => esc_html__('Title Hover Color', 'element-ready-lite'),
 				'type'      => Controls_Manager::COLOR,
 				'selectors' => [
-					'{{WRAPPER}} :hover .area__title a, {{WRAPPER}} :focus .area__title a, {{WRAPPER}} :hover .area__title' => 'color: {{VALUE}};',
+					'{{WRAPPER}} .area__title:hover, 
+     {{WRAPPER}} .area__title a:hover, 
+     {{WRAPPER}} .area__title a:focus, 
+     {{WRAPPER}} .area__title h1:hover, 
+     {{WRAPPER}} .area__title h2:hover, 
+     {{WRAPPER}} .area__title h3:hover, 
+     {{WRAPPER}} .area__title h4:hover, 
+     {{WRAPPER}} .area__title h5:hover, 
+     {{WRAPPER}} .area__title h6:hover, 
+     {{WRAPPER}} .area__title p:hover' => 'color: {{VALUE}};',
 				],
+
 			]
 		);
 		$this->end_controls_tab();

@@ -61,7 +61,8 @@ class Element_Ready_Testmonial_Widget extends Widget_Base
 		wp_register_style('eready-testimonial', ELEMENT_READY_ROOT_CSS . 'widgets/testimonial.css');
 
 		return [
-			'owl-carousel', 'eready-testimonial'
+			'owl-carousel',
+			'eready-testimonial'
 		];
 	}
 
@@ -6629,7 +6630,5 @@ class Element_Ready_Testmonial_Widget extends Widget_Base
 		return $return_content;
 	}
 
-	protected function content_template()
-	{
-	}
+	protected function content_template() {}
 }
